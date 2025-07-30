@@ -103,12 +103,12 @@ In disaster response operations, the efficiency of logistics and supply chain sy
 
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.8\linewidth]{fig2.png}}
-    \caption{Distribution of impact caused by floods in Indonesia}
+    \centerline{\includegraphics[width=0.8\linewidth]{fig3.png}}
+    \caption{Impact caused by floods in Indonesia (mio IDR)}
     \label{fig:floodimpact}
 \end{figure}
 
-{\centering{Source: \url{https://dibi.bnpb.go.id/superset/dashboard/2/}}}
+{\centering{Source: \url{https://dibi.bnpb.go.id}}}
 \newline
 
 Moreover, research on risk management within emergency supply chains remains scarce. Many existing studies lack the practical and integrated methodologies needed to support real-time decision-making under conditions of uncertainty \cite{chukwuka2023comprehensive}. This gap underscores the necessity for intelligent decision support tools capable of managing disruptions in complex humanitarian logistics environments.
@@ -120,8 +120,31 @@ This study addresses these challenges by proposing a simulation-based Decision S
 
 
 \section{Methodology}
+\subsection{Data Simulation}
+
+Many studies involves a simulation-based approach to evaluate the performance of a Decision Support System (DSS)\cite{he2020dynamic}. This approach allows for the modeling of complex systems and the assessment of various scenarios without the need for real-world implementation\cite{latchmore2023integrating}. This study collects and processes data from the Indonesian National Statistics Agency (BPS) and the National Disaster Management Authority (BNPB) to simulate disaster scenarios. Determining the most affected regions and the number of victims is crucial for effective disaster response planning \cite{endo2020estimating}. The simulation framework incorporates demographic data, historical disaster records, and geographical information \cite{santos2020workforce}. Determining the most affected regions and the number of victims is shown in Figure~\ref{fig:simulationframework}. 
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.8\linewidth]{fig4.png}
+    }
+    \caption{Most Affected Regions in 2021 - 2025}
+    \label{fig:simulationframework}
+\end{figure}
+
+{\centering{Source : \url{https://dibi.bnpb.go.id/}}}
+
+Based on heatmap the west Java region is the most occurrences based on floods natural disaster.
+
+
 \subsection{Research Framework}
-This subsection outlines the overall design of the study, including the use of a simulation-based approach to evaluate a hybrid decision support system (DSS) combining fuzzy inference and greedy algorithms in the context of disaster logistics.
+
+This study adopts a simulation-based quantitative approach to evaluate the performance of an intelligent decision support system (DSS) in the context of humanitarian logistics for disaster response. The framework consists of three major components: data acquisition, decision-making algorithms, and simulation-based evaluation.
+
+The system receives input data from two key sources: the Indonesian National Statistics Agency (BPS), which provides demographic and regional data, and the National Disaster Management Authority (BNPB), which offers historical records of disaster occurrences. This data is processed and transformed into relevant indicators such as disaster severity, urgency, accessibility, and population density.
+
+These indicators serve as inputs to a Fuzzy Inference System (FIS), which generates a priority index for each affected region. The FIS captures the uncertainty and complexity inherent in disaster impact assessment through a rule-based system of fuzzy logic. The resulting priority scores are then passed to a greedy algorithm that rapidly determines the optimal routing or allocation of resources based on proximity and urgency.
+
+The entire process is simulated using various disaster scenarios to assess system performance in terms of response time, supply coverage, and the number of affected individuals reached. This research framework allows for comprehensive evaluation of the hybrid DSS under dynamic, high-stakes conditions, providing insights into its practical applicability for emergency logistics operations.
+
 
 \subsection{Data Sources and Preprocessing}
 Describes the datasets obtained from the Indonesian National Statistics Agency (BPS) and the National Disaster Management Authority (BNPB), including disaster frequency, affected populations, and regional vulnerability. This section also explains data cleaning, normalization, and preparation for simulation input.
