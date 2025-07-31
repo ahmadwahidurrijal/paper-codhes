@@ -59,4 +59,39 @@ J.~Santos, C.~Yip, S.~Thekdi, and S.~Pagsuyoin, ``Workforce/population, economy,
 \bibitem{alkaesi2021spatial}
 F.~Alkaesi, I.~Kadar, and Y.~Istiadi, ``Spatial analysis of hydrometeorological vulnerability of natural disasters in the bogor region,'' \emph{Journal of Science Innovare}, vol.~4, no.~2, pp. 50--56, 2021.
 
+\bibitem{park2021architectural}
+K.~T. Park, Y.~H. Son, and S.~D. Noh, ``The architectural framework of a cyber physical logistics system for digital-twin-based supply chain control,'' \emph{International Journal of Production Research}, vol.~59, no.~19, pp. 5721--5742, 2021.
+
+\bibitem{halawa2020introduction}
+F.~Halawa, H.~Dauod, I.~G. Lee, Y.~Li, S.~W. Yoon, and S.~H. Chung, ``Introduction of a real time location system to enhance the warehouse safety and operational efficiency,'' \emph{International Journal of Production Economics}, vol. 224, p. 107541, 2020.
+
+\bibitem{berawi2020prioritized}
+\BIBentryALTinterwordspacing
+M.~A. Berawi, S.~A.~O. Siahaan, Gunawan, and P.~Miraj, ``Determining the prioritized victim of earthquake disaster using fuzzy logic and decision tree approach,'' \emph{Evergreen}, vol.~7, no.~2, pp. 246--252, 2020, kyushu University Institutional Repository. [Online]. Available: \url{https://doi.org/10.5109/4055227}
+\BIBentrySTDinterwordspacing
+
+\bibitem{jain2020membership}
+A.~Jain and A.~Sharma, ``Membership function formulation methods for fuzzy logic systems: A comprehensive review,'' \emph{Journal of Critical Reviews}, vol.~7, no.~19, pp. 8717--8733, 2020.
+
+\bibitem{amiri2021application}
+M.~R. Amiri~Shahmirani, A.~Akbarpour Nikghalb~Rashti, M.~R. Adib~Ramezani, and E.~M. Golafshani, ``Application of fuzzy modelling to predict the earthquake damage degree of buildings based on field data,'' \emph{Journal of Intelligent \& Fuzzy Systems}, vol.~41, no.~2, pp. 2717--2730, 2021.
+
+\bibitem{yoon2023novel}
+J.~H. Yoon, D.~J. Kim, and Y.~Y. Koo, ``Novel fuzzy correlation coefficient and variable selection method for fuzzy regression analysis based on distance approach,'' \emph{International Journal of Fuzzy Systems}, vol.~25, no.~8, pp. 2969--2985, 2023.
+
+\bibitem{wang2024gis}
+Y.~Wang and Y.~A. Nanehkaran, ``Gis-based fuzzy logic technique for mapping landslide susceptibility analyzing in a coastal soft rock zone,'' \emph{Natural Hazards}, vol. 120, no.~12, pp. 10\,889--10\,921, 2024.
+
+\bibitem{sphere2018pdf}
+{Sphere Association}, ``Sphere handbook: Humanitarian charter and minimum standards in humanitarian response,'' \url{https://spherestandards.org/wp-content/uploads/Sphere-Handbook-2018-EN.pdf}, 2018, pDF version, 4th Edition, accessed YYYY-MM-DD.
+
+\bibitem{herpratiwi2022implementation}
+H.~Herpratiwi, M.~Maftuh, W.~Firdaus, A.~Tohir, M.~I. Daulay, and R.~Rahim, ``Implementation and analysis of fuzzy mamdani logic algorithm from digital platform and electronic resource,'' \emph{TEM Journal}, vol.~11, no.~3, pp. 1028--1033, 2022.
+
+\bibitem{shirmarz2020adaptive}
+A.~Shirmarz and A.~Ghaffari, ``An adaptive greedy flow routing algorithm for performance improvement in software-defined network,'' \emph{International Journal of Numerical Modelling: Electronic Networks, Devices and Fields}, vol.~33, no.~1, p. e2676, 2020.
+
+\bibitem{hamidouglu2023game}
+A.~Hamido{\u{g}}lu, ``A game theoretical approach for finding near-optimal solutions of an optimization problem,'' \emph{Optimization}, vol.~72, no.~10, pp. 2561--2583, 2023.
+
 \end{thebibliography}
