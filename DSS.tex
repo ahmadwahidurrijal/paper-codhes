@@ -25,6 +25,9 @@
    breaklinks = true
 ]{hyperref}
 \usepackage{array}
+\usepackage{float}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
@@ -122,6 +125,53 @@ One such emerging approach is the development of resilient supply chains, define
 
 This study addresses these challenges by proposing a simulation-based Decision Support System (DSS) that integrates fuzzy inference and a greedy algorithm to provide a rapid, adaptive response mechanism during natural disasters. The system is designed to improve the responsiveness and efficiency of humanitarian supply chains through real-time prioritization and resource allocation. To support this, the simulation utilizes data from the Indonesian National Statistics Agency (BPS) and historical disaster records from the National Disaster Management Authority (BNPB) to identify high-risk regions and evaluate logistical response scenarios.
 
+\section{Literature Review}
+
+Decision Support Systems (DSS) have become increasingly important in disaster management, providing tools for effective decision-making under uncertainty \cite{khan2023systematic}. These systems integrate data analysis, modeling, and simulation to support emergency response\cite{alghodhaifi2021autonomous}. The use of DSS in disaster management has been shown to enhance situational awareness, improve coordination among stakeholders, and optimize logistics operations \cite{adetiloye2021collaboration}. For instance, Peron et al. (2022) demonstrated the effectiveness of a DSS in workforce management \cite{peron2022decision}. During disaster response, highlighting the importance of integrating demographic data and historical disaster records to inform decision-making\cite{suarez2024integrated}.
+
+Simulation-based approaches are widely used in disaster management to evaluate the performance of DSS and assess various scenarios without the need for real-world implementation \cite{chang2022simulation}. These approaches allow for the modeling of complex systems and the assessment of different disaster scenarios, enabling decision-makers to identify the most affected regions and the number of victims. For example, Lobkov et al. (2023) utilized simulation techniques to estimate the impact of disasters on affected populations, demonstrating the importance of accurate data collection and processing in disaster response planning \cite{lobkov2023determination}. 
+
+Fuzzy Inference Systems (FIS) are employed to assess the severity and urgency of disasters, providing a flexible framework for decision-making under uncertainty \cite{anjomshoae2021integrated}. 
+Understanding fuzzy logic is crucial for developing effective DSS, as it allows for the incorporation of expert knowledge and subjective assessments, enabling the system to handle imprecise and ambiguous data effectively\cite{improta2020fuzzy}. 
+
+Crisp input values are converted into fuzzy values using membership functions. A trapezoidal membership function is defined as:
+
+\[
+\mu_A(x) = 
+\begin{cases}
+0, & x \leq a \\
+\frac{x - a}{b - a}, & a < x < b \\
+1, & b \leq x \leq c \\
+\frac{d - x}{d - c}, & c < x < d \\
+0, & x \geq d
+\end{cases}
+\]
+
+The fuzzy inference uses logical operators such as \textit{AND} and \textit{OR}. For example, for the \textbf{AND} operator (min function):
+
+\[
+\mu_{\text{Rule}} = \min\left( \mu_{\text{Health}}(x), \mu_{\text{Age}}(y), \mu_{\text{Risk}}(z) \right)
+\]
+
+If multiple rules produce output sets, they are combined using the max operator:
+
+\[
+\mu_{\text{Output}}(z) = \max \left( \mu_{\text{Rule}_1}(z), \mu_{\text{Rule}_2}(z),.., \mu_{\text{Rule}_n}(z) \right)
+\]
+
+To obtain a crisp output, the Centroid (Center of Gravity) method is commonly used:
+
+\[
+z^* = \frac{\int z \cdot \mu(z) \, dz}{\int \mu(z) \, dz}
+\]
+
+Where:
+\begin{itemize}
+    \item \( z^* \) is the defuzzified output (e.g., prioritization score),
+    \item \( \mu(z) \) is the aggregated membership function of the output.
+\end{itemize}
+
+Fuzzy logic allows for the incorporation of expert knowledge and subjective assessments, enabling the system to handle imprecise and ambiguous data effectively \cite{jain2020membership}. The use of fuzzy rules to determine the relationship between independent and dependent variables has been shown to enhance the accuracy of disaster impact assessments \cite{yoon2023novel}.
 
 
 \section{Methodology}
@@ -148,26 +198,26 @@ Making sure that the simulation accurately reflects the real-world conditions fa
 \begin{table}[htbp]
 \caption{Runoff Flooding Potential by Sub-district in Bogor Region}
 \begin{center}
-\begin{tabular}{|m{2.5cm}|m{2cm}|m{2cm}|}
+\begin{tabular}{|m{2.5cm}|m{2cm}|}
 \hline
-\textbf{Sub-district} & \textbf{Flood Potential} & \textbf{Percentage (\%)} \\
+\textbf{Sub-district} & \textbf{Flood Potential} \\
 \hline
-Nanggung & Extreme & 18.26 \\
-\hline Sukajaya & Extreme & 11.97 \\
-\hline Sukamakmur & Extreme & 7.13 \\
-\hline Tanjungsari & Extreme & 8.96 \\
-\hline Cigudeg & Extreme & 13.40 \\
-\hline Megamendung & Extreme & 3.79 \\
-\hline Babakanmadang & Extreme & 6.30 \\
+Nanggung & Extreme \\
+\hline Sukajaya & Extreme  \\
+\hline Sukamakmur & Extreme \\
+\hline Tanjungsari & Extreme \\
+\hline Cigudeg & Extreme  \\
+\hline Megamendung & Extreme  \\
+\hline Babakanmadang & Extreme  \\
 \hline
-Cigudeg & High & 5.11 \\
-\hline Pamijahan & High & 4.91 \\
-\hline Sukajaya & High & 5.11 \\
-\hline Sukamakmur & High & 6.70 \\
+Cigudeg & High \\
+\hline Pamijahan & High  \\
+\hline Sukajaya & High  \\
+\hline Sukamakmur & High\\
 \hline
-Jasinga & Low/Normal & 9.88 \\
-\hline Rumpin & Low/Normal & 7.57 \\
-\hline Tejo Panjang & Low/Normal & 4.92 \\
+Jasinga & Low/Normal  \\
+\hline Rumpin & Low/Normal  \\
+\hline Tejo Panjang & Low/Normal  \\
 \hline
 \end{tabular}
 \vspace{0.2cm}
@@ -177,15 +227,85 @@ Jasinga & Low/Normal & 9.88 \\
 \end{center}
 \end{table}
 
-Based on the analysis, the simulation will be taken on three sub-districts. Nanggung, Sukajaya, and Sukamakmur are identified as having extreme flood potential. This information is used in simulation after adding demographic data from BPS, which includes population density and socio-economic indicators. The simulation framework is designed to model the logistics and supply chain operations during disaster response, focusing on the allocation of resources and routing of aid based on the severity and urgency of the situation \cite{park2021architectural}. Warehouse locations is based on the proximity to affected areas, ensuring that resources can be deployed quickly and efficiently \cite{halawa2020introduction}.  
+Based on the analysis, the simulation will be taken on sub districs are identified as having extreme ,high, and normal flood potential. This information is used in simulation after adding demographic data from BPS, which includes population density and socio-economic indicators. The simulation framework is designed to model the logistics and supply chain operations during disaster response, focusing on the allocation of resources and routing of aid based on the severity and urgency of the situation \cite{park2021architectural}. Warehouse locations is based on the proximity to affected areas, ensuring that resources can be deployed quickly and efficiently \cite{halawa2020introduction}.  
 
 \subsection{Fuzzy Inference System (FIS) and Greedy Algorithm}
-The Fuzzy Inference System (FIS) is employed to assess the severity and urgency of disasters, providing a flexible framework for decision-making under uncertainty \cite{berawi2020prioritized}. Fuzzy logic allows for the incorporation of expert knowledge and subjective assessments, enabling the system to handle imprecise and ambiguous data effectively \cite{jain2020membership}. The model is highly flexible and can be adjusted according to the actual conditions of the damaged area. In the development of the membership function, contextual parameters must be carefully defined based on observed field data \cite{amiri2021application}. fuzzy rules were made to determine the relationship between independent and dependent variables \cite{yoon2023novel}. The rules are defined based on expert knowledge and historical data, allowing the system to evaluate the impact of disasters on affected regions \cite{wang2024gis}. This study use SPHERE handbook as a reference for the fuzzy rules, which are designed to prioritize disaster impact zones based on severity, urgency, and accessibility \cite{sphere2018pdf}. After rules are defined, the FIS is implemented using the Mamdani method, which is suitable for handling complex and non-linear relationships in disaster scenarios \cite{herpratiwi2022implementation}. Greedy algorithm is used to optimize resource allocation and routing based on the priority indices generated by the FIS \cite{shirmarz2020adaptive}. The greedy algorithm is chosen for its efficiency in finding near-optimal solutions in complex logistics problems, particularly in dynamic environments where rapid decision-making is crucial \cite{hamidouglu2023game}. The combination of FIS and greedy algorithm allows for a robust decision support system that can adapt to changing conditions and prioritize resources effectively during disaster response operations. 
+The Fuzzy Inference System (FIS) is employed to assess the severity and urgency of disasters, providing a flexible framework for decision-making under uncertainty \cite{berawi2020prioritized}. According Berawi et al. following Fuzzy rules are generated :
+
+\begin{itemize}
+    \item IF Healthy Level is \textbf{Sick}, AND Age is \textbf{Adult} or \textbf{Kid}, AND Risk Level is \textbf{High} or \textbf{Moderate}, THEN the victim is \textbf{Prioritized}.
+    
+    \item IF Healthy Level is \textbf{Sick}, AND Age is \textbf{Adult} or \textbf{Kid}, AND Risk Level is \textbf{Low}, THEN the victim is \textbf{Prioritized}.
+    
+    \item IF Healthy Level is \textbf{Sick}, AND Age is \textbf{Elder}, AND Distance is \textbf{Far} or \textbf{Nearby}, THEN the victim is \textbf{Prioritized}.
+    
+    \item IF Healthy Level is \textbf{Sick}, AND Age is \textbf{Elder}, AND Distance is \textbf{Moderate}, THEN the victim is \textbf{Prioritized}.
+    
+    \item IF Healthy Level is \textbf{Healthy} or \textbf{Okay}, AND Age is \textbf{Elder} or \textbf{Kid}, AND Risk Level is \textbf{Moderate}, THEN the victim is \textbf{not Prioritized}.
+    
+    \item IF Healthy Level is \textbf{Healthy} or \textbf{Okay}, AND Age is \textbf{Elder} or \textbf{Kid}, AND Risk Level is \textbf{High}, THEN the victim is \textbf{not Prioritized}.
+    
+    \item IF Healthy Level is \textbf{Healthy} or \textbf{Okay}, AND Age is \textbf{Adult}, THEN the victim is \textbf{not Prioritized}.
+\end{itemize}
+
+
+Fuzzy logic allows for the incorporation of expert knowledge and subjective assessments, enabling the system to handle imprecise and ambiguous data effectively \cite{jain2020membership}. The model is highly flexible and can be adjusted according to the actual conditions of the damaged area. In the development of the membership function, contextual parameters must be carefully defined based on observed field data \cite{amiri2021application}. fuzzy rules were made to determine the relationship between independent and dependent variables \cite{yoon2023novel}. The rules are defined based on expert knowledge and historical data, allowing the system to evaluate the impact of disasters on affected regions \cite{wang2024gis}. This study use SPHERE handbook as a reference for the fuzzy rules, which are designed to prioritize disaster impact zones based on severity, urgency, and accessibility \cite{sphere2018pdf}. Table \ref{tab:dependent_variables_sphere} is dependent variables from SPHERE handbook.
+
+\begin{table}[H]
+\caption{Potential Dependent Variables Aligned with the Sphere Handbook Principles}
+\begin{center}
+\begin{tabular}{|p{2cm}|p{2cm}|p{2cm}|}
+\hline
+\textbf{Dependent Variable} & \textbf{Description} & \textbf{Relevance to Sphere Handbook} \\
+\hline
+Response Time & Time required to deliver aid to affected populations (e.g., hours) & Timeliness and accessibility of humanitarian assistance \\
+\hline
+Coverage of Affected Population & Proportion (\%) of disaster victims who receive aid & Non-discrimination, equity, and universal access \\
+\hline
+Logistics Efficiency & Efficiency in terms of cost, distance, or load (e.g., ton/km or cost per beneficiary) & Effective resource utilization and accountability \\
+\hline
+Unmet Needs Score & Index measuring the gap in critical needs (e.g., shelter, food, WASH) & Fulfillment of minimum humanitarian standards \\
+\hline
+Protection or Satisfaction Index & Victim-reported perception of safety, dignity, and fairness (via surveys or scoring) & Protection, dignity, and community engagement \\
+\hline
+\end{tabular}
+\label{tab:dependent_variables_sphere}
+\end{center}
+\end{table}
+
+
+After rules are defined, the FIS is implemented using the Mamdani method, which is suitable for handling complex and non-linear relationships in disaster scenarios \cite{herpratiwi2022implementation}. Greedy algorithm is used to optimize resource allocation and routing based on the priority indices generated by the FIS \cite{shirmarz2020adaptive}. The greedy algorithm is chosen for its efficiency in finding near-optimal solutions in complex logistics problems, particularly in dynamic environments where rapid decision-making is crucial \cite{hamidouglu2023game}. The combination of FIS and greedy algorithm allows for a robust decision support system that can adapt to changing conditions and prioritize resources effectively during disaster response operations. 
  
 
 \subsection{Research Framework}
 
-This study adopts a simulation-based quantitative approach to evaluate the performance of an intelligent decision support system (DSS) in the context of humanitarian logistics for disaster response. The framework consists of three major components: data acquisition, decision-making algorithms, and simulation-based evaluation.
+This study adopts a simulation-based quantitative approach to evaluate the performance of an intelligent decision support system (DSS) in the context of humanitarian logistics for disaster response. The framework consists of three major components: data driven acquisition, DSS algorithms, and simulation-based evaluation \cite{mahmoodi2024data}. Figure \ref{fig:research_framework} illustrates the research framework, which integrates data acquisition, fuzzy inference, greedy algorithm, and simulation to assess the effectiveness of the proposed DSS in disaster response scenarios.
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[
+    node distance=0.5cm and 1cm,
+    box/.style={rectangle, draw, minimum width=3.5cm, minimum height=1cm, align=center},
+    ->, >=Stealth
+  ]
+
+% Nodes
+\node[box] (data) {BNPB + BPS Data};
+\node[box, below=of data] (fuzzy) {Fuzzy Inference System};
+\node[box, below=of fuzzy] (priority) {Priority Index};
+\node[box, below=of priority] (greedy) {Greedy Algorithm};
+\node[box, below=of greedy] (sim) {Resource Allocation Simulation};
+
+% Arrows
+\draw[->] (data) -- (fuzzy);
+\draw[->] (fuzzy) -- (priority);
+\draw[->] (priority) -- (greedy);
+\draw[->] (greedy) -- (sim);
+
+\end{tikzpicture}
+\caption{Research Framework Flow: From Data to Simulation Output}
+\label{fig:research_framework}
+\end{figure}
 
 The system receives input data from two key sources: the Indonesian National Statistics Agency (BPS), which provides demographic and regional data, and the National Disaster Management Authority (BNPB), which offers historical records of disaster occurrences. This data is processed and transformed into relevant indicators such as disaster severity, urgency, accessibility, and population density.
 
@@ -193,86 +313,9 @@ These indicators serve as inputs to a Fuzzy Inference System (FIS), which genera
 
 The entire process is simulated using various disaster scenarios to assess system performance in terms of response time, supply coverage, and the number of affected individuals reached. This research framework allows for comprehensive evaluation of the hybrid DSS under dynamic, high-stakes conditions, providing insights into its practical applicability for emergency logistics operations.
 
-
-\subsection{Data Sources and Preprocessing}
-Describes the datasets obtained from the Indonesian National Statistics Agency (BPS) and the National Disaster Management Authority (BNPB), including disaster frequency, affected populations, and regional vulnerability. This section also explains data cleaning, normalization, and preparation for simulation input.
-
-\subsection{Design of the Decision Support System}
-Details the architecture of the DSS, including the role of the fuzzy inference system in prioritizing disaster impact zones and the greedy algorithm for optimizing logistics distribution paths and resource allocation under urgency.
-
-\subsection{Simulation and Evaluation}
-Explains the simulation environment, tools used, scenario modeling (e.g., disaster type, severity, location), and performance metrics applied to assess the system’s effectiveness—such as response time, supply coverage, and victim reachability.
-
-
-
 \section{Results and Discussion}
 
-\subsection{Simulation Scenarios Overview}
-This subsection presents the disaster response scenarios simulated in the study. The simulations focused on flood-prone regions in Indonesia, selected based on historical data from BPS and BNPB for the years 2010–2025. Each scenario included variations in disaster severity, number of affected individuals, logistical constraints, and urgency levels. These parameters served as inputs to the decision support system.
-
-\subsection{Fuzzy Inference Output Results}
-The Fuzzy Inference System (FIS) processed inputs such as accessibility, severity, population density, and urgency to compute a disaster priority index for each region. Table~\ref{tab:fuzzyoutput} shows the resulting priority levels for selected regions under varying conditions. The results demonstrated the system’s ability to dynamically adapt prioritization according to real-time input changes.
-
-\begin{table}[htbp]
-\caption{Sample Fuzzy Inference Output for Disaster Prioritization}
-\begin{center}
-\begin{tabular}{|c|c|c|c|c|}
-\hline
-\textbf{Region} & \textbf{Accessibility} & \textbf{Severity} & \textbf{Urgency} & \textbf{Priority Index} \\
-\hline
-Region A & Low & High & High & 0.91 \\
-Region B & Medium & Medium & High & 0.78 \\
-Region C & High & Low & Medium & 0.54 \\
-\hline
-\end{tabular}
-\label{tab:fuzzyoutput}
-\end{center}
-\end{table}
-
-\subsection{Greedy Algorithm Optimization Results}
-The greedy algorithm was used to allocate logistics resources and select optimal delivery paths based on the output from the FIS. The algorithm prioritized regions with higher urgency and closer proximity to supply centers. Figure~ illustrates the optimized logistics routing compared to a non-optimized scenario. The results indicate a reduction in average response time by 27\% and improved supply coverage by 15\%.
-
-
-
-\subsection{System Performance Evaluation}
-The effectiveness of the proposed decision support system was evaluated using several key performance indicators (KPIs), as shown in Table~\ref{tab:performance}. The hybrid DSS outperformed traditional allocation methods in terms of response time, number of victims served, and logistics efficiency.
-
-\begin{table}[htbp]
-\caption{Performance Comparison: Proposed DSS vs. Baseline}
-\begin{center}
-\begin{tabular}{|l|c|c|}
-\hline
-\textbf{Metric} & \textbf{Proposed DSS} & \textbf{Baseline System} \\
-\hline
-Average Response Time (hrs) & 2.8 & 3.9 \\
-Supply Coverage (\%) & 92.5 & 77.8 \\
-Affected Population Reached & 13,250 & 10,920 \\
-\hline
-\end{tabular}
-\label{tab:performance}
-\end{center}
-\end{table}
-
-\subsection{Discussion of Findings}
-The results demonstrate that the integration of fuzzy inference and greedy algorithms in a simulation-based DSS significantly enhances disaster response logistics. The FIS provided a flexible and adaptive prioritization framework, while the greedy algorithm contributed to fast and efficient resource allocation. Compared to existing methods, the proposed approach offers better responsiveness and resilience in dynamic disaster environments. These findings support the development of intelligent, data-driven systems for humanitarian logistics and emergency planning in Indonesia.
-
-\subsection{Implications and Future Improvements}
-
-The findings of this study highlight the potential of hybrid decision support systems (DSS) in improving the speed, accuracy, and fairness of humanitarian logistics during natural disasters. By integrating fuzzy inference and greedy optimization, the proposed system provides a flexible framework capable of handling uncertainty in disaster impact levels and logistical constraints. This approach supports real-time decision-making, enabling more efficient prioritization and allocation of resources to affected regions.
-
-From a practical standpoint, the implementation of such a system can significantly strengthen disaster preparedness and response strategies in Indonesia. The use of national disaster data (BNPB) and demographic statistics (BPS) also promotes a data-driven approach to emergency planning and policy formulation.
-
-Future improvements to the system could include the following:
-
-\begin{itemize}
-    \item \textbf{Integration with real-time GIS and weather data:} Enhancing situational awareness through real-time hazard detection and location mapping.
-    \item \textbf{Multi-objective optimization:} Extending beyond greedy heuristics to consider trade-offs among cost, time, and coverage using algorithms such as genetic algorithms or ant colony optimization.
-    \item \textbf{Stakeholder collaboration interface:} Developing user interfaces that allow NGOs, government agencies, and logistics partners to interact with and adjust the DSS parameters in real time.
-    \item \textbf{Scalability for multiple disaster types:} Adapting the system to other scenarios such as earthquakes, volcanic eruptions, or droughts.
-    \item \textbf{Validation with real-world case studies:} Applying the model in post-disaster field exercises or historical data to validate its accuracy and robustness.
-\end{itemize}
-
-These enhancements would contribute to the development of more adaptive and resilient humanitarian logistics systems in the face of increasingly complex and frequent natural disasters.
+\section{Conclusion}
 
 
 \section*{Acknowledgment}
@@ -282,26 +325,7 @@ an ``e'' after the ``g''. Avoid the stilted expression ``one of us (R. B.
 G.) thanks $\ldots$''. Instead, try ``R. B. G. thanks$\ldots$''. Put sponsor 
 acknowledgments in the unnumbered footnote on the first page.
 
-\section*{References}
 
-Please number citations consecutively within brackets \cite{b1}. The 
-sentence punctuation follows the bracket \cite{b2}. Refer simply to the reference 
-number, as in \cite{b3}---do not use ``Ref. \cite{b3}'' or ``reference \cite{b3}'' except at 
-the beginning of a sentence: ``Reference \cite{b3} was the first $\ldots$''
-
-Number footnotes separately in superscripts. Place the actual footnote at 
-the bottom of the column in which it was cited. Do not put footnotes in the 
-abstract or reference list. Use letters for table footnotes.
-
-Unless there are six authors or more give all authors' names; do not use 
-``et al.''. Papers that have not been published, even if they have been 
-submitted for publication, should be cited as ``unpublished'' \cite{b4}. Papers 
-that have been accepted for publication should be cited as ``in press'' \cite{b5}. 
-Capitalize only the first word in a paper title, except for proper nouns and 
-element symbols.
-
-For papers published in translation journals, please give the English 
-citation first, followed by the original foreign-language citation \cite{b6}.
 
 \bibliographystyle{IEEEtran}
 \bibliography{references} 

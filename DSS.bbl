@@ -44,6 +44,39 @@ O.~J. Chukwuka, J.~Ren, J.~Wang, and D.~Paraskevadakis, ``A comprehensive resear
 \bibitem{orengo2022food}
 K.~L. Orengo~Serra and M.~Sanchez-Jauregui, ``Food supply chain resilience model for critical infrastructure collapses due to natural disasters,'' \emph{British Food Journal}, vol. 124, no.~13, pp. 14--34, 2022.
 
+\bibitem{khan2023systematic}
+S.~M. Khan, I.~Shafi, W.~H. Butt, I.~d. l.~T. Diez, M.~A.~L. Flores, J.~C. Gal{\'a}n, and I.~Ashraf, ``A systematic review of disaster management systems: approaches, challenges, and future directions,'' \emph{Land}, vol.~12, no.~8, p. 1514, 2023.
+
+\bibitem{alghodhaifi2021autonomous}
+H.~Alghodhaifi and S.~Lakshmanan, ``Autonomous vehicle evaluation: A comprehensive survey on modeling and simulation approaches,'' \emph{Ieee Access}, vol.~9, pp. 151\,531--151\,566, 2021.
+
+\bibitem{adetiloye2021collaboration}
+T.~Adetiloye, ``Collaboration planning of stakeholders for sustainable city logistics operations,'' \emph{arXiv preprint arXiv:2107.14049}, 2021.
+
+\bibitem{peron2022decision}
+M.~Peron, S.~Arena, G.~J.~L. Micheli, F.~Sgarbossa \emph{et~al.}, ``A decision support system for designing win--win interventions impacting occupational safety and operational performance in ageing workforce contexts,'' \emph{Safety science}, vol. 147, pp. 1--14, 2022.
+
+\bibitem{suarez2024integrated}
+D.~Suarez, C.~Gomez, A.~L. Medaglia, R.~Akhavan-Tabatabaei, and S.~Grajales, ``Integrated decision support for disaster risk management: aiding preparedness and response decisions in wildfire management,'' \emph{Information Systems Research}, vol.~35, no.~2, pp. 609--628, 2024.
+
+\bibitem{chang2022simulation}
+K.-H. Chang, Y.-Z. Wu, and S.-S. Ke, ``A simulation-based decision support tool for dynamic post-disaster pedestrian evacuation,'' \emph{Decision Support Systems}, vol. 157, p. 113743, 2022.
+
+\bibitem{lobkov2023determination}
+K.~Lobkov, D.~Eremeev, A.~Rubinskaya, E.~Melnikova, and I.~Panfilov, ``Determination of the degree of impact of natural disasters on the level of migration of the population by simulation modelling,'' in \emph{2023 22nd International Symposium INFOTEH-JAHORINA (INFOTEH)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2023, pp. 1--6.
+
+\bibitem{anjomshoae2021integrated}
+A.~Anjomshoae, A.~Hassan, K.~Y. Wong, and R.~Banomyong, ``An integrated multi-stage fuzzy inference performance measurement scheme in humanitarian relief operations,'' \emph{International Journal of Disaster Risk Reduction}, vol.~61, p. 102298, 2021.
+
+\bibitem{improta2020fuzzy}
+G.~Improta, V.~Mazzella, D.~Vecchione, S.~Santini, and M.~Triassi, ``Fuzzy logic--based clinical decision support system for the evaluation of renal function in post-transplant patients,'' \emph{Journal of evaluation in clinical practice}, vol.~26, no.~4, pp. 1224--1234, 2020.
+
+\bibitem{jain2020membership}
+A.~Jain and A.~Sharma, ``Membership function formulation methods for fuzzy logic systems: A comprehensive review,'' \emph{Journal of Critical Reviews}, vol.~7, no.~19, pp. 8717--8733, 2020.
+
+\bibitem{yoon2023novel}
+J.~H. Yoon, D.~J. Kim, and Y.~Y. Koo, ``Novel fuzzy correlation coefficient and variable selection method for fuzzy regression analysis based on distance approach,'' \emph{International Journal of Fuzzy Systems}, vol.~25, no.~8, pp. 2969--2985, 2023.
+
 \bibitem{he2020dynamic}
 Z.~He and W.~Weng, ``A dynamic and simulation-based method for quantitative risk assessment of the domino accident in chemical industry,'' \emph{Process Safety and Environmental Protection}, vol. 144, pp. 79--92, 2020.
 
@@ -70,14 +103,8 @@ F.~Halawa, H.~Dauod, I.~G. Lee, Y.~Li, S.~W. Yoon, and S.~H. Chung, ``Introducti
 M.~A. Berawi, S.~A.~O. Siahaan, Gunawan, and P.~Miraj, ``Determining the prioritized victim of earthquake disaster using fuzzy logic and decision tree approach,'' \emph{Evergreen}, vol.~7, no.~2, pp. 246--252, 2020, kyushu University Institutional Repository. [Online]. Available: \url{https://doi.org/10.5109/4055227}
 \BIBentrySTDinterwordspacing
 
-\bibitem{jain2020membership}
-A.~Jain and A.~Sharma, ``Membership function formulation methods for fuzzy logic systems: A comprehensive review,'' \emph{Journal of Critical Reviews}, vol.~7, no.~19, pp. 8717--8733, 2020.
-
 \bibitem{amiri2021application}
 M.~R. Amiri~Shahmirani, A.~Akbarpour Nikghalb~Rashti, M.~R. Adib~Ramezani, and E.~M. Golafshani, ``Application of fuzzy modelling to predict the earthquake damage degree of buildings based on field data,'' \emph{Journal of Intelligent \& Fuzzy Systems}, vol.~41, no.~2, pp. 2717--2730, 2021.
-
-\bibitem{yoon2023novel}
-J.~H. Yoon, D.~J. Kim, and Y.~Y. Koo, ``Novel fuzzy correlation coefficient and variable selection method for fuzzy regression analysis based on distance approach,'' \emph{International Journal of Fuzzy Systems}, vol.~25, no.~8, pp. 2969--2985, 2023.
 
 \bibitem{wang2024gis}
 Y.~Wang and Y.~A. Nanehkaran, ``Gis-based fuzzy logic technique for mapping landslide susceptibility analyzing in a coastal soft rock zone,'' \emph{Natural Hazards}, vol. 120, no.~12, pp. 10\,889--10\,921, 2024.
@@ -93,5 +120,8 @@ A.~Shirmarz and A.~Ghaffari, ``An adaptive greedy flow routing algorithm for per
 
 \bibitem{hamidouglu2023game}
 A.~Hamido{\u{g}}lu, ``A game theoretical approach for finding near-optimal solutions of an optimization problem,'' \emph{Optimization}, vol.~72, no.~10, pp. 2561--2583, 2023.
+
+\bibitem{mahmoodi2024data}
+E.~Mahmoodi, M.~Fathi, M.~Tavana, M.~Ghobakhloo, and A.~H. Ng, ``Data-driven simulation-based decision support system for resource allocation in industry 4.0 and smart manufacturing,'' \emph{Journal of Manufacturing Systems}, vol.~72, pp. 287--307, 2024.
 
 \end{thebibliography}
