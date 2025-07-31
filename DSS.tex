@@ -74,28 +74,33 @@ Based on Table~\ref{tab:disaster2025}, the occurrence of natural disasters in In
 \begin{table}[htbp]
 \caption{Number of Disaster Events by Type in Indonesia (2025)}
 \begin{center}
-\begin{tabular}{|c|c|}
+\begin{tabular}{|l|c|}
 \hline
 \textbf{Disaster Type} & \textbf{Number of Events} \\
 \hline
 Earthquake & 11 \\
 \hline
 Volcanic Eruption & 4 \\
-\hline Flood & 1,137 \\
-\hline Extreme Weather & 402 \\
-\hline Forest and Land Fires & 306 \\
-\hline Landslide & 163 \\
-\hline Tidal Wave and Abrasion & 10 \\
-\hline Drought & 10 \\
 \hline
-
+Flood & 1,137 \\
+\hline
+Extreme Weather & 402 \\
+\hline
+Forest and Land Fires & 306 \\
+\hline
+Landslide & 163 \\
+\hline
+Tidal Wave and Abrasion & 10 \\
+\hline
+Drought & 10 \\
+\hline
 \end{tabular}
-\label{tab:disaster2025}
 \end{center}
+\vspace{0.2cm}
+\footnotesize{\textit{Source:} \url{https://gis.bnpb.go.id/arcgis/apps/sites/#/public/pages/bencana-besar-tahun-2025}.}
+\label{tab:disaster2025}
 \end{table}
 
-{\centering{Source: \url{https://gis.bnpb.go.id/arcgis/apps/sites/#/public/pages/bencana-besar-tahun-2025}}}
-\newline
 
 Despite their recurring nature, flood mitigation capacity in Indonesia remains limited, highlighting the urgent need for comprehensive and strategic improvements in disaster preparedness and response \cite{riza2020advancing}.
 
@@ -106,10 +111,9 @@ In disaster response operations, the efficiency of logistics and supply chain sy
     \centerline{\includegraphics[width=0.8\linewidth]{fig3.png}}
     \caption{Impact caused by floods in Indonesia (mio IDR)}
     \label{fig:floodimpact}
+    \vspace{0.2cm}
+\footnotesize{\textit{Source:} \url{https://dibi.bnpb.go.id}}
 \end{figure}
-
-{\centering{Source: \url{https://dibi.bnpb.go.id}}}
-\newline
 
 Moreover, research on risk management within emergency supply chains remains scarce. Many existing studies lack the practical and integrated methodologies needed to support real-time decision-making under conditions of uncertainty \cite{chukwuka2023comprehensive}. This gap underscores the necessity for intelligent decision support tools capable of managing disruptions in complex humanitarian logistics environments.
 
@@ -128,11 +132,54 @@ Many studies involves a simulation-based approach to evaluate the performance of
     }
     \caption{Most Affected Regions in 2021 - 2025}
     \label{fig:simulationframework}
+    \footnotesize{\textit{Source:} \url{https://dibi.bnpb.go.id}}
 \end{figure}
 
-{\centering{Source : \url{https://dibi.bnpb.go.id/}}}
+Based on heatmap the west Java region is the most occurrences based on floods natural disaster, then districs of Bogor, Bandung, and Bekasi are the most affected areas, can be shwon in Figure~\ref{fig:heatmap2}. 
+\begin{figure}[htbp]
+    \centerline{\includegraphics[width=0.8\linewidth]{fig5.png}}
+    \caption{Heatmap of Floods in West Java in 2021 - 2025}
+    \label{fig:heatmap2}
+    \footnotesize{\textit{Source:} \url{https://dibi.bnpb.go.id}}
+\end{figure} 
 
-Based on heatmap the west Java region is the most occurrences based on floods natural disaster.
+Making sure that the simulation accurately reflects the real-world conditions faced during disaster response operations. Spatial analysis hydrological data is also integrated to assess the impact of floods \cite{alkaesi2021spatial}. Result of analysis is shown in table \ref{tab:analysis}.
+\begin{table}[htbp]
+\caption{Runoff Flooding Potential by Sub-district in Bogor Region}
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Sub-district} & \textbf{Flood Potential} \\
+\hline
+Nanggung & Extreme \\
+\hline Sukajaya & Extreme  \\
+\hline Sukamakmur & Extreme  \\
+\hline Tanjungsari & Extreme  \\
+\hline Cigudeg & Extreme  \\
+\hline Megamendung & Extreme  \\
+\hline Babakanmadang & Extreme \\
+\hline
+Cigudeg & High\\
+\hline Pamijahan & High  \\
+\hline Sukajaya & High  \\
+\hline Sukamakmur & High \\
+\hline
+\hline Jasinga & Low/Normal \\
+\hline Rumpin & Low/Normal \\
+\hline Tejo Panjang & Low/Normal \\
+\hline
+\end{tabular}
+\vspace{0.2cm}
+
+\footnotesize{\textit{Source:} Adapted from \cite{alkaesi2021spatial}.}
+\label{tab:analysis}
+\end{center}
+\end{table}
+
+Sub-districts such as Nanggung, Sukajaya, and Sukamakmur are identified as having extreme flood potential. This information is used in simulation after adding demographic data from BPS, which includes population density and socio-economic indicators. The simulation framework is designed to model the logistics and supply chain operations during disaster response, focusing on the allocation of resources and routing of aid based on the severity and urgency of the situation.
+
+\subsection{Decision Support System Design}
+The proposed Decision Support System (DSS) integrates fuzzy inference and a greedy algorithm to enhance disaster response logistics. The fuzzy inference system (FIS) is employed to assess the severity and urgency of disasters, while the greedy algorithm optimizes resource allocation and routing based on priority indices generated by the FIS. This hybrid approach allows for rapid decision-making in dynamic environments, ensuring that resources are allocated efficiently to the most affected areas.
 
 
 \subsection{Research Framework}
