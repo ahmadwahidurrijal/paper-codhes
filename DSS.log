@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.30)  1 AUG 2025 03:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.30)  1 AUG 2025 03:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -750,7 +750,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
  []
 
 
-Overfull \hbox (2.18256pt too wide) in paragraph at lines 211--211
+Overfull \hbox (2.18256pt too wide) in paragraph at lines 209--209
 []|\OT1/ptm/m/n/11 Babakanmadang| 
  []
 
@@ -758,199 +758,199 @@ Overfull \hbox (2.18256pt too wide) in paragraph at lines 211--211
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.229 
+l.226 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.229 
+l.226 
        <./fig4.png> <./fig5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 259--259
+Underfull \hbox (badness 10000) in paragraph at lines 255--255
 []|\OT1/ptm/b/n/9 Dependent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 []|\OT1/ptm/b/n/9 Relevance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 \OT1/ptm/b/n/9 to Sphere
  []
 
 
-Underfull \hbox (badness 5331) in paragraph at lines 261--261
+Underfull \hbox (badness 5331) in paragraph at lines 257--257
 []|\OT1/ptm/m/n/9 Time re-quired
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 261--261
+Underfull \hbox (badness 2573) in paragraph at lines 257--257
 \OT1/ptm/m/n/9 to de-liver aid
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
 \OT1/ptm/m/n/9 to af-fected
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--261
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
 \OT1/ptm/m/n/9 pop-u-la-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 \OT1/ptm/m/n/9 hu-man-i-tar-ian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 []|\OT1/ptm/m/n/9 Coverage
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--263
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 \OT1/ptm/m/n/9 of Af-fected
  []
 
 
-Underfull \hbox (badness 4505) in paragraph at lines 263--263
+Underfull \hbox (badness 4505) in paragraph at lines 259--259
 \OT1/ptm/m/n/9 tims who re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 []|\OT1/ptm/m/n/9 Non-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 \OT1/ptm/m/n/9 discrimination,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 \OT1/ptm/m/n/9 eq-uity, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
 \OT1/ptm/m/n/9 uni-ver-sal
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 265--265
+Underfull \hbox (badness 3646) in paragraph at lines 261--261
 []|\OT1/ptm/m/n/9 Logistics Ef-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 []|\OT1/ptm/m/n/9 Efficiency in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 \OT1/ptm/m/n/9 dis-tance, or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--265
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 \OT1/ptm/m/n/9 load (e.g.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 []|\OT1/ptm/m/n/9 Effective
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
 \OT1/ptm/m/n/9 re-source
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 265--266
+Underfull \hbox (badness 3128) in paragraph at lines 261--262
 \OT1/ptm/m/n/9 uti-liza-tion and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 []|\OT1/ptm/m/n/9 Unmet Needs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 []|\OT1/ptm/m/n/9 Index
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 \OT1/ptm/m/n/9 mea-sur-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 \OT1/ptm/m/n/9 the gap in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 \OT1/ptm/m/n/9 crit-i-cal needs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--267
+Underfull \hbox (badness 10000) in paragraph at lines 263--263
 \OT1/ptm/m/n/9 (e.g., shel-ter,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 []|\OT1/ptm/m/n/9 Fulfillment
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 \OT1/ptm/m/n/9 of min-i-mum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 \OT1/ptm/m/n/9 hu-man-i-tar-ian
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 []|\OT1/ptm/m/n/9 Protection or
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \OT1/ptm/m/n/9 Sat-is-fac-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 []|\OT1/ptm/m/n/9 Victim-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \OT1/ptm/m/n/9 reported
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \OT1/ptm/m/n/9 per-cep-tion of
  []
 
 
-Underfull \hbox (badness 1635) in paragraph at lines 269--269
+Underfull \hbox (badness 1635) in paragraph at lines 265--265
 \OT1/ptm/m/n/9 safety, dig-nity,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
 \OT1/ptm/m/n/9 and fair-ness
  []
 
@@ -961,12 +961,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.275 
+l.271 
       ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1715) in paragraph at lines 310--311
+Underfull \hbox (badness 1715) in paragraph at lines 306--307
 []\OT1/ptm/m/n/11 The sys-tem re-ceives in-put data from two
  []
 
@@ -974,12 +974,12 @@ Underfull \hbox (badness 1715) in paragraph at lines 310--311
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.313 
+l.309 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.313 
+l.309 
       ] (./DSS.bbl
 Underfull \hbox (badness 1629) in paragraph at lines 36--37
 []\OT1/ptm/m/n/9 H. Riza, E. W. San-toso, I. G. Te-jakusuma, and
@@ -1007,13 +1007,13 @@ Package rerunfilecheck Info: File `DSS.out' has not changed.
 Here is how much of TeX's memory you used:
  23908 strings out of 476034
  442832 string characters out of 5792864
- 1874388 words of memory out of 6000000
+ 1872388 words of memory out of 6000000
  43886 multiletter control sequences out of 15000+600000
  561219 words of font info for 132 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  84i,11n,89p,1088b,722s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DSS.pdf (7 pages, 317024 bytes).
+Output written on DSS.pdf (7 pages, 317004 bytes).
 PDF statistics:
  269 PDF objects out of 1000 (max. 8388607)
  219 compressed objects within 3 object streams
