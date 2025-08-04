@@ -311,6 +311,112 @@ The entire process is simulated using various disaster scenarios to assess syste
 
 \section{Results and Discussion}
 
+\subsection*{Fuzzy Rule Mapping by Sub-district with Demographic Context}
+
+This section outlines the fuzzy rule construction for prioritizing disaster victims in each selected sub-district based on BPS and BNPB data, incorporating demographic indicators and rules derived from the SPHERE Handbook.
+
+\textbf{Fuzzy Rule Base:}
+\begin{itemize}
+    \item IF Healthy Level is Sick, AND Age is Adult or Kid, AND Risk Level is High or Moderate, THEN the victim is Prioritized.
+    \item IF Healthy Level is Sick, AND Age is Adult or Kid, AND Risk Level is Low, THEN the victim is Prioritized.
+    \item IF Healthy Level is Sick, AND Age is Elder, AND Distance is Far or Nearby, THEN the victim is Prioritized.
+    \item IF Healthy Level is Sick, AND Age is Elder, AND Distance is Moderate, THEN the victim is Prioritized.
+    \item IF Healthy Level is Healthy or Okay, AND Age is Elder or Kid, AND Risk Level is Moderate, THEN the victim is not Prioritized.
+    \item IF Healthy Level is Healthy or Okay, AND Age is Elder or Kid, AND Risk Level is High, THEN the victim is not Prioritized.
+    \item IF Healthy Level is Healthy or Okay, AND Age is Adult, THEN the victim is not Prioritized.
+\end{itemize}
+
+
+\subsection{Babakanmadang}
+\begin{itemize}
+    \item Total Population: 104,302
+    \item Number of Households: 28,730
+    \item Health Facilities: Moderate
+    \item Demographic: Moderate density across 9 villages
+    \item Risk: High (flood-prone)
+    \item Distance to Capital: Moderate
+    \item \textbf{Estimated Needs:} High shelter and health services demand (based on population size)
+    \item \textbf{Fuzzy Output: Prioritized}
+\end{itemize}
+
+\subsection{Cigudeg}
+\begin{itemize}
+    \item Total Population: [data not directly available — estimate based on similar districts: medium-sized population]
+    \item Health Facilities: Low
+    \item Demographic: Sparsely distributed rural settlements
+    \item Risk: Extreme (runoff flood-prone)
+    \item Distance to Capital: Far
+    \item \textbf{Estimated Needs:} High logistics support for remote access and health
+    \item \textbf{Fuzzy Output: Prioritized}
+\end{itemize}
+
+\subsection{Jasinga}
+\begin{itemize}
+    \item Total Population: 112,356
+    \item Population Density: 898 people/km$^2$
+    \item Health Facilities: Moderate
+    \item Risk: Low
+    \item Distance to Capital: Near to Far (1--9 km)
+    \item \textbf{Estimated Needs:} Moderate; capacity available but still needs for nutrition and water
+    \item \textbf{Fuzzy Output: Not Prioritized}
+\end{itemize}
+
+\subsection{Megamendung}
+\begin{itemize}
+    \item Total Population: 113,756
+    \item Health Facilities: Moderate
+    \item Demographic: Mix of very high (Sukamahi 5022/km$^2$) to low (Megamendung 646/km$^2$) density
+    \item Risk: Extreme (runoff flood-prone)
+    \item Distance to Capital: Moderate
+    \item \textbf{Estimated Needs:} High shelter demand in dense villages, moderate logistics need
+    \item \textbf{Fuzzy Output: Prioritized}
+\end{itemize}
+
+\subsection{Nanggung}
+\begin{itemize}
+    \item Total Population: [Data inferred as moderate based on infrastructure]
+    \item Health Facilities: Limited
+    \item Demographic: Remote, mountainous, low accessibility
+    \item Risk: Extreme (landslide + flood)
+    \item Distance to Capital: Moderate
+    \item \textbf{Estimated Needs:} High for shelter, transport, medical aid due to terrain
+    \item \textbf{Fuzzy Output: Prioritized}
+\end{itemize}
+
+\subsection{Pamijahan}
+\begin{itemize}
+    \item Total Population: [Data inferred as moderate-high from BPS]
+    \item Health Facilities: Moderate
+    \item Demographic: Hilly areas, diverse households
+    \item Risk: High (landslide and flood-prone)
+    \item Distance: Moderate
+    \item \textbf{Estimated Needs:} Moderate to high, especially in early response logistics
+    \item \textbf{Fuzzy Output: Prioritized}
+\end{itemize}
+
+\subsection{Rumpin}
+\begin{itemize}
+    \item Total Population: [Not yet extracted; assumed rural population]
+    \item Health Facilities: Limited
+    \item Demographic: Scattered rural infrastructure
+    \item Risk: Low
+    \item Distance to Capital: Moderate
+    \item \textbf{Estimated Needs:} Low to moderate; needs focused on health and early warning
+    \item \textbf{Fuzzy Output: Not Prioritized}
+\end{itemize}
+
+\subsection{Tanjungsari}
+\begin{itemize}
+    \item Total Population: [Needs verification — estimated small to medium population]
+    \item Health Facilities: Limited
+    \item Demographic: Rural runoff-prone slopes
+    \item Risk: Extreme
+    \item Distance to Capital: Far
+    \item \textbf{Estimated Needs:} High for shelter and emergency transport
+    \item \textbf{Fuzzy Output: Prioritized}
+\end{itemize}
+
+
 \section{Conclusion}
 
 \section*{Acknowledgment}

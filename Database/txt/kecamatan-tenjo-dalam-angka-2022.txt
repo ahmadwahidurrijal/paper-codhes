@@ -1,0 +1,1342 @@
+Katalog/ Catalog : 1102001
+
+## KECAMATAN
+
+TENJO
+
+DALAM ANGKA
+
+2022
+
+https://bogorkab.bps.go.id
+
+<!-- image -->
+
+<!-- image -->
+
+https://bogorkab.bps.go.id
+
+2022
+
+<!-- image -->
+
+Kecamatan Tenjo Dalam Angka 2022 ISSN : 2807-9590 No. Publikasi : 32010.2242 Katalog : 1102001 Ukuran Buku : 14,8 cm x 21 cm Jumlah Halaman : xx + 83 halaman Naskah: BPS KABUPATEN BOGOR Penyuting : BPS KABUPATEN BOGOR Gambar C over: BPS KABUPATEN BOGOR Sebagian Ilustrasi Cover : Pertanian https://bogorkab.bps.go.id
+
+Diterbitkan oleh :
+
+© BPS Kabupaten Bogor
+
+Dicetak oleh :
+
+BPS KABUPATEN BOGOR
+
+Dilarang mengumumkan, mendistribusikan, mengomunikasikan, dan/atau menggandakan sebagian atau seluruh isi buku ini untuk tujuan komersial tanpa izin tertulis dari Badan Pusat Statistik
+
+## TIM PENYUSUN
+
+## Pengarah
+
+Ir. Raden Gandari Adianti Aju Fatimah M.Si
+
+Penanggung Jawab Ir. Raden Gandari Adianti Aju Fatimah M.Si Penyunting Adhitya Kusuma Wahyunugroho, S.Si Pengolah Data dan Penulis Naskah Kushadi Priyono Penata Letak Tasya Aguilera Prasetia Mulyana, S.Tr.Stat. https://bogorkab.bps.go.id
+
+<!-- image -->
+
+1. Badan Pusat Statistik
+2. Kecamatan Tenjo
+3. Dinas Kependudukan Pencatatan Sipil Kabupaten Bogor
+4. BMKG
+5. Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi
+
+6. Kementerian Agama https://bogorkab.bps.go.id
+
+## KONTRIBUTOR DATA
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+## KEPALA BPS KABUPATEN BOGOR
+
+IR. RADEN GANDARI ADIANTI AJU FATIMAH M.SI
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+## KATA PENGANTAR
+
+Kecamatan  Tenjo  Dalam  Angka  2022  merupakan  publikasi  tahunan  Badan Pusat Statistik (BPS) Kabupaten Bogor yang menyajikan berbagai data yang bersumber dari BPS dan institusi yang lain. Data keadaan geografi, iklim, pemerintahan, kondisi sosial-ekonomi  tahun  2021  merupakan  data  utama  yang  disajikan  pada  publikasi. Beberapa tabel tertentu menyajikan data pada tingkat Kecamatan dan Desa/Kelurahan untuk memudahkan pemahaman dan pemanfaatan data, disertakan pula penjelasan teknis dari setiap jenis statistik yang disajikan.
+
+Publikasi ini juga dilengkapi dengan  infografis data unggulan  sebagai pembatas  bab.  Publikasi  ini  dapat  terwujud  berkat  kerja  sama  dan  partisipasi  dari berbagai  pihak.  Kepada  semua  pihak  yang  telah  memberikan  kontribusi,  kami sampaikan penghargaan dan terima kasih. Semoga publikasi yang disajikan bermanfaat bagi pengguna untuk berbagai keperluan. Kami mengharapkan tanggapan dan  saran  dari  para  pengguna  publikasi  ini  untuk  perbaikan  pada  edisi  yang  akan datang.
+
+Ragam data statistik dalam penyusunan Publikasi  Kecamatan Tenjo Dalam Angka 2022 diperoleh dari sumber data BPS dan institusi lain. Beberapa tabel yang tergabung dalam tabel kor dikelola melalui Sistem Informasi Manajemen Data Statistik Terintegrasi (SIMDASI) untuk mendukung terwujudnya Satu Data Indoneisa. Seiring dengan meningkatnya kebutuhan konsumen data, publikasi Kecamatan Tenjo dalam Angka  akan  terus  mengalami  penyempurnaan  baik  struktur  maupun  muatannya. Untuk mempermudah akses publikasi Kecamatan Tenjo dalam Angka dan tabel-tabel berdasarkan subyek, maka publikasi Kecamatan Tenjo dalam Angka dapat dibaca dan diunduh melalui laman BPS (www.bps.go.id). https://bogorkab.bps.go.id
+
+Cibinong, 26 September 2022 Kepala BPS Kabupaten Bogor
+
+Ir. Raden Gandari Adianti Aju Fatimah M.Si
+
+<!-- image -->
+
+## DAFTAR ISI
+
+| KATA PENGANTAR..........................................................................................       | xi   |
+|----------------------------------------------------------------------------------------------------------------|------|
+| DAFTAR ISI.................................................................................................... | xiii |
+| DAFTAR TABEL..............................................................................................     | xiv  |
+| 1GEOGRAFIDANIKLIM......................................................................................1       |      |
+| 2 PEMERINTAHAN...........................................................................................9     |      |
+| 3 PENDUDUK.................................................................................................19  |      |
+| 4 SOSIAL DAN KESEJAHTERAAN RAKYAT ......................................................27                     |      |
+| 5 PERTANIAN.................................................................................................53 |      |
+| 6 PARIWISATA, TRANSPORTASI DAN KOMUNIKASI......................................65 https://bogorkab.bps.go.id   |      |
+| 7 PERBANKAN, KOPERASI DAN PERDAGANGAN...........................................75                             |      |
+
+<!-- image -->
+
+## DAFTAR TABEL
+
+| 1     | GEOGRAFIDANIKLIM                                                                                                                                                                                                       |
+|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1   | KEADAAN GEOGRAFI                                                                                                                                                                                                       |
+| 1.1.1 | Luas Daerah Menurut Desa/Kelurahan di Kecamatan Tenjo, 2021...5                                                                                                                                                        |
+| 1.1.2 | Jarak ke Ibukota Kecamatan dan Ibukota Kabupaten Menurut Desa/Kelurahan di Kecamatan Tenjo, 2021.......................................6                                                                               |
+| 1.1.3 | Desa/Kelurahan Menurut Topografi Sebagian besar di Kecamatan Tenjo, 2021.........................................................................................7                                                     |
+| 1.2   | KEADAAN IKLIM                                                                                                                                                                                                          |
+| 1.2.1 | Pengamatan Unsur Iklim Menurut Bulan di Stasiun Iklim Kecamatan Tenjo, 2021......................................................................8 https://bogorkab.bps.go.id                                          |
+| 2     | PEMERINTAHAN                                                                                                                                                                                                           |
+| 2.1   | PEMERINTAHAN                                                                                                                                                                                                           |
+| 2.1.1 | Jumlah SLS di bawah Desa/Kelurahan di Kecamatan Tenjo, 2021...13                                                                                                                                                       |
+| 2.1.2 | Status Desa/Kelurahan Menurut Dasar Pembentukannya di Kecamatan Tenjo, 2021....................................................................14                                                                      |
+| 2.2   | SUMBER DAYA MANUSIA                                                                                                                                                                                                    |
+| 2.2.1 | Jumlah Pegawai Negeri Sipil Menurut Pemerintah Daerah dan Jenis Kelamin di Kecamatan Tenjo, 2021.........................................15                                                                            |
+| 2.2.2 | Jumlah Pegawai Negeri Sipil Pemerintah Daerah Kecamatan Menurut Tingkat Pendidikan dan Jenis Kelamin di Kecamatan Tenjo, 2021.......................................................................................16 |
+
+<!-- image -->
+
+| 2.2.3   | Jumlah Pegawai Desa/Kelurahan Menurut Jenis Kelamin di Kecamatan Tenjo, 2021....................................................................17                                                                                             |
+|---------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2.2.4   | Jumlah Pegawai Desa/Kelurahan Menurut Jenis Kelamin dan Tingkat Pendidikan di Kecamatan Tenjo, 2021................................18                                                                                                          |
+| 3       | PENDUDUK                                                                                                                                                                                                                                       |
+| 3.1     | Penduduk, Distribusi Persentase Penduduk, Kepadatan Penduduk dan Rasio Jenis Kelamin Penduduk Menurut Desa/Kelurahan di Kecamatan Tenjo, 2021....................................................................23 https://bogorkab.bps.go.id |
+| 3.2     | Jumlah Penduduk Menurut Kelompok Umur dan Jenis Kelamin di Kecamatan Tenjo, 2021....................................................................25                                                                                         |
+| 4       | SOSIAL DAN KESEJAHTERAAN RAKYAT                                                                                                                                                                                                                |
+| 4.1     | PENDIDIKAN                                                                                                                                                                                                                                     |
+| 4.1.1   | Banyaknya Desa/Kelurahan yang Memiliki Fasilitas Sekolah Menurut Tingkat Pendidikan di Kecamatan Tenjo, 2019 - 2021.....31                                                                                                                     |
+| 4.1.2   | Jumlah Sekolah Menurut Tingkat Pendidikan di Kecamatan Tenjo, 2020/2021 dan 2021/2022 ..............................................................32                                                                                         |
+| 4.1.3   | Jumlah Guru Menurut Tingkat Pendidikan di Kecamatan Tenjo, 2020/2021 dan 2021/2022 ..............................................................33                                                                                            |
+| 4.1.4   | Jumlah Murid Menurut Tingkat Pendidikan di Kecamatan Tenjo, 2020/2021 dan 2021/2022 ..............................................................34                                                                                           |
+| 4.2     | KESEHATAN                                                                                                                                                                                                                                      |
+| 4.2.1   | Banyaknya Sarana Kesehatan Menurut Jenis Sarana Kesehatan di Kecamatan Tenjo, 2019 - 2021........................................................35                                                                                            |
+
+<!-- image -->
+
+| 4.2.2   | Banyaknya Warga Penderita Kekurangan Gizi Menurut Desa/Kelurahan di Kecamatan Tenjo, 2020.....................................36                                                                                                             |
+|---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 4.3     | PERUMAHAN DAN LINGKUNGAN                                                                                                                                                                                                                     |
+| 4.3.1   | Banyaknya Desa/Kelurahan Menurut Sumber Air Minum Sebagian Besar Keluarga di Kecamatan Tenjo, 2019 - 2021...........................37                                                                                                       |
+| 4.3.2   | Banyaknya Keluarga Menurut Desa/Kelurahan dan Jenis Pengguna Listrik di Kecamatan Tenjo, 2021 ....................................38                                                                                                         |
+| 4.3.3   | Banyaknya Desa/Kelurahan Menurut Sumber Penerangan Jalan Utama Desa/Kelurahan di Kecamatan Tenjo, 2019 - 2021 .............39                                                                                                                |
+| 4.3.4   | Banyaknya Desa/Kelurahan Menurut Penggunaan Fasilitas Tempat Buang Air Besar Sebagian Besar Keluarga di Kecamatan Tenjo, 2019 - 2021...........................................................................40 https://bogorkab.bps.go.id |
+| 4.3.5   | Banyaknya Desa/Kelurahan Menurut Jenis Bahan Bakar untuk Memasak yang Digunakan Sebagian Besar di Keluarga di Kecamatan Tenjo, 2021....................................................................41                                    |
+| 4.4     | AGAMA DAN SOSIAL LAINNYA                                                                                                                                                                                                                     |
+| 4.4.1   | Jumlah Tempat Peribadatan Menurut Desa/Kelurahan di Kecamatan Tenjo, 2021....................................................................42                                                                                              |
+| 4.4.2   | Banyaknya Kejadian Bencana Alam Menurut Desa/Kelurahan dan Jenis Bencana Alam di Kecamatan Tenjo, 2020...............................43                                                                                                      |
+| 4.4.3   | Banyaknya Korban Jiwa Akibat Bencana Alam Menurut Desa/Kelurahan dan Jenis Bencana Alam di Kecamatan Tenjo, 2020..................................................................................................46                         |
+| 4.4.4   | Keberadaan Fasilitas/Upaya Antisipasi/Mitigasi Bencana Alam Menurut Desa/Kelurahan di Kecamatan Tenjo, 2021......................49                                                                                                          |
+| 4.4.5   | Banyaknya Desa/Kelurahan yang memiliki Kelompok Kegiatan Olahraga Menurut Jenis Olahraga dan Ketersedian Fasilitas/Lapangan Olahraga di Kecamatan Tenjo, 2021 .................51                                                            |
+
+5
+
+6.3
+
+| 5.1    | Luas Panen Tanaman Sayuran dan Buah-buahan Semusim Menurut Jenis Tanaman di Kecamatan Tenjo, 2018 - 2021............57                                      |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 5.2    | Produksi Tanaman Sayuran dan Buah-Buahan Semusim Menurut Jenis Tanaman di Kecamatan Tenjo (kuintal), 2018 - 2021.............58                             |
+| 5.3    | Luas Panen Tanaman Biofarmaka Menurut Jenis Tanaman di Kecamatan Tenjo (m 2 ), 2018 - 2021................................................59                |
+| 5.4    | Produksi Tanaman Biofarmaka Menurut Jenis Tanaman di Kecamatan Tenjo (kg), 2018 - 2021.................................................60                   |
+| 5.5    | Luas Panen Tanaman Hias Menurut Jenis Tanaman di Kecamatan Tenjo (m 2 ), 2018 - 2021...................................................................61   |
+| 5.6    | Produksi Tanaman Hias Menurut Jenis Tanaman di Kecamatan Tenjo (tangkai), 2018 - 2021............................................................62         |
+| 5.7    | Produksi Buah-Buahan dan Sayuran Tahunan Menurut Jenis Tanaman di Kecamatan Tenjo (kuintal), 2018 - 2021......................63 https://bogorkab.bps.go.id |
+| 6      | PARIWISATA, TRANSPORTASI DAN KOMUNIKASI                                                                                                                     |
+| 6.1    | PARIWISATA                                                                                                                                                  |
+| 6.1.1  | Jumlah Sarana Akomodasi Menurut Desa/Kelurahan dan Jenis Akomodasi di Kecamatan Tenjo, 2021.............................................69                  |
+| 6.2.   | TRANSPORTASI                                                                                                                                                |
+| 6.2.1. | Prasarana dan Sarana Transportasi Antar Desa/Kelurahan dan Menurut Desa/Kelurahan di Kecamatan Tenjo, 2021......................70                          |
+
+PERTANIAN
+
+KOMUNIKASI
+
+<!-- image -->
+
+| 6.3.1   | Keberadaan Kantor Pos/Pos Pembantu/Rumah Pos, Pos Keliling dan Perusahaan Agen Jasa Ekspedisi Swasta Menurut Desa/Kelurahan di Kecamatan Tenjo, 2021.....................................72         |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 6.3.2   | Jumlah Menara Telepon Seluler dan Operator Layanan Komunikasi Telepon Seluler Menurut Desa/Kelurahan di Kecamatan Tenjo, 2021....................................................................73 |
+| 6.3.3   | Kekuatan Sinyal Telepon Seluler dan Jenis Sinyal Internet Telepon Seluler Menurut Desa/Kelurahan di Kecamatan Tenjo, 2021..........74                                                               |
+| 7       | PERBANKAN, KOPERASI DAN PERDAGANGAN                                                                                                                                                                 |
+| 7.1     | Banyaknya Sarana Lembaga Keuangan Bank Menurut Desa/Kelurahan dan Jenis Bank di Kecamatan Tenjo, 2021 ............79                                                                                |
+| 7.2     | Banyaknya Koperasi Aktif Menurut Desa/Kelurahan dan Jenis Koperasi di Kecamatan Tenjo, 2021.................................................80                                                      |
+| 7.3     | Banyaknya Sarana Perdagangan Menurut Desa/Kelurahan dan Jenis Sarana Perdagangan di Kecamatan Tenjo, 2021.....................82                                                                    |
+
+https://bogorkab.bps.go.id
+
+<!-- image -->
+
+## PENJELASAN UMUM
+
+Tanda-tanda, satuan-satuan, dan lain-lainnya yang digunakan dalam publikasi ini adalah sebagai berikut:
+
+## 1. TANDA-TANDA
+
+Data tidak tersedia  ....................................
+
+: …
+
+Tidak ada atau nol  .....................................
+
+: -
+
+....................
+
+...........................................
+
+barel ..........................................................
+
+...........................................................
+
+kuintal .......................................................
+
+KWh  ...........................................................
+
+MWh .........................................................
+
+MMSCF  ......................................................
+
+: 1/35 . 3 m 3
+
+Metrik ton (m.ton) ....................................
+
+: 0 . 98421 long ton = 1 000 kg
+
+Ons ............................................................
+
+: 28 . 31 gram
+
+Ton ............................................................
+
+: 1 000 kg
+
+Data dapat diabaikan ................................ : 0 Tanda Desimal : NA Angka Estimasi .......................................... : e Angka diperbaiki ....................................... : r Angka Sementara ...................................... : x Angka Sangat Sementara .......................... : xx Angka Sangat Sangat Sementara .............. : xxx 2. SATUAN kilometer (km) .......................................... : 1 000 meter knot : . Data tidak dapat ditampilkan : 158 . 99 liter hektar (ha) ................................................ : 10 000 m 2 : 1 . 8523 km/jam : 100 kg : 1 000 Watt hous : 1 000 KWh Liter (untuk beras) .................................... : 0 . 80 kg https://bogorkab.bps.go.id
+
+Satuan lain: buah, dus, butir, helai/lembar, kaleng, batang, pulsa, ton kilometer (tonkm), jam, menit, persen (%).
+
+Perbedaan angka di belakang koma disebabkan oleh pembulatan angka.
+
+<!-- image -->
+
+<!-- image -->
+
+## GEOGRAFI DAN IKLIM
+
+https://bogorkab.bps.go.id
+
+BAB  1
+
+92023
+
+SENSUS PERTANIAN
+
+<!-- image -->
+
+## PENJELASAN TEKNIS
+
+1. Secara astronomis  Kabupaten Bogor terletak antara -6° 18' Lintang Utara dan -6° 47' Lintang Selatan dan antara 106° 01'- 107° 103' Bujur Timur.
+2. Berdasarkan  posisi  geografisnya  Kabupaten  Bogor  memiliki  batas-batas: Utara -Kota  Depok;  Selatan -Kabupaten  Sukabumi;  Barat -Kabupaten Lebak Provinsi Banten; Timur -Kabupaten  Purwakarta;  Timur laut -Kabupaten Bekasi; Tenggara -Kabupaten Cianjur dan Tengah -Kota Bogor.
+3. Kabupaten Bogor terdiri dari 40 kecamatan dan 435 Desa/ Kelurahan. 4. Topografi adalah keadaan muka bumi pada suatu kawasan atau daerah: a. Puncak adalah bagian paling atas gunung/pegunungan; b. Lereng  adalah  bagian  dari  gunung  yang  letaknya  di  antara  puncak sampai lembah c. Lembah adalah daerah rendah diantara dua gunung/atau daerah yang mempunyai kedudukan lebih rendah dibandingkan daerah sekitarnya. Lembah  di  daerah  pegunungan  disebut  slinkin.    Lembah  di  daerah pegunungan  patahan disebut  graben  atau  slenk. Sedangkan lembah di daerah yang bergunung-gunung disebut lembah antar pegunungan. 5. Dataran adalah bagian atau sisi bidang tanah yang tampak datar rata dan membentang . https://bogorkab.bps.go.id
+
+<!-- image -->
+
+## 1.1. KEADAAN GEOGRAFI
+
+Tabel 1.1.1. Luas Daerah Menurut Desa di Kecamatan Tenjo, 2021
+
+| Desa                                   | Luas Daerah (km 2 )   | Persentase terhadap Luas Kecamatan   |
+|----------------------------------------|-----------------------|--------------------------------------|
+| (1)                                    | (2)                   | (3)                                  |
+| Ciomas                                 | 9.64                  | 13.36                                |
+| Tapos                                  | 6.10                  | 8.45                                 |
+| Batok                                  | 13.00                 | 18.01                                |
+| Babakan                                | 12.55                 | 17.39                                |
+| Bojong                                 | 8.37                  | 11.60                                |
+| Singabraja                             | 7.68                  | 10.64                                |
+| Tenjo                                  | 6.79                  | 9.41                                 |
+| Cilaku                                 | 5.02                  | 6.95                                 |
+| Singabangsa https://bogorkab.bps.go.id | 3.03                  | 4.20                                 |
+| Kecamatan                              | 72.18                 | 100.00                               |
+
+Tabel 1.1.2. Jarak  ke  Ibukota  Kecamatan  dan  Ibukota  Kabupaten Menurut Desa di Kecamatan Tenjo (km), 2021
+
+| Desa        | Ibukota Kecamatan   | Ibukota Kabupaten   |
+|-------------|---------------------|---------------------|
+| (1)         | (2)                 | (3)                 |
+| Ciomas      | 13                  | 62                  |
+| Tapos       | 12                  | 63                  |
+| Batok       | 7                   | 79                  |
+| Babakan     | 4                   | 65                  |
+| Bojong      | 6                   | 40                  |
+| Singabraja  | 1                   | 67                  |
+| Tenjo       | 3                   | 65                  |
+| Cilaku      | 3                   | 65                  |
+| Singabangsa | 4                   | 68                  |
+
+Sumber: Podes, 2021 https://bogorkab.bps.go.id
+
+Tabel 1.1.3. Desa  Menurut  Topografi  Sebagian  besar  di  Kecamatan Tenjo, 2021
+
+|             | Topografi      | Topografi   | Topografi   | Topografi   | Ketinggian dari Permukaan Air Laut   |
+|-------------|----------------|-------------|-------------|-------------|--------------------------------------|
+| Desa        | Puncak/ Tebing | Lereng      | Dataran     | Lembah      |                                      |
+| (1)         | (2)            | (3)         | (4)         | (5)         | (6)                                  |
+| Ciomas      |                | v           |             |             | 72.00                                |
+| Tapos       |                | v           |             |             | 70.00                                |
+| Batok       |                | v           |             |             | 66.00                                |
+| Babakan     |                | v           |             |             | 69.00                                |
+| Bojong      |                | v           |             |             | 50.00                                |
+| Singabraja  |                | v           |             |             | 58.00                                |
+| Tenjo       |                | v           |             |             | 58.00                                |
+| Cilaku      |                | v           |             |             | 58.00                                |
+| Singabangsa |                | v           |             |             | 42.00                                |
+
+Sumber: Podes, 2021 https://bogorkab.bps.go.id
+
+## 1.2. KEADAAN IKLIM
+
+Tabel 1.2.1. Pengamatan Unsur Iklim Menurut Bulan di Stasiun Iklim Kecamatan Tenjo, 2021
+
+| Desa                                | Jumlah Curah Hujan   | Jumlah Hari Hujan   |
+|-------------------------------------|----------------------|---------------------|
+| (1)                                 | (2)                  | (3)                 |
+| Januari                             | 190                  | 17                  |
+| Februari                            | 308                  | 19                  |
+| Maret                               | 214                  | 12                  |
+| April                               | 233                  | 14                  |
+| Mei                                 | 323                  | 15                  |
+| Juni                                | 299                  | 18                  |
+| Juli                                | 148                  | 10                  |
+| Agustus                             | 328                  | 14                  |
+| September                           | 470                  | 18                  |
+| Oktober                             | 228                  | 12                  |
+| November https://bogorkab.bps.go.id | 151                  | 17                  |
+| Desember                            | 291                  | 20                  |
+
+Sumber: BMKG
+
+## PEMERINTAHAN
+
+https://bogorkab.bps.go.id
+
+BAB  2
+
+<!-- image -->
+
+<!-- image -->
+
+## PENJELASAN TEKNIS
+
+1. Pegawai Negeri Sipil (PNS) adalah setiap  warga  negara  Republik Indonesia yang  telahmemenuhi syarat yang ditentukan  diangkat oleh pejabat yang berwenang dan diserahi  tugas  dalam  jabatan negeri  atau diserahi tugas negara lainnya   dan  digaji  berdasarkan peraturan perundang-undangan yang berlaku. PNS terdiri dari PNS pusat dan PNS daerah.
+2. Desa  adalah  desa  dan  desa  adat  atau  yang  disebut  dengan  nama  lain, selanjutnya disebut Desa adalah kesatuan masyarakat hukum yang memiliki batas  wilayah    yang    berwenang    untuk  mengatur  dan  mengurus  urusan pemerintahan,    kepentingan  masyarakat  setempat  berdasarkan  prakarsa masyarakat,  hak  asal  usul,     dan/atau    hak  tradisional yang  diakui  dan dihormati dalam sistem Pemerintahan  Negara  Kesatuan Republik Indonesia (Undang- Undang  Nomor  6  Tahun  2014 tentang Desa). 3. Kelurahan adalah  suatu  wilayah yang dipimpin oleh seorang Lurah sebagai perangkat  daerah  kabupaten  dan  atau  daerah  kota  di  bawah  kecamatan (Undang-Undang No. 32 Tahun  2004 tentang Pemerintahan Daerah). https://bogorkab.bps.go.id
+
+<!-- image -->
+
+<!-- image -->
+
+## 2.1. PEMERINTAHAN
+
+Tabel 2.1.1. Jumlah SLS di bawah Desa di Kecamatan Tenjo, 2021
+
+| Desa        | SLS di bawah Desa/ Kelurahan   | SLS Terkecil   |
+|-------------|--------------------------------|----------------|
+| (1)         | (2)                            | (3)            |
+| Ciomas      | 3                              | 17             |
+| Tapos       | 3                              | 26             |
+| Batok       | 3                              | 24             |
+| Babakan     | 3                              | 24             |
+| Bojong      | 3                              | 24             |
+| Singabraja  | 3                              | 15             |
+| Tenjo       | 3                              | 24             |
+| Cilaku      | 3                              | 27             |
+| Singabangsa | 3                              | 15             |
+| Kecamatan   | 27                             | 196            |
+
+Sumber: Podes, 2021 https://bogorkab.bps.go.id
+
+Tabel 2.1.2. Status Kelurahan/Desa Menurut Dasar Pembentukannya di Kecamatan Tenjo, 2021
+
+| Desa/Kelurahan   | Desa   | Kelurahan   |
+|------------------|--------|-------------|
+| (1)              | (2)    | (3)         |
+| Ciomas           | v      |             |
+| Tapos            | v      |             |
+| Batok            | v      |             |
+| Babakan          | v      |             |
+| Bojong           | v      |             |
+| Singabraja       | v      |             |
+| Tenjo            | v      |             |
+| Cilaku           | v      |             |
+| Singabangsa      | v      |             |
+
+Sumber:  Podes, 2021 https://bogorkab.bps.go.id
+
+## 2.2. SUMBER DAYA MANUSIA
+
+Tabel 2.2.1. Jumlah Pegawai Negeri Sipil Menurut Pemerintah Daerah dan Jenis Kelamin di Kecamatan Tenjo, 2021
+
+| Pemerintah Daerah                                             | Laki-Laki   | Perempuan   | Jumlah   |
+|---------------------------------------------------------------|-------------|-------------|----------|
+| (1)                                                           | (2)         | (3)         | (4)      |
+| Pemerintah Daerah Kecamatan Tenjo                             | …           | …           | …        |
+| Pemerintah Daerah Desa Ciomas                                 | …           | …           | …        |
+| Pemerintah Daerah Desa Tapos                                  | …           | …           | …        |
+| Pemerintah Daerah Desa Batok                                  | …           | …           | …        |
+| Pemerintah Daerah Desa Babakan                                | …           | …           | …        |
+| Pemerintah Daerah Desa Bojong                                 | …           | …           | …        |
+| Pemerintah Daerah Desa Singabraja                             | …           | …           | …        |
+| Pemerintah Daerah Desa Tenjo                                  | …           | …           | …        |
+| Pemerintah Daerah Desa Cilaku                                 | …           | …           | …        |
+| Pemerintah Daerah Desa Singabangsa https://bogorkab.bps.go.id | …           | …           | …        |
+
+Tabel 2.2.2. Jumlah Pegawai Negeri Sipil Pemerintah Daerah Kecamatan Menurut Tingkat Pendidikan dan Jenis Kelamin di Kecamatan Tenjo, 2021
+
+| Tingkat Pendidikan                          | Laki-Laki   | Perempuan   | Jumlah   |
+|---------------------------------------------|-------------|-------------|----------|
+| (1)                                         | (2)         | (3)         | (4)      |
+| SD/Sederajat                                | …           | …           | …        |
+| SMP/Sederajat                               | …           | …           | …        |
+| SMA/Sederajat                               | …           | …           | …        |
+| Diploma I                                   | …           | …           | …        |
+| Diploma II                                  | …           | …           | …        |
+| Diploma III                                 | …           | …           | …        |
+| Diploma IV                                  | …           | …           | …        |
+| S1/Sarjana                                  | …           | …           | …        |
+| S2/Pasca Sarjana https://bogorkab.bps.go.id | …           | …           | …        |
+| S3/Doktor/Ph.D                              | …           | …           | …        |
+| Kecamatan                                   | …           | …           | …        |
+
+Tabel 2.2.3. Jumlah Pegawai Desa Menurut Jenis Kelamin di Kecamatan Tenjo, 2021
+
+| Desa        | Laki-Laki   | Perempuan   | Jumlah   |
+|-------------|-------------|-------------|----------|
+| (1)         | (2)         | (3)         | (4)      |
+| Ciomas      | …           | …           | …        |
+| Tapos       | …           | …           | …        |
+| Batok       | …           | …           | …        |
+| Babakan     | …           | …           | …        |
+| Bojong      | …           | …           | …        |
+| Singabraja  | …           | …           | …        |
+| Tenjo       | …           | …           | …        |
+| Cilaku      | …           | …           | …        |
+| Singabangsa | …           | …           | …        |
+| Kecamatan   | …           | …           | …        |
+
+Sumber:  Kecamatan Tenjo https://bogorkab.bps.go.id
+
+Tabel 2.2.4. Jumlah Pegawai Desa Menurut Jenis Kelamin dan Tingkat Pendidikan di Kecamatan Tenjo, 2021
+
+| Tingkat Pendidikan   | Laki-Laki   | Perempuan   | Jumlah   |
+|----------------------|-------------|-------------|----------|
+| (1)                  | (2)         | (3)         | (4)      |
+| SD/Sederajat         | …           | …           | …        |
+| SMP/Sederajat        | …           | …           | …        |
+| SMA/Sederajat        | …           | …           | …        |
+| Diploma I            | …           | …           | …        |
+| Diploma II           | …           | …           | …        |
+| Diploma III          | …           | …           | …        |
+| Diploma IV           | …           | …           | …        |
+| S1/Sarjana           | …           | …           | …        |
+| S2/Pasca Sarjana     | …           | …           | …        |
+| S3/Doktor/Ph.D       | …           | …           | …        |
+| Kecamatan            | …           | …           | …        |
+
+Sumber:  Kecamatan Tenjo https://bogorkab.bps.go.id
+
+## PENDUDUK
+
+https://bogorkab.bps.go.id
+
+BAB  3
+
+SENSUS PEF TANIAN
+
+<!-- image -->
+
+## PENJELASAN TEKNIS
+
+1. Penduduk  Indonesia  adalah  semua  orang  yang  berdomisili  di  wilayah teritorial Indonesia, mencakup Warga Negara Indonesia (WNI) dan Warga Negara Asing (WNA) yang telah menetap selama satu tahun atau lebih atau berencana menetap di wilayah Indonesia selama minimal satu tahun. Pada sensus  sebelumnya  referensi  waktu  dalam  konsep  kependudukan  adalah enam bulan. Perubahan ini didasari oleh UU No. 24 Tahun 2013 tentang Perubahan atas UU No. 23 Tahun 2006 tentang Administrasi Kependudukan pada Pasal 15.
+5. Distribusi  penduduk  adalah  pola  persebaran  penduduk  di  suatu  wilayah baik  berdasarkan  batas-batas  geografis  maupun  berdasarkan  batas-batas administrasi pemerintahan.
+2. Laju  pertumbuhan penduduk per tahun adalah angka yang menunjukkan rata-rata  tingkat  pertambahan  penduduk  per  tahun  dalam  jangka  waktu tertentu.  Angka  ini  dinyatakan  sebagai  persentase  dari  penduduk  dasar. Metode penghitungan laju pertumbuhan   penduduk   yang   digunakan oleh BPS adalah metode geometrik. 3. Kepadatan penduduk adalah ukuran persebaran penduduk yang menunjukkan  jumlah      penduduk  untuk  setiap  kilometer  persegi  luas wilayah. 4. Rasio  jenis  kelamin  adalah  perbandingan  antara  penduduk  laki-laki  dan penduduk perempuan pada suatu wilayah dan waktu tertentu   Biasanya dinyatakan  dengan    Jumlah  penduduk  laki-laki  untuk  100  penduduk perempuan. https://bogorkab.bps.go.id
+6. Komposisi penduduk adalah pola persebaran penduduk menurut karakteristiknya   contoh: penduduk menurut kelompok umur   penduduk menurut jenis kelamin.
+
+<!-- image -->
+
+Tabel 3.1. Penduduk,  Distribusi  Persentase  Penduduk,  Kepadatan Penduduk  dan  Rasio  Jenis  Kelamin  Penduduk  Menurut Desa di Kecamatan Tenjo, 2021
+
+|             | Penduduk   | Penduduk   | Penduduk   |
+|-------------|------------|------------|------------|
+|             | Laki-Laki  | Perempuan  | Jumlah     |
+| (1)         | (2)        | (3)        | (4)        |
+| Ciomas      | 2812       | 2504       | 5316       |
+| Tapos       | 4407       | 4072       | 8497       |
+| Batok       | 6779       | 6300       | 13079      |
+| Babakan     | 5826       | 5477       | 11303      |
+| Bojong      | 5206       | 4795       | 10001      |
+| Singabraja  | 2507       | 2282       | 4789       |
+| Tenjo       | 6098       | 5766       | 11864      |
+| Cilaku      | 4000       | 3673       | 7673       |
+| Singabangsa | 1787       | 1729       | 3516       |
+| Kecamatan   | 39422      | 36598      | 76020      |
+
+https://bogorkab.bps.go.id
+
+## Lanjutan Tabel 3.1
+
+| Desa        | Persentase Penduduk   | Kepadatan Penduduk (per km 2 )   | Rasio Jenis Kelamin Penduduk   |
+|-------------|-----------------------|----------------------------------|--------------------------------|
+| (1)         | (5)                   | (6)                              | (7)                            |
+| Ciomas      | 6.99                  | 551.45                           | 112.30                         |
+| Tapos       | 11.18                 | 1392.95                          | 108.23                         |
+| Batok       | 17.20                 | 1006.08                          | 107.60                         |
+| Babakan     | 14.87                 | 900.64                           | 106.37                         |
+| Bojong      | 13.16                 | 1194.86                          | 108.57                         |
+| Singabraja  | 6.30                  | 623.57                           | 109.86                         |
+| Tenjo       | 15.61                 | 1747.28                          | 105.76                         |
+| Cilaku      | 10.09                 | 1528.49                          | 108.90                         |
+| Singabangsa | 4.63                  | 1160.40                          | 103.35                         |
+| Kecamatan   | 100                   | 1053.20                          | 107.72                         |
+
+Sumber:  Kecamatan Tenjo https://bogorkab.bps.go.id
+
+Tabel 3.2. Jumlah  Penduduk  Menurut  Kelompok  Umur  dan  Jenis Kelamin di Kecamatan Tenjo, 2021
+
+| Kelompok Umur                        | Penduduk   | Penduduk   | Penduduk   |
+|--------------------------------------|------------|------------|------------|
+| Kelompok Umur                        | Laki-Laki  | Perempuan  | Jumlah     |
+| (1)                                  | (2)        | (3)        | (4)        |
+| 0 - 4                                | 3214       | 3156       | 6370       |
+| 5 - 9                                | 4084       | 3802       | 7886       |
+| 10 - 14                              | 4000       | 3633       | 7633       |
+| 15 - 19                              | 2927       | 2897       | 5824       |
+| 20 - 24                              | 3960       | 3510       | 7470       |
+| 25 - 29                              | 3777       | 3337       | 7114       |
+| 30 - 34                              | 3622       | 3110       | 6732       |
+| 35 - 39                              | 3122       | 2829       | 5951       |
+| 40 - 44                              | 2604       | 2460       | 5064       |
+| 45 - 49                              | 2213       | 2084       | 4297       |
+| 50 - 54                              | 1918       | 1793       | 3711       |
+| 55 - 59                              | 1423       | 1355       | 2778       |
+| 60+                                  | 2558       | 2632       | 5190       |
+| Kecamatan https://bogorkab.bps.go.id | 39422      | 36598      | 76020      |
+
+Sumber:  Kecamatan Tenjo
+
+<!-- image -->
+
+SOSIAL
+
+DAN
+
+KESEJAHTERAAN
+
+https://bogorkab.bps.go.id
+
+BAB  4
+
+912023
+
+SENSUS PERTANIAN
+
+<!-- image -->
+
+## PENJELASAN TEKNIS
+
+1. Jenjang Pendidikan Formal terdiri atas pendidikan dasar pendidikan menengah dan pendidikan tinggi.Jenis pendidikan yang diajarkan mencakup pendidikan  umum  kejuruan  akademik  profesi  vokasi  keagamaan  dan khusus.
+2. Pendidikan Dasar berbentuk Sekolah Dasar (SD) dan Madrasah Ibtidaiyah (MI)  atau  bentuk  lain  yang  sederajat  serta  Sekolah  Menengah  Pertama. (SMP) dan Madrasah Tsanawiyah (MTs) atau bentuk lain yang sederajat. 3. Pendidikan Menengah berbentuk Sekolah Menengah Atas (SMA) Madrasah Aliyah  (MA)  Sekolah  Menengah  Kejuruan  (SMK)  dan  Madrasah  Aliyah Kejuruan (MAK) atau bentuk lain yang sederajat. 4. Pendidikan Tinggi merupakan  jenjang pendidikan setelah pendidikan menengah yang mencakup program pendidikan diploma sarjana magister spesialis dan doktor yang diselenggarakan oleh perguruan tinggi Perguruan tinggi  dapat  berbentuk  akademi  politeknik  sekolah  tinggi  institut  atau universitas. 5. Rumah  Sakit adalah tempat pemeriksaan dan perawatan  kesehatan biasanya berada di bawah pengawasan dokter/tenaga medis yang melayani penderita yang sakit untuk berobat rawat jalan atau rawat inap. https://bogorkab.bps.go.id
+6. Rumah Sakit Bersalin adalah rumah sakit khusus untuk persalinan dilengkapi pelayanan spesialis pemeriksaan kehamilan persalinan rawat inap dan rawat jalan  ibu  dan  anak  yang  berada  di  bawah  pengawasan  dokter  spesialis kandungan.
+7. Rumah  Bersalin  adalah  sarana  pelayanan  kesehatan  dengan  izin  sebagai rumah  bersalin  dilengkapi  pelayanan  pemeriksaan  kehamilan  persalinan serta pemeriksaan ibu dan anak yang berada di bawah pengawasan bidan senior.
+8. Poliklinik  adalah sarana kesehatan yang dipakai untuk pelayanan berobat jalan biasanya berada di bawah pengawasan dokter/tenaga medis.
+
+9. Puskesmas  (Pusat  Kesehatan  Masyarakat)  adalah  unit  pelaksana  teknis dinas  kesehatan  kabupaten/kota  yang  mempunyai  fungsi  utama  sebagai penyelenggara pelayanan kesehatan tingkat pertama Wilayah  kerja puskesmas maksimal adalah satu kecamatan dan untuk dapat menjangkau wilayah kerjanya puskesmas mempunyai jaringan pelayanan yang meliputi unit Puskesmas Pembantu (Pustu) unit Puskesmas Keliling (Puskel) dan unit bidan desa/komunitas (Peraturan Menteri Kesehatan RI No  75 Tahun 2018 Tentang Pusat Kesehatan Masyarakat).
+10. Apotek  adalah  suatu  tempat  tertentu  yang  digunakan  untuk  melakukan pekerjaan kefarmasian dan penyaluran/penjualan obat atau bahan farmasi dan perbekalan kesehatan lainnya kepada masyarakat yang dikelola oleh tenaga  apoteker  (Peraturan  Menteri  Kesehatan  RI  No  1332  Tahun  2002 Tentang Perubahan Atas Peraturan Menteri Kesehatan RI No 922/MENKES/PER/X/1993 11. Air leding adalah sumber air yang berasal dari air yang telah melalui proses penjernihan dan penyehatan sebelum dialirkan kepada konsumen melalui instalasi  berupa  saluran  air.  Sumber  air  ini  biasanya  diusahakan  oleh PAM/PDAM/BPAM  Termasuk dalam hal ini air leding yang didapat secara eceran. 12. Sumur terlindung adalah air yang berasal dari dalam tanah yang digali dan lingkar  sumur  tersebut  dilindungi  oleh  tembok  paling sedikit  08  meter  di atas tanah dan 3 meter ke bawah tanah serta ada lantai semen sejauh 1 meter dari lingkar sumur. https://bogorkab.bps.go.id
+13. Bencana Alam adalah peristiwa atau serangkaian peristiwa yang mengancam  dan  mengganggu  kehidupan/penghidupan  masyarakat  yang disebabkan  oleh  faktor  alam  antara  lain  berupa  gempa  bumi  tsunami gunung meletus banjir kekeringan angin topan dan tanah longsor sehingga mengakibatkan kerugian materi maupun non-materi.
+
+## 4.1. PENDIDIKAN
+
+Tabel 4.1.1. Banyaknya Desa yang Memiliki Fasilitas Sekolah Menurut Tingkat Pendidikan di Kecamatan Tenjo, 2019 -2021
+
+| Tingkat Pendidikan              | 2019   | 2020   | 2021   |
+|---------------------------------|--------|--------|--------|
+| (1)                             | (2)    | (3)    | (4)    |
+| Sekolah Dasar (SD)              | 9      | 9      | 9      |
+| Madrasah Ibtidaiyah (MI)        | 6      | 6      | 6      |
+| Sekolah Menengah Pertama (SMP)  | 7      | 7      | 7      |
+| Madrasah Tsanawiyah (MTs)       | 4      | 5      | 5      |
+| Sekolah Menengah Atas (SMA)     | 3      | 3      | 3      |
+| Sekolah Menengah Kejuruan (SMK) | 3      | 3      | 3      |
+| Madrasah Aliyah (MA)            | 4      | 5      | 5      |
+| Akademi/Perguruan Tinggi        | 0      | 0      | 0      |
+
+<!-- image -->
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+## Tabel 4.1.2. Jumlah Sekolah Menurut Tingkat Pendidikan di Kecamatan Tenjo, 2020/2021 dan 2021/2022
+
+| Tingkat Pendidikan                                     | Negeri    | Negeri    | Swasta    | Swasta    | Jumlah    | Jumlah    |
+|--------------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|
+| Tingkat Pendidikan                                     | 2020/2021 | 2021/2022 | 2020/2021 | 2021/2022 | 2020/2021 | 2021/2022 |
+| (1)                                                    | (2)       | (3)       | (4)       | (4)       | (4)       | (4)       |
+| Taman Kanak- Kanak (TK)                                | -         | -         | 1         | 1         | 1         | 1         |
+| Raudatul Athfal (RA)                                   | …         | …         | …         | …         | 9         | 9         |
+| Sekolah Dasar (SD)                                     | 34        | 34        | 2         | 2         | 36        | 36        |
+| Madrasah Ibtidaiyah (MI)                               | -         | -         | 11        | 11        | 11        | 11        |
+| Sekolah Menengah Pertama (SMP)                         | 4         | 4         | 8         | 8         | 12        | 12        |
+| Madrasah Tsanawiyah (MTs)                              | -         | -         | 8         | 8         | 8         | 8         |
+| Sekolah Menengah Atas (SMA) https://bogorkab.bps.go.id | 1         | 1         | 3         | 3         | 4         | 4         |
+| Sekolah Menengah Kejuruan (SMK)                        | -         | -         | 5         | 5         | 5         | 5         |
+| Madrasah Aliyah (MA)                                   | -         | -         | 1         | 1         | 1         | 1         |
+
+Sumber:   1 Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi Sistem Data Pokok Pendidikan, data semester ganjil laporan sampai dengan 30 November 2021
+
+2 Kementerian Agama, EMIS, data semester ganjil laporan sampai dengan 17 Februari 2022
+
+Tabel 4.1.3. Jumlah Guru Menurut Tingkat Pendidikan di Kecamatan Tenjo, 2020/2021 dan 2021/2022
+
+| Tingkat Pendidikan                                     | Negeri    | Negeri    | Swasta    | Swasta    | Jumlah    | Jumlah    |
+|--------------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|
+| Tingkat Pendidikan                                     | 2020/2021 | 2021/2022 | 2020/2021 | 2021/2022 | 2020/2021 | 2021/2022 |
+| (1)                                                    | (2)       | (3)       | (4)       | (4)       | (4)       | (4)       |
+| Taman Kanak- Kanak (TK)                                | -         | -         | 2         | 2         | 2         | 2         |
+| Raudatul Athfal (RA)                                   | …         | …         | …         | …         | 34        | 43        |
+| Sekolah Dasar (SD)                                     | 325       | 315       | 15        | 14        | 340       | 329       |
+| Madrasah Ibtidaiyah (MI)                               | -         | -         | 115       | 131       | 115       | 131       |
+| Sekolah Menengah Pertama (SMP)                         | 79        | 88        | 76        | 71        | 155       | 159       |
+| Madrasah Tsanawiyah (MTs)                              | -         | -         | 72        | 80        | 72        | 80        |
+| Sekolah Menengah Atas (SMA) https://bogorkab.bps.go.id | 31        | 31        | 21        | 25        | 52        | 56        |
+| Sekolah Menengah Kejuruan (SMK)                        | -         | -         | 50        | 49        | 50        | 49        |
+| Madrasah Aliyah (MA)                                   | -         | -         | 6         | 8         | 6         | 8         |
+
+Sumber:   1 Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi Sistem Data Pokok Pendidikan, data semester ganjil laporan sampai dengan 30 November 2021
+
+2 Kementerian Agama, EMIS, data semester ganjil laporan sampai dengan 17 Februari 2022
+
+Tabel 4.1.4. Jumlah Murid Menurut Tingkat Pendidikan di Kecamatan Tenjo, 2020/2021 dan 2021/2022
+
+| Tingkat Pendidikan                                     | Negeri    | Negeri    | Swasta    | Swasta    | Jumlah    | Jumlah    |
+|--------------------------------------------------------|-----------|-----------|-----------|-----------|-----------|-----------|
+| Tingkat Pendidikan                                     | 2020/2021 | 2021/2022 | 2020/2021 | 2021/2022 | 2020/2021 | 2021/2022 |
+| (1)                                                    | (2)       | (3)       | (4)       | (4)       | (4)       | (4)       |
+| Taman Kanak- Kanak (TK)                                | -         | -         | 269       | 377       | 269       | 377       |
+| Raudatul Athfal (RA)                                   | …         | …         | …         | …         | 412       | 429       |
+| Sekolah Dasar (SD)                                     | 7 877     | 7 661     | 436       | 460       | 8 313     | 8 121     |
+| Madrasah Ibtidaiyah (MI)                               | -         | -         | 2 347     | 2 294     | 2 347     | 2 294     |
+| Sekolah Menengah Pertama (SMP)                         | 1 966     | 2 162     | 1 540     | 1 485     | 3 506     | 3 647     |
+| Madrasah Tsanawiyah (MTs)                              | -         | -         | 1 024     | 1 031     | 1 024     | 1 031     |
+| Sekolah Menengah Atas (SMA) https://bogorkab.bps.go.id | 584       | 731       | 482       | 565       | 1066      | 1296      |
+| Sekolah Menengah Kejuruan (SMK)                        | -         | -         | 1 759     | 1 910     | 1 759     | 1 910     |
+| Madrasah Aliyah (MA)                                   | -         | -         | 161       | 149       | 161       | 149       |
+
+Sumber:   1 Kementerian Pendidikan, Kebudayaan, Riset dan Teknologi Sistem Data Pokok Pendidikan, data semester ganjil laporan sampai dengan 30 November 2021
+
+2 Kementerian Agama, EMIS, data semester ganjil laporan sampai dengan 17 Februari 2022
+
+## 4.2. KESEHATAN
+
+Tabel 4.2.1. Banyaknya Sarana Kesehatan Menurut Jenis Sarana Kesehatan di Kecamatan Tenjo, 2019 -2021
+
+| Jenis Sarana Kesehatan      | 2019   | 2020   | 2021   |
+|-----------------------------|--------|--------|--------|
+| (1)                         | (2)    | (3)    | (4)    |
+| Rumah Sakit                 | 0      | 0      | 0      |
+| Rumah Sakit Bersalin        | 0      | 0      | 0      |
+| Poliklinik/Balai Pengobatan | 1      | 1      | 1      |
+| Puskesmas Rawat Inap        | 1      | 1      | 1      |
+| Puskesmas Tanpa Rawat Inap  | 0      | 0      | 0      |
+| Apotek                      | 1      | 1      | 1      |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 4.2.2. Banyaknya  Warga  Penderita  Kekurangan  Gizi  Menurut Desa di Kecamatan Tenjo, 2020
+
+| Desa        | 2020   |
+|-------------|--------|
+| (1)         | (2)    |
+| Ciomas      | 0      |
+| Tapos       | 0      |
+| Batok       | 0      |
+| Babakan     | 0      |
+| Bojong      | 0      |
+| Singabraja  | 0      |
+| Tenjo       | 0      |
+| Cilaku      | 0      |
+| Singabangsa | 0      |
+| Kecamatan   | 0      |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+## 4.3. PERUMAHAN DAN LINGKUNGAN
+
+Tabel 4.3.1. Banyaknya  Desa  Menurut  Sumber  Air  Minum  Sebagian Besar Keluarga di Kecamatan Tenjo, 2019 -2021
+
+| Sumber Air Minum                                                           | 2019   | 2020   | 2021   |
+|----------------------------------------------------------------------------|--------|--------|--------|
+| (1)                                                                        | (2)    | (3)    | (4)    |
+| Air Kemasan Bermerk                                                        | 0      | 0      | 0      |
+| Air Isi Ulang                                                              | 0      | 0      | 0      |
+| Leding Dengan Meteran                                                      | 0      | 0      | 0      |
+| Leding Tanpa Meteran                                                       | 0      | 0      | 0      |
+| Sumur Bora tau Pompa                                                       | 0      | 0      | 0      |
+| Sumur                                                                      | 9      | 9      | 9      |
+| Mata Air                                                                   | 0      | 0      | 0      |
+| Sungai/Danau/Kolam/Waduk/Situ/ Embung/Bendungan https://bogorkab.bps.go.id | 0      | 0      | 0      |
+| Air Hujan                                                                  | 0      | 0      | 0      |
+| Lainnya                                                                    | 0      | 0      | 0      |
+
+Tabel 4.3.2. Banyaknya  Keluarga  Menurut  Desa  dan  Jenis  Pengguna Listrik di Kecamatan Tenjo, 2021
+
+| Desa        | Pengguna Listrik   | Pengguna Listrik   | Pengguna Listrik   | Bukan Pengguna   |
+|-------------|--------------------|--------------------|--------------------|------------------|
+|             | PLN                | Non PLN            | Jumlah             | Listrik          |
+| (1)         | (2)                | (3)                | (4)                | (5)              |
+| Ciomas      | 1315               | 0                  | 1315               | 0                |
+| Tapos       | 1963               | 0                  | 1963               | 0                |
+| Batok       | 3395               | 0                  | 3395               | 0                |
+| Babakan     | 3230               | 0                  | 3230               | 0                |
+| Bojong      | 2770               | 0                  | 2770               | 0                |
+| Singabraja  | 1552               | 0                  | 1552               | 0                |
+| Tenjo       | 2776               | 0                  | 2776               | 0                |
+| Cilaku      | 2405               | 0                  | 2405               | 0                |
+| Singabangsa | 990                | 0                  | 990                | 0                |
+| Kecamatan   | 20 396             |                    | 20 396             |                  |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 4.3.3. Banyaknya  Desa Menurut  Sumber  Penerangan  Jalan Utama Desa di Kecamatan Tenjo, 2019 -2021
+
+| Sumber Penerangan Jalan Utama   | 2019   | 2020   | 2021   |
+|---------------------------------|--------|--------|--------|
+| (1)                             | (2)    | (3)    | (4)    |
+| Listrik Pemerintah              | 9      | 9      | 9      |
+| Listrik Non Pemerintah          | 0      | 0      | 0      |
+| Non Listrik                     | 0      | 0      | 0      |
+
+<!-- image -->
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 4.3.4. Banyaknya  Desa  Menurut  Penggunaan  Fasilitas  Tempat Buang  Air  Besar  Sebagian  Besar  Keluarga  di  Kecamatan Tenjo, 2019 -2021
+
+| Fasilitas Tempat Buang Air Besar   | 2019   | 2020   | 2021   |
+|------------------------------------|--------|--------|--------|
+| (1)                                | (2)    | (3)    | (4)    |
+| Jamban                             |        |        |        |
+| Sendiri                            | 8      | 9      | 9      |
+| Bersama                            | 0      | 0      | 0      |
+| Umum                               | 0      | 0      | 0      |
+| Bukan Jamban                       | 1      | 0      | 0      |
+| Kecamatan                          | 9      | 9      | 9      |
+
+<!-- image -->
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 4.3.5. Banyaknya Desa Menurut Jenis Bahan Bakar untuk Memasak yang Digunakan Sebagian Besar di Keluarga di Kecamatan Tenjo, 2021
+
+| Jenis Bahan Bakar untuk Memasak         | 2021   |
+|-----------------------------------------|--------|
+| (1)                                     | (2)    |
+| Listrik                                 | 0      |
+| Elpiji 5,5 kg                           | 0      |
+| Elpiji 12 kg                            | 0      |
+| Elpiji 3 kg                             | 9      |
+| Gas kota                                | 0      |
+| Biogas                                  | 0      |
+| Minyak Tanah https://bogorkab.bps.go.id | 0      |
+| Briket                                  | 0      |
+| Arang                                   | 0      |
+| Kayu Bakar                              | 0      |
+| Lainnya                                 | 0      |
+| Kecamatan                               | 9      |
+
+## 4.4. AGAMA DAN SOSIAL LAINNYA
+
+Tabel 4.4.1. Jumlah Tempat Peribadatan Menurut Desa di Kecamatan Tenjo, 2021
+
+| Desa                                   | Masjid   | Mushola   | Gereja Protestan   | Gereja Katholik   | Pura   | Vihara   |
+|----------------------------------------|----------|-----------|--------------------|-------------------|--------|----------|
+| (1)                                    | (2)      | (3)       | (4)                | (5)               | (6)    | (7)      |
+| Ciomas                                 | 8        | 17        | 0                  | 0                 | 0      | 0        |
+| Tapos                                  | 10       | 18        | 0                  | 0                 | 0      | 0        |
+| Batok                                  | 12       | 30        | 0                  | 0                 | 0      | 1        |
+| Babakan                                | 10       | 30        | 0                  | 0                 | 0      | 0        |
+| Bojong                                 | 11       | 16        | 0                  | 0                 | 0      | 0        |
+| Singabraja                             | 5        | 10        | 0                  | 0                 | 0      | 0        |
+| Tenjo                                  | 8        | 39        | 0                  | 0                 | 0      | 0        |
+| Cilaku                                 | 10       | 8         | 0                  | 0                 | 0      | 1        |
+| Singabangsa https://bogorkab.bps.go.id | 6        | 8         | 0                  | 0                 | 0      | 0        |
+| Kecamatan                              | 80       | 176       | 0                  | 0                 | 0      | 2        |
+
+Tabel 4.4.2. Banyaknya  Kejadian  Bencana  Alam  Menurut  Desa  dan Jenis Bencana Alam di Kecamatan Tenjo, 2020
+
+| Desa        | Gempa Bumi   | Tsunami   | Gunung Meletus   | Tanah Longsor   |
+|-------------|--------------|-----------|------------------|-----------------|
+| (1)         | (2)          | (3)       | (4)              | (5)             |
+| Ciomas      | 0            | 0         | 0                | 0               |
+| Tapos       | 0            | 0         | 0                | 0               |
+| Batok       | 0            | 0         | 0                | 0               |
+| Babakan     | 0            | 0         | 0                | 0               |
+| Bojong      | 0            | 0         | 0                | 0               |
+| Singabraja  | 0            | 0         | 0                | 0               |
+| Tenjo       | 0            | 0         | 0                | 0               |
+| Cilaku      | 0            | 0         | 0                | 0               |
+| Singabangsa | 0            | 0         | 0                | 0               |
+| Kecamatan   | 0            | 0         | 0                | 0               |
+
+https://bogorkab.bps.go.id
+
+## Lanjutan Tabel 4.4.2
+
+| Desa        | Banjir   | Banjir Bandang   | Kekeringan   | Kebakaran Hutan dan Lahan   |
+|-------------|----------|------------------|--------------|-----------------------------|
+| (1)         | (6)      | (7)              | (8)          | (9)                         |
+| Ciomas      | 0        | 0                | 0            | 0                           |
+| Tapos       | 0        | 0                | 0            | 0                           |
+| Batok       | 0        | 0                | 0            | 0                           |
+| Babakan     | 0        | 0                | 0            | 0                           |
+| Bojong      | 0        | 1                | 0            | 0                           |
+| Singabraja  | 0        | 0                | 0            | 0                           |
+| Tenjo       | 0        | 0                | 0            | 0                           |
+| Cilaku      | 0        | 0                | 0            | 0                           |
+| Singabangsa | 0        | 0                | 0            | 0                           |
+| Kecamatan   | 0        | 1                | 0            | 0                           |
+
+https://bogorkab.bps.go.id
+
+## Lanjutan Tabel 4.4.2
+
+| Desa        | Angin Puyuh/ Puting Beliung   | Gelombang Pasang   | Abrasi   |
+|-------------|-------------------------------|--------------------|----------|
+| (1)         | (10)                          | (11)               | (12)     |
+| Ciomas      | 0                             | 0                  | 0        |
+| Tapos       | 0                             | 0                  | 0        |
+| Batok       | 0                             | 0                  | 0        |
+| Babakan     | 0                             | 0                  | 0        |
+| Bojong      | 0                             | 0                  | 0        |
+| Singabraja  | 0                             | 0                  | 0        |
+| Tenjo       | 0                             | 0                  | 0        |
+| Cilaku      | 0                             | 0                  | 0        |
+| Singabangsa | 0                             | 0                  | 0        |
+| Kecamatan   | 0                             | 0                  | 0        |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 4.4.3. Banyaknya  Korban  Jiwa  Akibat  Bencana  Alam  Menurut Desa dan Jenis Bencana Alam di Kecamatan Tenjo, 2020
+
+| Desa        | Gempa Bumi   | Tsunami   | Gunung Meletus   | Tanah Longsor   |
+|-------------|--------------|-----------|------------------|-----------------|
+| (1)         | (2)          | (3)       | (4)              | (5)             |
+| Ciomas      | 0            | 0         | 0                | 0               |
+| Tapos       | 0            | 0         | 0                | 0               |
+| Batok       | 0            | 0         | 0                | 0               |
+| Babakan     | 0            | 0         | 0                | 0               |
+| Bojong      | 0            | 0         | 0                | 0               |
+| Singabraja  | 0            | 0         | 0                | 0               |
+| Tenjo       | 0            | 0         | 0                | 0               |
+| Cilaku      | 0            | 0         | 0                | 0               |
+| Singabangsa | 0            | 0         | 0                | 0               |
+| Kecamatan   | 0            | 0         | 0                | 0               |
+
+https://bogorkab.bps.go.id
+
+## Lanjutan Tabel 4.4.3
+
+| Desa        | Banjir   | Banjir Bandang   | Kekeringan   | Kebakaran Hutan dan Lahan   |
+|-------------|----------|------------------|--------------|-----------------------------|
+| (1)         | (6)      | (7)              | (8)          | (9)                         |
+| Ciomas      | 0        | 0                | 0            | 0                           |
+| Tapos       | 0        | 0                | 0            | 0                           |
+| Batok       | 0        | 0                | 0            | 0                           |
+| Babakan     | 0        | 0                | 0            | 0                           |
+| Bojong      | 0        | 0                | 0            | 0                           |
+| Singabraja  | 0        | 0                | 0            | 0                           |
+| Tenjo       | 0        | 0                | 0            | 0                           |
+| Cilaku      | 0        | 0                | 0            | 0                           |
+| Singabangsa | 0        | 0                | 0            | 0                           |
+| Kecamatan   | 0        | 0                | 0            | 0                           |
+
+https://bogorkab.bps.go.id
+
+## Lanjutan Tabel 4.4.3
+
+| Desa        | Angin Puyuh/ Puting Beliung   | Gelombang Pasang   | Abrasi   |
+|-------------|-------------------------------|--------------------|----------|
+| (1)         | (10)                          | (11)               | (12)     |
+| Ciomas      | 0                             | 0                  | 0        |
+| Tapos       | 0                             | 0                  | 0        |
+| Batok       | 0                             | 0                  | 0        |
+| Babakan     | 0                             | 0                  | 0        |
+| Bojong      | 0                             | 0                  | 0        |
+| Singabraja  | 0                             | 0                  | 0        |
+| Tenjo       | 0                             | 0                  | 0        |
+| Cilaku      | 0                             | 0                  | 0        |
+| Singabangsa | 0                             | 0                  | 0        |
+| Kecamatan   | 0                             | 0                  | 0        |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 4.4.4. Keberadaan  Fasilitas/Upaya  Antisipasi/Mitigasi  Bencana Alam Menurut Desa di Kecamatan Tenjo, 2021
+
+| Desa        | Sistem Peringatan Dini Bencana Alam   | Sistem Peringatan Dini Khusus Tsunami                    | Perlengkapan Keselamatan   |
+|-------------|---------------------------------------|----------------------------------------------------------|----------------------------|
+| (1)         | (2)                                   | (3)                                                      | (4)                        |
+| Ciomas      | Tidak Ada                             | Bukan Wilayah Potensi Tsunami                            | Tidak Ada                  |
+| Tapos       | Tidak Ada                             | Bukan Wilayah Potensi Tsunami                            | Tidak Ada                  |
+| Batok       | Tidak Ada                             | Bukan Wilayah Potensi Tsunami                            | Tidak Ada                  |
+| Babakan     | Tidak Ada                             | Bukan Wilayah Potensi Tsunami                            | Tidak Ada                  |
+| Bojong      | Tidak Ada                             | Bukan Wilayah Potensi Tsunami                            | Tidak Ada                  |
+| Singabraja  | Tidak Ada                             | Bukan Wilayah Potensi Tsunami                            | Tidak Ada                  |
+| Tenjo       | Tidak Ada                             | Bukan Wilayah Potensi Tsunami https://bogorkab.bps.go.id | Tidak Ada                  |
+| Cilaku      | Tidak Ada                             | Bukan Wilayah Potensi Tsunami                            | Tidak Ada                  |
+| Singabangsa | Tidak Ada                             | Bukan Wilayah Potensi Tsunami                            | Tidak Ada                  |
+
+## Lanjutan Tabel 4.4.4
+
+| Desa        | Rambu-rambu dan Jalur Evakuasi Bencana   | Pembuatan, Perawatan, atau Normalisasi; Sungai, Kanal, Tanggul, Parit, Drainase, Waduk, Pantai, dll   |
+|-------------|------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| (1)         | (5)                                      | (6)                                                                                                   |
+| Ciomas      | Tidak Ada                                | Tidak Ada                                                                                             |
+| Tapos       | Tidak Ada                                | Tidak Ada                                                                                             |
+| Batok       | Tidak Ada                                | Tidak Ada                                                                                             |
+| Babakan     | Tidak Ada                                | Tidak Ada                                                                                             |
+| Bojong      | Tidak Ada                                | Tidak Ada                                                                                             |
+| Singabraja  | Tidak Ada                                | Tidak Ada                                                                                             |
+| Tenjo       | Tidak Ada                                | Tidak Ada                                                                                             |
+| Cilaku      | Tidak Ada                                | Tidak Ada                                                                                             |
+| Singabangsa | Tidak Ada                                | Tidak Ada                                                                                             |
+
+<!-- image -->
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 4.4.5. Banyaknya Desa yang memiliki Kelompok Kegiatan Olahraga Menurut Jenis Olahraga dan Ketersedian Fasilitas/Lapangan Olahraga di Kecamatan Tenjo, 2021
+
+| Jenis Olahraga       | Kondisi Fasilitas/Lapangan Olahraga   | Kondisi Fasilitas/Lapangan Olahraga   | Kondisi Fasilitas/Lapangan Olahraga   | Tidak Ada Fasilitas   | Kelompok Kegiatan   |
+|----------------------|---------------------------------------|---------------------------------------|---------------------------------------|-----------------------|---------------------|
+| Jenis Olahraga       | Baik                                  | Rusak Sedang                          | Rusak Parah                           | Tidak Ada Fasilitas   | Kelompok Kegiatan   |
+| (1)                  | (2)                                   | (3)                                   | (4)                                   | (5)                   | (6)                 |
+| Sepak Bola           | 0                                     | 8                                     | 1                                     | 0                     | 8                   |
+| Bola Voli            | 0                                     | 6                                     | 2                                     | 1                     | 5                   |
+| Bulu Tangkis         | 0                                     | 2                                     | 3                                     | 4                     | 1                   |
+| Bola Basket          | 0                                     | 0                                     | 0                                     | 9                     | 0                   |
+| Tenis Lapangan       | 0                                     | 0                                     | 0                                     | 9                     | 0                   |
+| Tenis Meja           | 0                                     | 0                                     | 0                                     | 9                     | 0                   |
+| Futsal               | 0                                     | 0                                     | 0                                     | 9                     | 0                   |
+| Renang               | 0                                     | 0                                     | 0                                     | 9                     | 0                   |
+| Bela Diri            | 0                                     | 0                                     | 0                                     | 9                     | 0                   |
+| Bilyard              | 0                                     | 0                                     | 0                                     | 9                     | 0                   |
+| Fitnes, Aerobik, dll | 0                                     | 0                                     | 0                                     | 9                     | 0                   |
+| Lainnya              | 0                                     | 0                                     | 0                                     | 9                     | 0                   |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+<!-- image -->
+
+## PERTANIAN
+
+https://bogorkab.bps.go.id
+
+BAB  5
+
+SENSUS PERTANIAN
+
+<!-- image -->
+
+## PENJELASAN TEKNIS
+
+1. Lahan sawah adalah lahan pertanian yang berpetak-petak dan dibatasi oleh pematang  (galengan)  saluran  untuk  menahan/  menyalurkan  air  yang biasanya ditanami padi sawah tanpa memandang dari mana diperoleh atau status lahan tersebut. Lahan yang dimaksud termasuk lahan yang terdaftar di Pajak Bumi Bangunan Iuran Pembangunan Daerah lahan bengkok lahan serobotan lahan rawa yang ditanami padi dan lahan bekas tanaman tahunan yang telah dijadikan sawah baik yang ditanami padi palawija atau tanaman semusim lainnya.
+5. Data  pokok  tanaman  pangan  yang  dikumpulkan  adalah  luas  panen  dan produktivitas (hasil  per hektar). Produksi tanaman pangan merupakan hasil perkalian antara luas panen dengan produktivitas. Pengumpulan data luas panen  dilakukan  setiap  bulan  dengan  pendekatan  area  kecamatan  di seluruh  wilayah  Kabupaten  Bogor.      Pengumpulan  data  produktivitas dilakukan melalui pengukuran langsung pada plot ubinan  berukuran 2½ m x 2½ m. Pengumpulan data produktivitas dilakukan setiap subround (empat bulanan) pada waktu panen petani.
+2. Tegal/Kebun  adalah  lahan  pertanian  bukan  sawah  (lahan  kering)  yang ditanami  tanaman  semusim  atau  tahunan  dan  terpisah  dengan  halaman sekitar rumah serta penggunaannya tidak berpindah pindah. 3. Ladang/Huma  adalah  lahan  pertanian  bukan  sawah  (lahan  kering)  yang biasanya ditanami tanaman semusim dan penggunaannya hanya semusim atau  dua  musim  kemudian  akan  ditinggalkan  bila  sudah  tidak  subur  lagi (berpindah-pindah). Kemungkinan lahan ini beberapa tahun kemudian akan dikerjakankembali jika sudah subur. 4. Lahan  yang  sementara  tidak  diusahakan  adalah  lahan  yang  biasanya diusahakan tetapi untuk sementara (lebih dari 1 (satu) tahun tetapi kurang dari  atau  sama  dengan  2  (dua)  tahun)  tidak  diusahakan  termasuk  lahan sawah yang tidak diusahakan selama lebih dari 2 (dua)tahun. https://bogorkab.bps.go.id
+
+<!-- image -->
+
+Tabel 5.1. Luas  Panen  Tanaman  Sayuran  Semusim  Menurut  Jenis Tanaman di Kecamatan Tenjo (m 2 ), 2018 -2021
+
+| Jenis Tanaman   | 2018    | 2019    | 2020   | 2021    |
+|-----------------|---------|---------|--------|---------|
+| (1)             | (2)     | (3)     | (4)    | (5)     |
+| Sayuran         |         |         |        |         |
+| Bawang Merah    | -       | -       | -      | -       |
+| Bawang Putih    | -       | -       | -      | -       |
+| Cabai Besar     | 120 000 | 60 000  | 80 000 | 100 000 |
+| Cabai Rawit     | 70 000  | 30 000  | 90 000 | 100 000 |
+| Kentang         | -       | -       | -      | -       |
+| Kubis           | -       | -       | -      | -       |
+| Ketimun         | 230 000 | 210 000 | …      | …       |
+| Kacang Panjang  | 210 000 | 180 000 | …      | …       |
+
+Sumber:  BPS, Statistik Pertanian Hortikultura SPH-TH https://bogorkab.bps.go.id
+
+Tabel 5.2. Produksi  Tanaman  Sayuran  dan  Buah-Buahan  Semusim Menurut  Jenis  Tanaman  di  Kecamatan  Tenjo  (kuintal), 2018 -2021
+
+| Jenis Tanaman                             | 2018   | 2019   | 2020   | 2021   |
+|-------------------------------------------|--------|--------|--------|--------|
+| (1)                                       | (2)    | (3)    | (4)    | (5)    |
+| Sayuran                                   |        |        |        |        |
+| Bawang Merah                              | -      | -      | -      | -      |
+| Bawang Putih                              | -      | -      | -      | -      |
+| Cabai Besar                               | 608    | 155    | 241    | 314    |
+| Cabai Rawit                               | 168    | 26     | 408    | 279    |
+| Kentang                                   | -      | -      | -      | -      |
+| Kubis                                     | -      | -      | -      | -      |
+| Ketimun                                   | 3 979  | 1 383  | 2 047  | 3 553  |
+| Kacang Panjang https://bogorkab.bps.go.id | 2 038  | 1 770  | 2 441  | 2 256  |
+| Buah-Buahan                               |        |        |        |        |
+| Pisang                                    | 5 727  | 4 049  | 1 154  | 74     |
+| Rambutan                                  | 1 872  | 171    | 7 202  | -      |
+
+Sumber:  BPS, Statistik Pertanian Hortikultura SPH-TH
+
+Tabel 5.3. Luas Panen Tanaman Biofarmaka Menurut Jenis Tanaman di Kecamatan Tenjo (m 2 ), 2018 -2021
+
+| Jenis Tanaman   | 2018    | 2019    | 2020    | 2021    |
+|-----------------|---------|---------|---------|---------|
+| (1)             | (2)     | (3)     | (4)     | (5)     |
+| Jahe            | 1 800   | 3000    | 2 100   | 750     |
+| Kencur          | 400     | 300     | 450     | 230     |
+| Kunyit          | 1 200   | 8 100   | 3 100   | 2 400   |
+| Laos            | 120 000 | 100 000 | 730 000 | 680 000 |
+
+Sumber:  BPS, Statistik Pertanian Hortikultura SPH-TH https://bogorkab.bps.go.id
+
+Tabel 5.4. Produksi Tanaman Biofarmaka Menurut Jenis Tanaman di Kecamatan Tenjo (kg), 2018 -2021
+
+| Jenis Tanaman   | 2018   | 2019    | 2020      | 2021      |
+|-----------------|--------|---------|-----------|-----------|
+| (1)             | (2)    | (3)     | (4)       | (5)       |
+| Jahe            | 1 192  | 2 875   | 3 233     | 1 178     |
+| Kencur          | 356    | 103     | 534       | 402       |
+| Kunyit          | 801    | 3 885   | 3 557     | 4700      |
+| Laos            | 95 800 | 260 000 | 2 115 000 | 2 400 000 |
+
+Sumber:  BPS, Statistik Pertanian Hortikultura SPH-TH https://bogorkab.bps.go.id
+
+Tabel 5.5. Luas  Panen  Tanaman  Hias  Menurut  Jenis  Tanaman  di Kecamatan Tenjo (m 2 ), 2018 -2021
+
+| Jenis Tanaman   | 2018   | 2019   | 2020   | 2021   |
+|-----------------|--------|--------|--------|--------|
+| (1)             | (2)    | (3)    | (4)    | (5)    |
+| Anggrek         | -      | -      | -      | -      |
+| Krisan          | -      | -      | -      | -      |
+| Mawar           | -      | -      | -      | -      |
+| Sedap Malam     | -      | -      | -      | -      |
+| Philodendron    | 800    | -      | 500    | 200    |
+| Palem           | 500    | 500    | 1000   | -      |
+
+<!-- image -->
+
+Sumber:  BPS, Statistik Pertanian Hortikultura SPH-TH https://bogorkab.bps.go.id
+
+Tabel 5.6. Produksi Tanaman  Hias Menurut Jenis Tanaman  di Kecamatan Tenjo (pohon), 2018 -2021
+
+| Jenis Tanaman   | 2018   | 2019   | 2020   | 2021   |
+|-----------------|--------|--------|--------|--------|
+| (1)             | (2)    | (3)    | (4)    | (5)    |
+| Anggrek         | -      | -      | -      | -      |
+| Krisan          | -      | -      | -      | -      |
+| Mawar           | -      | -      | -      | -      |
+| Sedap Malam     | -      | -      | -      | -      |
+| Palem           | 2 000  | 500    | 1 000  | -      |
+| Philodendron    | 1 800  | -      | 500    | 1 800  |
+
+<!-- image -->
+
+Sumber:  BPS, Statistik Pertanian Hortikultura SPH-TH https://bogorkab.bps.go.id
+
+Tabel 5.7. Produksi  Buah-Buahan  dan  Sayuran  Tahunan  Menurut Jenis Tanaman di Kecamatan Tenjo (kuintal), 2018 -2021
+
+| Jenis Tanaman                             | 2018   | 2019   | 2020   | 2021   |
+|-------------------------------------------|--------|--------|--------|--------|
+| (1)                                       | (2)    | (3)    | (4)    | (5)    |
+| Buah-Buahan                               |        |        |        |        |
+| Durian                                    | 5      | 2      | -      | -      |
+| Jeruk Siam                                | 9      | 17     | 204    | 41     |
+| Mangga                                    | 672    | 358    | 406    | -      |
+| Pepaya                                    | 637    | 688    | 954    | 284    |
+| Pisang                                    | 5 727  | 4 049  | 1 154  | 74     |
+| Salak                                     | -      | -      | -      | -      |
+| Rambutan                                  | 1 872  | 171    | 7 202  | -      |
+| Sayuran                                   |        |        |        |        |
+| Ketimun                                   | 3 979  | 1 383  | 2 047  | 3 553  |
+| Kacang Panjang https://bogorkab.bps.go.id | 2 038  | 1 770  | 2 441  | 2 256  |
+
+<!-- image -->
+
+## PARIWISATA TRANSPORTASI DAN KOMUNIKASI
+
+https://bogorkab.bps.go.id
+
+BAB  6
+
+SENSUS PERTANIAN
+
+<!-- image -->
+
+## PENJELASAN TEKNIS
+
+1. Usaha penyediaan akomodasi adalah usaha yang menyediakan pelayanan penginapan  yang  dapat  dilengkapi  dengan  pelayanan  pariwisata  lainnya. Usaha penyediaan akomodasi dapat berupa hotel vila pondok wisata bumi perkemahan persinggahan karavan dan akomodasi lainnya yang digunakan untuk tujuan pariwisata.
+2. Hotel adalah penyediaan akomodasi secara harian berupa kamar-kamar di dalam satu bangunan yang dapat dilengkapi dengan jasa pelayanan makan dan  minum kegiatan hiburan dan atau fasilitas  lainnya.  Hotel  terdiri  dari hotel berbintang dan hotel non- bintang. 3. Hotel bintang adalah usaha penyediaan jasa pelayanan penginapan makan minum serta jasa lainnya bagi umum dengan menggunakan sebagian atau seluruh  bangunan.  Usaha  ini  dikelola  secara  komersial  serta  memenuhi ketentuan  persyaratan  sebagai  hotel  bintang  (termasuk  berlian)  yang ditetapkan  dalam  surat  keputusan  instansi  yang  membinanya.  Misalnya hotel bintang lima hotel bintang empat dan seterusnya. 4. Kantor Pos adalah tempat pemberi pelayanan komunikasi tertulis dan atau surat elektronik, layanan paket, layanan logistik, layanan transaksi keuangan, dan layanan keagenan pos untuk kepentingan umum. Rumah pos berfungsi sama  seperti  kantor  pos  dan  kantor  pos  pembantu,  bedanya  rumah  pos biasanya terletak di daerah terpencil. https://bogorkab.bps.go.id
+5. Telekomunikasi adalah setiap pemancaran, pengiriman dan atau penerimaan dari setiap Informasi dalam bentuk tandatanda, isyarat, tulisan, gambar,  suara  dan  bunyi  melalui  sistem  kawat,  optik,  radio  atau  sistem elektromagnetik lainnya.
+
+<!-- image -->
+
+## 6.1. PARIWISATA
+
+Tabel 6.1.1. Jumlah Sarana  Akomodasi  Menurut  Desa dan Jenis Akomodasi di Kecamatan Tenjo, 2021
+
+| Desa        | Hotel   | Penginapan   |
+|-------------|---------|--------------|
+| (1)         | (2)     | (3)          |
+| Ciomas      | 0       | 0            |
+| Tapos       | 0       | 0            |
+| Batok       | 0       | 0            |
+| Babakan     | 0       | 0            |
+| Bojong      | 0       | 0            |
+| Singabraja  | 0       | 0            |
+| Tenjo       | 0       | 0            |
+| Cilaku      | 0       | 0            |
+| Singabangsa | 0       | 0            |
+| Kecamatan   | 0       | 0            |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+## 6.2. TRANSPORTASI
+
+Tabel 6.2.1. Prasarana dan Sarana Transportasi Antar Desa dan Menurut Desa di Kecamatan Tenjolaya, 2021
+
+| Desa                                   | Jenis Prasarana Transportasi   | Keberadaan AngkutanUmum   |
+|----------------------------------------|--------------------------------|---------------------------|
+| (1)                                    | (2)                            | (3)                       |
+| Ciomas                                 | Darat                          | Ada, dengan trayek tetap  |
+| Tapos                                  | Darat                          | Ada, dengan trayek tetap  |
+| Batok                                  | Darat                          | Tidak ada angkutan umum   |
+| Babakan                                | Darat                          | Ada, dengan trayek tetap  |
+| Bojong                                 | Darat                          | Ada, dengan trayek tetap  |
+| Singabraja                             | Darat                          | Ada, dengan trayek tetap  |
+| Tenjo                                  | Darat                          | Ada, dengan trayek tetap  |
+| Cilaku                                 | Darat                          | Ada, dengan trayek tetap  |
+| Singabangsa https://bogorkab.bps.go.id | Darat                          | Ada, dengan trayek tetap  |
+
+## PARIWISATA, TRANSPORTASI DAN KOMUNIKASI
+
+## Lanjutan Tabel 6.2.1
+
+| Desa        | Jenis Permukaan Jalan Darat Terluas   | Dapat Dilalui Kendaraan Bermotor 4 atau Lebih   |
+|-------------|---------------------------------------|-------------------------------------------------|
+| (1)         | (2)                                   | (3)                                             |
+| Ciomas      | Aspal/Beton                           | Sepanjang tahun                                 |
+| Tapos       | Aspal/Beton                           | Sepanjang tahun                                 |
+| Batok       | Aspal/Beton                           | Sepanjang tahun                                 |
+| Babakan     | Aspal/Beton                           | Sepanjang tahun                                 |
+| Bojong      | Aspal/Beton                           | Sepanjang tahun                                 |
+| Singabraja  | Aspal/Beton                           | Sepanjang tahun                                 |
+| Tenjo       | Aspal/Beton                           | Sepanjang tahun                                 |
+| Cilaku      | Aspal/Beton                           | Sepanjang tahun                                 |
+| Singabangsa | Aspal/Beton                           | Sepanjang tahun                                 |
+
+<!-- image -->
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+## 6.3. KOMUNIKASI
+
+Tabel 6.3.1. Keberadaan Kantor Pos/Pos Pembantu/Rumah Pos, Pos Keliling  dan  Perusahaan  Agen  Jasa  Ekspedisi  Swasta Menurut Desa di Kecamatan Tenjo, 2021
+
+| Desa        | Kantor Pos/Pos Pembantu/ Rumah Pos   | Pos Keliling   | Perusahaan/Agen Jasa Ekspedisi Swasta   |
+|-------------|--------------------------------------|----------------|-----------------------------------------|
+| (1)         | (2)                                  | (3)            | (4)                                     |
+| Ciomas      | Tidak Ada                            | Tidak Ada      | Tidak Ada                               |
+| Tapos       | Tidak Ada                            | Tidak Ada      | Tidak Ada                               |
+| Batok       | Tidak Ada                            | Tidak Ada      | Tidak Ada                               |
+| Babakan     | Tidak Ada                            | Tidak Ada      | Tidak Ada                               |
+| Bojong      | Tidak Ada                            | Tidak Ada      | Tidak Ada                               |
+| Singabraja  | Tidak Ada                            | Tidak Ada      | Tidak Ada                               |
+| Tenjo       | Tidak Ada                            | Tidak Ada      | Tidak Ada                               |
+| Cilaku      | Tidak Ada                            | Tidak Ada      | Tidak Ada                               |
+| Singabangsa | Tidak Ada                            | Tidak Ada      | Tidak Ada                               |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 6.3.2. Jumlah  Menara  Telepon  Seluler  dan  Operator  Layanan Komunikasi Telepon Seluler Menurut Desa di Kecamatan Tenjo, 2021
+
+| Desa        | Jumlah Menara Telepon Seluler   | Jumlah Operator Layanan Komunikasi Telepon Seluler   |
+|-------------|---------------------------------|------------------------------------------------------|
+| (1)         | (2)                             | (3)                                                  |
+| Ciomas      | 0                               | 3                                                    |
+| Tapos       | 1                               | 1                                                    |
+| Batok       | 4                               | 4                                                    |
+| Babakan     | 4                               | 4                                                    |
+| Bojong      | 4                               | 4                                                    |
+| Singabraja  | 1                               | 3                                                    |
+| Tenjo       | 2                               | 2                                                    |
+| Cilaku      | 0                               | 4                                                    |
+| Singabangsa | 0                               | 4                                                    |
+| Kecamatan   | 16                              | 29                                                   |
+
+<!-- image -->
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 6.3.3. Kekuatan Sinyal Telepon Seluler dan Jenis Sinyal Internet Telepon Seluler Menurut Desa di Kecamatan Tenjo, 2021
+
+| Desa        | Kekuatan Sinyal Telepon Seluler   | Jenis Sinyal Internet Telepon Seluler   |
+|-------------|-----------------------------------|-----------------------------------------|
+| (1)         | (2)                               | (3)                                     |
+| Ciomas      | Sinyal Kuat                       | 4G/LTE                                  |
+| Tapos       | Sinyal Lemah                      | 4G/LTE                                  |
+| Batok       | Sinyal Kuat                       | 4G/LTE                                  |
+| Babakan     | Sinyal Kuat                       | 4G/LTE                                  |
+| Bojong      | Sinyal Kuat                       | 4G/LTE                                  |
+| Singabraja  | Sinyal Kuat                       | 4G/LTE                                  |
+| Tenjo       | Sinyal Kuat                       | 4G/LTE                                  |
+| Cilaku      | Sinyal Lemah                      | 4G/LTE                                  |
+| Singabangsa | Sinyal Kuat                       | 4G/LTE                                  |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+PERBANKAN,
+
+KOPERASI
+
+DAN
+
+PERDAGANGAN
+
+https://bogorkab.bps.go.id
+
+BAB  7
+
+SENSUS PERTANIAN
+
+<!-- image -->
+
+## PENJELASAN TEKNIS
+
+1. Koperasi  berasal  dari  bahasa  inggris  co-operaration  yang  artinya  usaha bersama.  Dengan  kata  lain  berarti  segala  pekerjaan  dilakukan  secara bersama-sama sebenarnya dapat disebut sebagai koperasi. Namun demikian  yang  dimaksud  dengan  koperasi  disini  adalah  suatu  bentuk peraturan dan tujuan tertentu pula, perusahaan yang didirikan oleh orang orang tertentu, untuk melakukan kegiatan-kegiatan tertentu.
+2. Menurut pasal 1 UU No. 25/1992, yang dimaksud dengan koperasi adalah: 'badan usaha yang beranggotakan orang orang atau badan hukum koperasi dengan  melandaskan  kegiatannya  berdasarkan  prinsip  koperasi  sekaligus sebagai gerakan ekonomi rakyat yang berdasar atas asas kekeluargaan" 3. Jenis  atau  pengelompokan  koperasi  adalah  mengelompokkan  koperasi kedalam kelompok-kelompok tertentu berdasarkan kriteria dan karakteristik  tertentu  yaitu  berdasarkan  bidang  usaha,  jenis  komoditi, profesi anggota, dan berdasarkan daerah kerja. https://bogorkab.bps.go.id
+
+<!-- image -->
+
+<!-- image -->
+
+Tabel 7.1. Banyaknya  Sarana  Lembaga  Keuangan  Bank  Menurut Desa dan Jenis Bank di Kecamatan Tenjo, 2021
+
+| Desa        | BankUmum Pemerintah   | BankUmum Swasta   | Bank Perkreditan Rakyat (BPR)   |
+|-------------|-----------------------|-------------------|---------------------------------|
+| (1)         | (2)                   | (3)               | (4)                             |
+| Ciomas      | 0                     | 0                 | 0                               |
+| Tapos       | 0                     | 0                 | 0                               |
+| Batok       | 0                     | 0                 | 0                               |
+| Babakan     | 0                     | 0                 | 0                               |
+| Bojong      | 0                     | 0                 | 0                               |
+| Singabraja  | 0                     | 0                 | 0                               |
+| Tenjo       | 0                     | 0                 | 0                               |
+| Cilaku      | 0                     | 0                 | 0                               |
+| Singabangsa | 0                     | 0                 | 0                               |
+| Kecamatan   | 0                     | 0                 | 0                               |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 7.2. Banyaknya Koperasi Aktif Menurut Desa dan Jenis Koperasi di Kecamatan Tenjo, 2021
+
+| Desa        | Koperasi Unit Desa (KUD)   | Koperasi Industri Kecil dan Kerajinan Rakyat (Kopinkra)   |
+|-------------|----------------------------|-----------------------------------------------------------|
+| (1)         | (2)                        | (3)                                                       |
+| Ciomas      | 0                          | 0                                                         |
+| Tapos       | 0                          | 0                                                         |
+| Batok       | 0                          | 0                                                         |
+| Babakan     | 0                          | 0                                                         |
+| Bojong      | 0                          | 0                                                         |
+| Singabraja  | 0                          | 0                                                         |
+| Tenjo       | 0                          | 0                                                         |
+| Cilaku      | 0                          | 0                                                         |
+| Singabangsa | 0                          | 0                                                         |
+| Kecamatan   | 0                          | 0                                                         |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+## Lanjutan Tabel 7.2
+
+| Desa        | Koperasi Simpan Pinjam (Kospin)   | Koperasi Lainnya   |
+|-------------|-----------------------------------|--------------------|
+| (1)         | (2)                               | (3)                |
+| Ciomas      | 0                                 | 0                  |
+| Tapos       | 0                                 | 0                  |
+| Batok       | 0                                 | 0                  |
+| Babakan     | 0                                 | 0                  |
+| Bojong      | 0                                 | 0                  |
+| Singabraja  | 0                                 | 0                  |
+| Tenjo       | 0                                 | 0                  |
+| Cilaku      | 0                                 | 0                  |
+| Singabangsa | 0                                 | 0                  |
+| Kecamatan   | 0                                 | 0                  |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+Tabel 7.3. Banyaknya Sarana Perdagangan Menurut Desa dan Jenis Sarana Perdagangan di Kecamatan Tenjo, 2021
+
+| Desa        | Kelompok Pertokoan   | Pasar dengan Bangunan Permanen   | Pasar dengan Bangunan Semi Permanen   |
+|-------------|----------------------|----------------------------------|---------------------------------------|
+| (1)         | (2)                  | (3)                              | (4)                                   |
+| Ciomas      | 0                    | 0                                | 0                                     |
+| Tapos       | 0                    | 0                                | 0                                     |
+| Batok       | 0                    | 0                                | 1                                     |
+| Babakan     | 0                    | 0                                | 0                                     |
+| Bojong      | 1                    | 0                                | 0                                     |
+| Singabraja  | 0                    | 0                                | 0                                     |
+| Tenjo       | 0                    | 1                                | 0                                     |
+| Cilaku      | 0                    | 0                                | 0                                     |
+| Singabangsa | 0                    | 0                                | 0                                     |
+| Kecamatan   | 1                    | 1                                | 1                                     |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+## Lanjutan Tabel 7.3
+
+| Desa        | Pasar tanpa Bangunan   | Mini Market/Swalayan/ Supermarket   | Restoran/ Rumah Makan   |
+|-------------|------------------------|-------------------------------------|-------------------------|
+| (1)         | (2)                    | (3)                                 | (4)                     |
+| Ciomas      | 0                      | 0                                   | 0                       |
+| Tapos       | 0                      | 0                                   | 0                       |
+| Batok       | 0                      | 0                                   | 1                       |
+| Babakan     | 1                      | 0                                   | 0                       |
+| Bojong      | 1                      | 1                                   | 2                       |
+| Singabraja  | 0                      | 0                                   | 5                       |
+| Tenjo       | 0                      | 4                                   | 1                       |
+| Cilaku      | 0                      | 0                                   | 0                       |
+| Singabangsa | 0                      | 0                                   | 0                       |
+| Kecamatan   | 2                      | 5                                   | 9                       |
+
+Sumber:  BPS, Pendataan Potensi Desa (Podes) 2020 dan 2021 https://bogorkab.bps.go.id
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
+
+<!-- image -->
