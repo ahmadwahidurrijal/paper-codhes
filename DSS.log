@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.30)  4 AUG 2025 20:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.30)  4 AUG 2025 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -985,12 +985,82 @@ Underfull \hbox (badness 1448) in paragraph at lines 415--416
 []\OT1/ptm/b/n/11 Estimated Needs: \OT1/ptm/m/n/11 High for shel-ter and
  []
 
+<fig6.png, id=222, 733.74126pt x 409.53pt>
+File: fig6.png Graphic file (type png)
+<use fig6.png>
+Package pdftex.def Info: fig6.png  used on input line 434.
+(pdftex.def)             Requested size: 177.29831pt x 98.95784pt.
+
+Overfull \hbox (4.54082pt too wide) in paragraph at lines 448--448
+[]|\OT1/ptm/b/n/9 Distance
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+[]|\OT1/ptm/b/n/9 Greedy
+ []
+
+
+Overfull \hbox (2.17346pt too wide) in paragraph at lines 446--461
+ [] 
+ []
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.465 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.465 
+       <./fig6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 473--473
+[]|\OT1/ptm/b/n/9 Target
+ []
+
+
+Overfull \hbox (5.32904pt too wide) in paragraph at lines 475--475
+[]|\OT1/ptm/m/n/9 Babakanmadang,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
+\OT1/ptm/m/n/9 Pami-ja-han,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--476
+[]|\OT1/ptm/m/n/9 Tanjungsari,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--476
+\OT1/ptm/m/n/9 Nang-gung,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
+[]|\OT1/ptm/m/n/9 Rumpin,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+[]|\OT1/ptm/m/n/9 Lower pri-or-ity +
+ []
+
 (./DSS.bbl
 Underfull \hbox (badness 1629) in paragraph at lines 36--37
 []\OT1/ptm/m/n/9 H. Riza, E. W. San-toso, I. G. Te-jakusuma, and
  []
 
-[7]
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.40 
+     ]
 Underfull \hbox (badness 4144) in paragraph at lines 69--70
 []\OT1/ptm/m/n/9 A. An-jomshoae, A. Has-san, K. Y. Wong, and
  []
@@ -1005,23 +1075,25 @@ Underfull \hbox (badness 3229) in paragraph at lines 113--114
 \OT1/ptm/m/n/9 uploads / Sphere -[] Handbook -[] 2018 -[] EN . pdf$[][], 2018, pDF
  []
 
-) [8] (./DSS.aux)
+[9]) [10
+
+] (./DSS.aux)
 Package rerunfilecheck Info: File `DSS.out' has not changed.
-(rerunfilecheck)             Checksum: C82B56F4D981643E2E1B4F352A2C4E24;2113.
+(rerunfilecheck)             Checksum: 08E8F799F1D66DBEE4D8F5E263768865;2113.
  ) 
 Here is how much of TeX's memory you used:
- 23926 strings out of 476034
- 443088 string characters out of 5792864
- 1873388 words of memory out of 6000000
- 43894 multiletter control sequences out of 15000+600000
+ 23943 strings out of 476034
+ 443301 string characters out of 5792864
+ 1874388 words of memory out of 6000000
+ 43904 multiletter control sequences out of 15000+600000
  561219 words of font info for 132 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  84i,11n,89p,1088b,722s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DSS.pdf (8 pages, 321649 bytes).
+Output written on DSS.pdf (10 pages, 584675 bytes).
 PDF statistics:
- 308 PDF objects out of 1000 (max. 8388607)
- 257 compressed objects within 3 object streams
- 69 named destinations out of 1000 (max. 500000)
- 164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 327 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 75 named destinations out of 1000 (max. 500000)
+ 169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
