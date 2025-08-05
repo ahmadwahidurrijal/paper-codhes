@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.30)  5 AUG 2025 22:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.30)  5 AUG 2025 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1003,109 +1003,127 @@ File: fig7.png Graphic file (type png)
 Package pdftex.def Info: fig7.png  used on input line 478.
 (pdftex.def)             Requested size: 199.4585pt x 105.82608pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
+Overfull \hbox (6.05275pt too wide) in paragraph at lines 526--526
 []|\OT1/ptm/b/n/9 Assigned
  []
 
 
-Overfull \hbox (4.54082pt too wide) in paragraph at lines 519--519
+Overfull \hbox (4.54082pt too wide) in paragraph at lines 526--526
 []|\OT1/ptm/b/n/9 Distance
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 []|\OT1/ptm/b/n/9 Fuzzy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
+Underfull \hbox (badness 10000) in paragraph at lines 526--526
 \OT1/ptm/b/n/9 Pri-or-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--520
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
 []|\OT1/ptm/b/n/9 Greedy
  []
 
 
-Overfull \hbox (3.07904pt too wide) in paragraph at lines 521--521
-[]|\OT1/ptm/m/n/9 Babakanmadang| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 521--521
-[]|\OT1/ptm/m/n/9 High
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 523--523
-[]|\OT1/ptm/m/n/9 High
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 524--524
-[]|\OT1/ptm/m/n/9 High
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
-[]|\OT1/ptm/m/n/9 High
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 526--526
-[]|\OT1/ptm/m/n/9 High
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
-[]|\OT1/ptm/m/n/9 High
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 528--528
-[]|\OT1/ptm/m/n/9 Low
+[]|\OT1/ptm/m/n/9 Babakan
+ []
+
+
+Overfull \hbox (2.0389pt too wide) in paragraph at lines 528--528
+[]|\OT1/ptm/m/n/9 Extreme
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 529--529
+[]|\OT1/ptm/m/n/9 High
+ []
+
+
+Overfull \hbox (2.0389pt too wide) in paragraph at lines 530--530
+[]|\OT1/ptm/m/n/9 Extreme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+[]|\OT1/ptm/m/n/9 Tanjung
+ []
+
+
+Overfull \hbox (2.0389pt too wide) in paragraph at lines 531--531
+[]|\OT1/ptm/m/n/9 Extreme
+ []
+
+
+Overfull \hbox (2.0389pt too wide) in paragraph at lines 532--532
+[]|\OT1/ptm/m/n/9 Extreme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--533
+[]|\OT1/ptm/m/n/9 High
+ []
+
+
+Overfull \hbox (2.0389pt too wide) in paragraph at lines 534--534
+[]|\OT1/ptm/m/n/9 Extreme
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
+[]|\OT1/ptm/m/n/9 High
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 536--536
 []|\OT1/ptm/m/n/9 Low
  []
 
 
-Overfull \hbox (39.94714pt too wide) in paragraph at lines 517--533
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 537--537
+[]|\OT1/ptm/m/n/9 Low
  []
 
-[8
+
+Underfull \hbox (badness 10000) in paragraph at lines 538--538
+[]|\OT1/ptm/m/n/9 Low
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.564 \end{table}
-                 
+l.544 
+       <./fig7.png>] [9
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.564 \end{table}
-                  <./fig7.png>] (./DSS.bbl
+l.588 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.588 
+      ] (./DSS.bbl
 Underfull \hbox (badness 1629) in paragraph at lines 42--43
 []\OT1/ptm/m/n/9 H. Riza, E. W. San-toso, I. G. Te-jakusuma, and
  []
 
-[9
-pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.43 
-     ]
+
 Underfull \hbox (badness 4144) in paragraph at lines 81--82
 []\OT1/ptm/m/n/9 A. An-jomshoae, A. Has-san, K. Y. Wong, and
  []
 
+[10]
+Underfull \vbox (badness 1412) has occurred while \output is active []
 
-Underfull \vbox (badness 1112) has occurred while \output is active []
 
- [10]
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 []\OT1/ptm/m/n/9 M. R. Amiri Shah-mi-rani, A. Ak-bar-pour
  []
@@ -1115,22 +1133,20 @@ Underfull \hbox (badness 3229) in paragraph at lines 151--152
 \OT1/ptm/m/n/9 uploads / Sphere -[] Handbook -[] 2018 -[] EN . pdf$[][], 2018, pDF
  []
 
-) [11
-
-] (./DSS.aux)
+) [11] (./DSS.aux)
 Package rerunfilecheck Info: File `DSS.out' has not changed.
 (rerunfilecheck)             Checksum: 2FBB55D74FC6708534389824AE7A0BD8;2523.
  ) 
 Here is how much of TeX's memory you used:
  23999 strings out of 476034
  443985 string characters out of 5792864
- 1877388 words of memory out of 6000000
+ 1879388 words of memory out of 6000000
  43936 multiletter control sequences out of 15000+600000
  558539 words of font info for 125 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  84i,11n,89p,1088b,722s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DSS.pdf (11 pages, 428290 bytes).
+Output written on DSS.pdf (11 pages, 429222 bytes).
 PDF statistics:
  361 PDF objects out of 1000 (max. 8388607)
  304 compressed objects within 4 object streams

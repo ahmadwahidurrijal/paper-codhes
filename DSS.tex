@@ -472,7 +472,7 @@ This simulation utilizes three strategic warehouse locations in West Bogor to en
     \item Warehouse 3: \((-6.576941, 106.777883)\)
 \end{itemize}
 
-These points represent accessible positions distributed across Bogor Regency, enabling effective coverage of both central and remote sub-districts. Figure~\ref{fig:warehouse_location} shows the locations of all three warehouses.
+These points represent accessible positions distributed across Bogor Regency, enabling effective coverage of both central and remote sub-districts. Figure~\ref{fig:warehouse_location} shows the locations of all three warehouses. 
 
 \begin{figure}[H]
     \centerline{\includegraphics[width=0.9\linewidth]{fig7.png}}
@@ -481,6 +481,7 @@ These points represent accessible positions distributed across Bogor Regency, en
     \footnotesize{\textit{Source:} Google Maps}
 \end{figure}
 
+The simulation calculates the distance from each district to the nearest warehouse using the haversine formula, which accounts for the curvature of the Earth. The coordinates of each district are obtained from BPS data, while the warehouse locations are based on strategic logistics planning.
 Using these locations, the haversine distance formula was applied to calculate the shortest distance between each district and the closest warehouse. This proximity is then combined with fuzzy logic prioritization and Sphere-based needs assessment. A greedy algorithm is implemented to generate a ranked delivery sequence for each district.
 
 To determine routing priority, a greedy scoring function was used, defined as:
@@ -497,43 +498,51 @@ Where:
     \item \( \alpha = 100 \), \( \beta = 1 \)
 \end{itemize}
 
-\noindent \textbf{Calculations:}
+This formula balances the urgency of need (fuzzy priority) against the logistical efficiency (distance), allowing for rapid prioritization of districts based on both their immediate requirements and accessibility.
+Using the above formula, the greedy scores for each district were calculated as follows:
+
 \begin{itemize}
-    \item Babakanmadang (Warehouse 3): \( G = 100 \cdot 2 - 8.65 = 191.35 \)
+    \item Babakanmadang (Warehouse 3): \( G = 100 \cdot 3 - 8.65 = 291.35 \)
     \item Pamijahan (Warehouse 3): \( G = 100 \cdot 2 - 14.04 = 185.96 \)
-    \item Megamendung (Warehouse 3): \( G = 100 \cdot 2 - 18.51 = 181.49 \)
-    \item Tanjungsari (Warehouse 1): \( G = 100 \cdot 2 - 25.18 = 174.82 \)
-    \item Nanggung (Warehouse 2): \( G = 100 \cdot 2 - 30.34 = 169.66 \)
+    \item Megamendung (Warehouse 3): \( G = 100 \cdot 3 - 18.51 = 281.49 \)
+    \item Tanjungsari (Warehouse 1): \( G = 100 \cdot 3 - 25.18 = 274.82 \)
+    \item Nanggung (Warehouse 2): \( G = 100 \cdot 3 - 30.34 = 269.66 \)
     \item Cigudeg (Warehouse 2): \( G = 100 \cdot 2 - 30.44 = 169.56 \)
-    \item Rumpin (Warehouse 2): \( G = 100 \cdot 1 - 19.45 = 80.55 \)
+    \item Sukamakmur (Warehouse 1): \( G = 100 \cdot 3 - 29.88 = 270.12 \)
+    \item Sukajaya (Warehouse 2): \( G = 100 \cdot 2 - 39.21 = 160.79 \)
     \item Jasinga (Warehouse 2): \( G = 100 \cdot 1 - 42.96 = 57.04 \)
+    \item Rumpin (Warehouse 2): \( G = 100 \cdot 1 - 19.45 = 80.55 \)
+    \item Tenjo Panjang (Warehouse 2): \( G = 100 \cdot 1 - 45.30 = 54.70 \)
 \end{itemize}
+
 
 The greedy algorithm ranks districts to balance urgency and logistics efficiency. Table~\ref{tab:greedy_multiwh} summarizes the results.
 
 \begin{table}[H]
 \caption{Greedy-Based Routing with Multi-Warehouse Optimization}
 \begin{center}
-\begin{tabular}{|p{2cm}|p{2cm}|p{1cm}|p{1cm}|p{1cm}|}
+\begin{tabular}{|p{1.5cm}|p{1cm}|p{1cm}|p{1cm}|p{1cm}|}
 \hline
-\textbf{District} & \textbf{Assigned Warehouse} & \textbf{Distance (km)} & \textbf{Fuzzy Priority} & \textbf{Greedy Score} \\
+\textbf{District} & \textbf{Assigned WH} & \textbf{Distance (km)} & \textbf{Fuzzy Priority} & \textbf{Greedy Score} \\
 \hline
-Babakanmadang & Warehouse 3 & 8.65 & High (2) & 191.35 \\
-\hline
-Pamijahan & Warehouse 3 & 14.04 & High (2) & 185.96 \\
-\hline Megamendung & Warehouse 3 & 18.51 & High (2) & 181.49 \\
-\hline Tanjungsari & Warehouse 1 & 25.18 & High (2) & 174.82 \\
-\hline Nanggung & Warehouse 2 & 30.34 & High (2) & 169.66 \\
-\hline Cigudeg & Warehouse 2 & 30.44 & High (2) & 169.56 \\
-\hline Rumpin & Warehouse 2 & 19.45 & Low (1) & 80.55 \\
-\hline Jasinga & Warehouse 2 & 42.96 & Low (1) & 57.04 \\
+Babakan madang & WH 3 & 8.65 & Extreme (3) & 291.35 \\
+\hline Pamijahan & WH 3 & 14.04 & High (2) & 185.96 \\
+\hline Mega mendung & WH 3 & 18.51 & Extreme (3) & 281.49 \\
+\hline  Tanjung sari & WH 1 & 25.18 & Extreme (3) & 274.82 \\
+\hline Nanggung & WH 2 & 30.34 & Extreme (3) & 269.66 \\
+\hline Cigudeg & WH 2 & 30.44 & High (2) & 169.56 \\
+\hline Suka makmur & WH 1 & 29.88 & Extreme (3) & 270.12 \\
+\hline Suka jaya & WH 2 & 39.21 & High (2) & 160.79 \\
+\hline Jasinga & WH 2 & 42.96 & Low (1) & 57.04 \\
+\hline Rumpin & WH 2 & 19.45 & Low (1) & 80.55 \\
+\hline Tenjo Panjang & WH 2 & 45.30 & Low (1) & 54.70 \\
 \hline
 \end{tabular}
 \label{tab:greedy_multiwh}
 \end{center}
 \end{table}
 
-This prioritization forms the basis for adaptive route planning. Table~\ref{tab:distribution_schedule} presents the optimized delivery schedule. Warehouses operate concurrently, delivering to different districts each day to minimize total response time.
+This prioritization forms the basis for adaptive route planning. Table~\ref{tab:distribution_schedule} presents the optimized delivery schedule. Warehouses operate concurrently, each delivering to one district per day based on highest greedy score remaining.
 
 \begin{table}[H]
 \caption{Simulated Logistics Distribution Schedule (Optimized for Fastest Delivery)}
@@ -543,25 +552,27 @@ This prioritization forms the basis for adaptive route planning. Table~\ref{tab:
 \textbf{Day} & \textbf{Target District} & \textbf{Warehouse} \\
 \hline
 Day 1 & Babakanmadang & Warehouse 3 \\
+\hline  Day 1 & Tanjungsari & Warehouse 1 \\
+\hline  Day 1 & Nanggung & Warehouse 2 \\
 \hline
-Day 1 & Tanjungsari & Warehouse 1 \\
+Day 2 & Megamendung & Warehouse 3 \\
+\hline  Day 2 & Sukamakmur & Warehouse 1 \\
+\hline  Day 2 & Cigudeg & Warehouse 2 \\
 \hline
-Day 1 & Nanggung & Warehouse 2 \\
+Day 3 & Pamijahan & Warehouse 3 \\
+\hline  Day 3 & Sukajaya & Warehouse 2 \\
 \hline
-Day 2 & Pamijahan & Warehouse 3 \\
+Day 4 & Rumpin & Warehouse 2 \\
 \hline
-Day 2 & Cigudeg & Warehouse 2 \\
+Day 5 & Jasinga & Warehouse 2 \\
 \hline
-Day 3 & Megamendung & Warehouse 3 \\
-\hline
-Day 3 & Rumpin & Warehouse 2 \\
-\hline
-Day 4 & Jasinga & Warehouse 2 \\
+Day 6 & Tenjo Panjang & Warehouse 2 \\
 \hline
 \end{tabular}
 \label{tab:distribution_schedule}
 \end{center}
 \end{table}
+
 
 This schedule ensures that all high-priority districts receive aid within four days, with the most critical areas addressed first. The simulation results indicate that the proposed DSS can significantly enhance the efficiency and effectiveness of disaster response logistics in West Bogor. 
 

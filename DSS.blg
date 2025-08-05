@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: DSS.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: references.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--missing institution in Docling
+
+Done.
+You've used 43 entries,
+            4087 wiz_defined-function locations,
+            1080 strings with 17346 characters,
+and the built_in function-call counts, 35263 in all, are:
+= -- 3046
+> -- 818
+< -- 315
++ -- 455
+- -- 154
+* -- 1702
+:= -- 5306
+add.period$ -- 90
+call.type$ -- 43
+change.case$ -- 45
+chr.to.int$ -- 651
+cite$ -- 44
+duplicate$ -- 2563
+empty$ -- 2557
+format.name$ -- 178
+if$ -- 8220
+int.to.chr$ -- 0
+int.to.str$ -- 43
+missing$ -- 427
+newline$ -- 156
+num.names$ -- 43
+pop$ -- 877
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 2783
+stack$ -- 0
+substring$ -- 1709
+swap$ -- 2208
+text.length$ -- 98
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 43
+warning$ -- 1
+while$ -- 163
+width$ -- 45
+write$ -- 472
+(There was 1 warning)
