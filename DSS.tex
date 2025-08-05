@@ -464,113 +464,112 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Fuzzy Output: Not Prioritized}
 \end{itemize}
 
-
-In this simulation, a central logistics warehouse is assumed to be located at the following coordinates:
+This simulation utilizes three strategic warehouse locations in West Bogor to ensure optimal disaster logistics deployment:
 
 \begin{itemize}
-    \item Latitude: $-6.4845775$
-    \item Longitude: $106.8383947$
+    \item Warehouse 1: \((-6.484578, 106.838395)\)
+    \item Warehouse 2: \((-6.524798, 106.770716)\)
+    \item Warehouse 3: \((-6.576941, 106.777883)\)
 \end{itemize}
 
-This point represents a strategic position in West Bogor that is relatively accessible to multiple sub-districts.
+These points represent accessible positions distributed across Bogor Regency, enabling effective coverage of both central and remote sub-districts. Figure~\ref{fig:warehouse_location} shows the locations of all three warehouses.
 
-Based on this location, we calculate the geographic distance between the warehouse and each targeted sub-district using the haversine distance formula. Combined with fuzzy prioritization results and Sphere-based need estimation, a greedy algorithm is applied to sequence the response priorities.
-Loaction can be seen in Figure~\ref{fig:warehouse_location}.
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.8\linewidth]{fig6.png}}
-    \caption{Logistics Warehouse Location in West Bogor}
+    \centerline{\includegraphics[width=0.9\linewidth]{fig7.png}}
+    \caption{Logistics Warehouse Locations in West Bogor}
     \label{fig:warehouse_location}
     \footnotesize{\textit{Source:} Google Maps}
 \end{figure}
 
-To prioritize routing from the central logistics warehouse, a greedy scoring function was used. The goal is to prioritize districts with both high urgency (fuzzy priority) and short distance from the warehouse.
+Using these locations, the haversine distance formula was applied to calculate the shortest distance between each district and the closest warehouse. This proximity is then combined with fuzzy logic prioritization and Sphere-based needs assessment. A greedy algorithm is implemented to generate a ranked delivery sequence for each district.
 
-The greedy score \( G_i \) is defined as:
+To determine routing priority, a greedy scoring function was used, defined as:
+
 \begin{equation}
 G_i = \alpha \cdot P_i - \beta \cdot D_i
 \end{equation}
-where:
+
+Where:
 \begin{itemize}
     \item \( G_i \): Greedy score for district \( i \)
-    \item \( P_i \): Fuzzy priority score (High = 2, Low = 1)
-    \item \( D_i \): Distance from the warehouse to the district in kilometers
-    \item \( \alpha = 100 \): Weight for priority
-    \item \( \beta = 1 \): Weight for distance penalty
+    \item \( P_i \): Fuzzy priority (High = 2, Low = 1)
+    \item \( D_i \): Distance from the nearest warehouse (km)
+    \item \( \alpha = 100 \), \( \beta = 1 \)
 \end{itemize}
 
 \noindent \textbf{Calculations:}
 \begin{itemize}
-    \item Babakanmadang: \( G = 100 \cdot 2 - 12.82 = 187.18 \)
-    \item Pamijahan: \( G = 100 \cdot 2 - 23.63 = 176.37 \)
-    \item Megamendung: \( G = 100 \cdot 2 - 24.46 = 175.54 \)
-    \item Tanjungsari: \( G = 100 \cdot 2 - 30.94 = 169.06 \)
-    \item Nanggung: \( G = 100 \cdot 2 - 35.70 = 164.30 \)
-    \item Cigudeg: \( G = 100 \cdot 2 - 41.30 = 158.70 \)
-    \item Rumpin: \( G = 100 \cdot 1 - 23.33 = 76.67 \)
-    \item Jasinga: \( G = 100 \cdot 1 - 52.62 = 47.38 \)
-\end{itemize} 
+    \item Babakanmadang (Warehouse 3): \( G = 100 \cdot 2 - 8.65 = 191.35 \)
+    \item Pamijahan (Warehouse 3): \( G = 100 \cdot 2 - 14.04 = 185.96 \)
+    \item Megamendung (Warehouse 3): \( G = 100 \cdot 2 - 18.51 = 181.49 \)
+    \item Tanjungsari (Warehouse 1): \( G = 100 \cdot 2 - 25.18 = 174.82 \)
+    \item Nanggung (Warehouse 2): \( G = 100 \cdot 2 - 30.34 = 169.66 \)
+    \item Cigudeg (Warehouse 2): \( G = 100 \cdot 2 - 30.44 = 169.56 \)
+    \item Rumpin (Warehouse 2): \( G = 100 \cdot 1 - 19.45 = 80.55 \)
+    \item Jasinga (Warehouse 2): \( G = 100 \cdot 1 - 42.96 = 57.04 \)
+\end{itemize}
 
-The greedy algorithm ranks each district by combining its fuzzy-based priority and its proximity to the warehouse. The goal is to maximize the total aid coverage to high-priority areas in the shortest possible time. Table~\ref{tab:greedy_routing} summarizes the routing prioritization based on the calculated distances and fuzzy priority scores. 
-
+The greedy algorithm ranks districts to balance urgency and logistics efficiency. Table~\ref{tab:greedy_multiwh} summarizes the results.
 
 \begin{table}[H]
-\caption{Greedy-Based Routing Prioritization from Logistics Warehouse}
+\caption{Greedy-Based Routing with Multi-Warehouse Optimization}
 \begin{center}
-\begin{tabular}{|l|p{1cm}|p{2cm}|p{1cm}|}
+\begin{tabular}{|p{2cm}|p{2cm}|p{1cm}|p{1cm}|p{1cm}|}
 \hline
-\textbf{District} & \textbf{Distance (km)} & \textbf{Fuzzy Priority} & \textbf{Greedy Score} \\
+\textbf{District} & \textbf{Assigned Warehouse} & \textbf{Distance (km)} & \textbf{Fuzzy Priority} & \textbf{Greedy Score} \\
 \hline
-Babakanmadang & 12.82 & High (2) & 187.18 \\
-Pamijahan & 23.63 & High (2) & 176.37 \\
-Megamendung & 24.46 & High (2) & 175.54 \\
-Tanjungsari & 30.94 & High (2) & 169.06 \\
-Nanggung & 35.70 & High (2) & 164.30 \\
-Cigudeg & 41.30 & High (2) & 158.70 \\
-Rumpin & 23.33 & Low (1) & 76.67 \\
-Jasinga & 52.62 & Low (1) & 47.38 \\
+Babakanmadang & Warehouse 3 & 8.65 & High (2) & 191.35 \\
+\hline
+Pamijahan & Warehouse 3 & 14.04 & High (2) & 185.96 \\
+\hline Megamendung & Warehouse 3 & 18.51 & High (2) & 181.49 \\
+\hline Tanjungsari & Warehouse 1 & 25.18 & High (2) & 174.82 \\
+\hline Nanggung & Warehouse 2 & 30.34 & High (2) & 169.66 \\
+\hline Cigudeg & Warehouse 2 & 30.44 & High (2) & 169.56 \\
+\hline Rumpin & Warehouse 2 & 19.45 & Low (1) & 80.55 \\
+\hline Jasinga & Warehouse 2 & 42.96 & Low (1) & 57.04 \\
 \hline
 \end{tabular}
-\label{tab:greedy_routing}
+\label{tab:greedy_multiwh}
 \end{center}
 \end{table}
 
-
-This prioritization serves as the basis for route planning in emergency logistics response. Higher Greedy Scores indicate districts that are both critical and logistically efficient to respond to first. The districts with the highest greedy scores are prioritized earlier in the schedule to ensure timely aid distribution to the most critical and accessible areas.
-
-Table~\ref{tab:distribution_schedule} presents the final distribution schedule based on the greedy prioritization results. The schedule is designed to optimize resource allocation and ensure that aid reaches the most affected populations in a timely manner.
+This prioritization forms the basis for adaptive route planning. Table~\ref{tab:distribution_schedule} presents the optimized delivery schedule. Warehouses operate concurrently, delivering to different districts each day to minimize total response time.
 
 \begin{table}[H]
-\caption{Simulated Logistics Distribution Schedule}
+\caption{Simulated Logistics Distribution Schedule (Optimized for Fastest Delivery)}
 \begin{center}
-\begin{tabular}{|c|p{2cm}|p{3.5cm}|}
+\begin{tabular}{|c|l|l|}
 \hline
-\textbf{Day} & \textbf{Target Districts} & \textbf{Distribution Justification} \\
+\textbf{Day} & \textbf{Target District} & \textbf{Warehouse} \\
 \hline
-Day 1 & Babakanmadang, Pamijahan & Highest priority + closest distance \\
+Day 1 & Babakanmadang & Warehouse 3 \\
 \hline
-Day 2 & Megamendung, Tanjungsari & High priority + moderate distance \\
+Day 1 & Tanjungsari & Warehouse 1 \\
 \hline
-Day 3 & Nanggung & High priority + longer travel distance \\
+Day 1 & Nanggung & Warehouse 2 \\
 \hline
-Day 4 & Cigudeg & High priority but farthest among high group \\
+Day 2 & Pamijahan & Warehouse 3 \\
 \hline
-Day 5 & Rumpin, Jasinga & Low priority districts; longest distance \\
+Day 2 & Cigudeg & Warehouse 2 \\
+\hline
+Day 3 & Megamendung & Warehouse 3 \\
+\hline
+Day 3 & Rumpin & Warehouse 2 \\
+\hline
+Day 4 & Jasinga & Warehouse 2 \\
 \hline
 \end{tabular}
 \label{tab:distribution_schedule}
 \end{center}
 \end{table}
 
-
-This schedule reflects an adaptive logistics strategy where the most at-risk and reachable regions receive assistance immediately, while less critical or more distant areas are queued for subsequent dispatches. The simulation supports planners in maximizing resource effectiveness under constrained conditions.
-
-
-
+This schedule ensures that all high-priority districts receive aid within four days, with the most critical areas addressed first. The simulation results indicate that the proposed DSS can significantly enhance the efficiency and effectiveness of disaster response logistics in West Bogor. 
 
 \section{Conclusion}
-This study presents a simulation-driven Decision Support System (DSS) that integrates fuzzy inference and a greedy algorithm to enhance humanitarian logistics in disaster response. The system effectively prioritizes disaster-affected regions based on demographic data and historical disaster records, enabling rapid and adaptive resource allocation.
-The simulation framework utilizes data from the Indonesian National Statistics Agency (BPS) and the National Disaster Management Authority (BNPB) to model disaster scenarios and assess logistical response strategies. The fuzzy inference system captures the uncertainty and complexity of disaster impact assessment, while the greedy algorithm optimizes resource allocation based on priority indices generated by the FIS.
-The results demonstrate the system's potential to improve the responsiveness and efficiency of humanitarian supply chains, particularly in high-stakes disaster scenarios. By providing a robust decision support tool, this research contributes to the development of intelligent logistics systems that can adapt to dynamic conditions and prioritize resources effectively during disaster response operations. Future work will focus on further refining the fuzzy rules and expanding the simulation framework to include additional variables such as real-time data feeds and advanced routing algorithms. This will enhance the system's capabilities and applicability in diverse disaster response contexts.
+This study presents a simulation-based Decision Support System (DSS) that integrates fuzzy inference and a greedy algorithm to enhance disaster response logistics in Indonesia, particularly for flood scenarios. The system effectively prioritizes affected regions based on demographic data and historical disaster records, enabling rapid and adaptive resource allocation.
+The results demonstrate that the DSS can significantly improve response times and resource coverage, addressing the critical challenges faced by Indonesia in managing natural disasters. By leveraging fuzzy logic to handle uncertainty and a greedy algorithm for optimization, the system provides a robust framework for decision-making in complex humanitarian logistics environments.
+The proposed DSS is particularly relevant for Indonesia, given its vulnerability to floods and the need for efficient disaster response mechanisms. The integration of demographic and disaster data allows for a more nuanced understanding of affected populations, enabling targeted interventions that prioritize the most vulnerable groups. The simulation results indicate that the system can effectively manage logistics operations, ensuring that aid reaches those in need promptly and efficiently.
+Future work will focus on further refining the fuzzy rules and expanding the system's capabilities to include additional disaster types and scenarios. Additionally, the integration of real-time data feeds and machine learning algorithms could enhance the system's adaptability and predictive capabilities, allowing for even more effective disaster response planning. The study highlights the potential of simulation-based DSS in improving humanitarian logistics and disaster management, providing a valuable tool for policymakers and emergency responders in Indonesia and beyond.
 
 \section*{Acknowledgment}
 

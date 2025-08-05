@@ -1052,11 +1052,11 @@ INPUT ./fig5.png
 INPUT fig5.png
 INPUT ./fig5.png
 INPUT ./fig5.png
-INPUT ./fig6.png
-INPUT ./fig6.png
-INPUT fig6.png
-INPUT ./fig6.png
-INPUT ./fig6.png
+INPUT ./fig7.png
+INPUT ./fig7.png
+INPUT fig7.png
+INPUT ./fig7.png
+INPUT ./fig7.png
 INPUT ./DSS.bbl
 INPUT DSS.bbl
 INPUT ./DSS.bbl
