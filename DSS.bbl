@@ -116,6 +116,11 @@ Z.~He and W.~Weng, ``A dynamic and simulation-based method for quantitative risk
 \bibitem{latchmore2023integrating}
 T.~Latchmore, S.~Lavallee, P.~D. Hynds, R.~S. Brown, and A.~Majury, ``Integrating consumer risk perception and awareness with simulation-based quantitative microbial risk assessment using a coupled systems framework: A case study of private groundwater users in ontario,'' \emph{Journal of Environmental Management}, vol. 331, p. 117112, 2023.
 
+\bibitem{Docling}
+\BIBentryALTinterwordspacing
+D.~S. Team, ``Docling technical report,'' Tech. Rep., 8 2024. [Online]. Available: \url{https://arxiv.org/abs/2408.09869}
+\BIBentrySTDinterwordspacing
+
 \bibitem{endo2020estimating}
 A.~Endo, S.~Abbott, A.~J. Kucharski, S.~Funk \emph{et~al.}, ``Estimating the overdispersion in covid-19 transmission using outbreak sizes outside china,'' \emph{Wellcome open research}, vol.~5, p.~67, 2020.
 

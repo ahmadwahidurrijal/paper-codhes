@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.30)  5 AUG 2025 20:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.30)  5 AUG 2025 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,7 +749,7 @@ Underfull \hbox (badness 1715) in paragraph at lines 250--251
 []\OT1/ptm/m/n/11 The sys-tem re-ceives in-put data from two
  []
 
-<fig4.png, id=176, 1346.02875pt x 650.43pt>
+<fig4.png, id=177, 1346.02875pt x 650.43pt>
 File: fig4.png Graphic file (type png)
 <use fig4.png>
 Package pdftex.def Info: fig4.png  used on input line 263.
@@ -763,7 +763,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
                                                   \__shipout_drop_firstpage_...
 l.268 
       ]
-<fig5.png, id=192, 1348.03625pt x 650.43pt>
+<fig5.png, id=193, 1348.03625pt x 650.43pt>
 File: fig5.png Graphic file (type png)
 <use fig5.png>
 Package pdftex.def Info: fig5.png  used on input line 271.
@@ -997,7 +997,7 @@ Underfull \hbox (badness 1448) in paragraph at lines 433--434
  []
 
 [7]
-<fig6.png, id=251, 733.74126pt x 409.53pt>
+<fig6.png, id=253, 733.74126pt x 409.53pt>
 File: fig6.png Graphic file (type png)
 <use fig6.png>
 Package pdftex.def Info: fig6.png  used on input line 480.
@@ -1075,16 +1075,13 @@ Underfull \hbox (badness 4144) in paragraph at lines 81--82
 
 Underfull \vbox (badness 1412) has occurred while \output is active []
 
-
-Underfull \vbox (badness 1112) has occurred while \output is active []
-
  [10]
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 []\OT1/ptm/m/n/9 M. R. Amiri Shah-mi-rani, A. Ak-bar-pour
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 146--147
+Underfull \hbox (badness 3229) in paragraph at lines 151--152
 \OT1/ptm/m/n/9 uploads / Sphere -[] Handbook -[] 2018 -[] EN . pdf$[][], 2018, pDF
  []
 
@@ -1095,18 +1092,18 @@ Package rerunfilecheck Info: File `DSS.out' has not changed.
 (rerunfilecheck)             Checksum: 2FBB55D74FC6708534389824AE7A0BD8;2523.
  ) 
 Here is how much of TeX's memory you used:
- 23997 strings out of 476034
- 443964 string characters out of 5792864
+ 23999 strings out of 476034
+ 443985 string characters out of 5792864
  1876388 words of memory out of 6000000
- 43935 multiletter control sequences out of 15000+600000
+ 43936 multiletter control sequences out of 15000+600000
  558539 words of font info for 125 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  84i,11n,89p,1088b,722s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DSS.pdf (11 pages, 587063 bytes).
+Output written on DSS.pdf (11 pages, 587582 bytes).
 PDF statistics:
- 356 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 99 named destinations out of 1000 (max. 500000)
+ 361 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 100 named destinations out of 1000 (max. 500000)
  137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
