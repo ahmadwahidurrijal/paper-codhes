@@ -29,11 +29,20 @@ W.~L. Hakim and C.-W. Lee, ``A review on remote sensing and gis applications to 
 \bibitem{sastrawan2022portents}
 W.~J. Sastrawan, ``Portents of power: Natural disasters throughout indonesian history,'' \emph{Indonesia}, vol. 113, no.~1, pp. 9--30, 2022.
 
+\bibitem{merten2021rising}
+J.~Merten, J.~{\O}. Nielsen, E.~Soetarto, H.~Faust \emph{et~al.}, ``From rising water to floods: Disentangling the production of flooding as a hazard in sumatra, indonesia,'' \emph{Geoforum}, vol. 118, pp. 56--65, 2021.
+
+\bibitem{jamshed2020conceptual}
+A.~Jamshed, J.~Birkmann, D.~Feldmeyer, and I.~A. Rana, ``A conceptual framework to understand the dynamics of rural--urban linkages for rural flood vulnerability,'' \emph{Sustainability}, vol.~12, no.~7, p. 2894, 2020.
+
 \bibitem{sholihah2020analysis}
 Q.~Sholihah, W.~Kuncoro, S.~Wahyuni, S.~P. Suwandi, and E.~D. Feditasari, ``The analysis of the causes of flood disasters and their impacts in the perspective of environmental law,'' in \emph{IOP conference series: earth and environmental science}, vol. 437, no.~1.\hskip 1em plus 0.5em minus 0.4em\relax IOP Publishing, 2020, p. 012056.
 
 \bibitem{riza2020advancing}
 H.~Riza, E.~W. Santoso, I.~G. Tejakusuma, and F.~Prawiradisastra, ``Advancing flood disaster mitigation in indonesia using machine learning methods,'' in \emph{2020 International Conference on ICT for Smart Society (ICISS)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2020, pp. 1--4.
+
+\bibitem{ma2022critical}
+K.~Ma, H.~Yan, Y.~Ye, D.~Zhou, and D.~Ma, ``Critical decision-making issues in disaster relief supply management: A review,'' \emph{Computational intelligence and neuroscience}, vol. 2022, no.~1, p. 1105839, 2022.
 
 \bibitem{rustian2021implementation}
 S.~Rustian, H.~Sumartono, and H.~Wardhono, ``Implementation of supply chain and logistics for natural disaster management in indonesia: a smart governance perspective,'' \emph{International Journal of Criminology and Sociology}, vol.~10, pp. 1699--1706, 2021.
@@ -43,6 +52,9 @@ O.~J. Chukwuka, J.~Ren, J.~Wang, and D.~Paraskevadakis, ``A comprehensive resear
 
 \bibitem{orengo2022food}
 K.~L. Orengo~Serra and M.~Sanchez-Jauregui, ``Food supply chain resilience model for critical infrastructure collapses due to natural disasters,'' \emph{British Food Journal}, vol. 124, no.~13, pp. 14--34, 2022.
+
+\bibitem{ramirez2020sustainability}
+L.~J. Ramirez~Lopez and A.~I. Grijalba~Castro, ``Sustainability and resilience in smart city planning: A review,'' \emph{Sustainability}, vol.~13, no.~1, p. 181, 2020.
 
 \bibitem{khan2023systematic}
 S.~M. Khan, I.~Shafi, W.~H. Butt, I.~d. l.~T. Diez, M.~A.~L. Flores, J.~C. Gal{\'a}n, and I.~Ashraf, ``A systematic review of disaster management systems: approaches, challenges, and future directions,'' \emph{Land}, vol.~12, no.~8, p. 1514, 2023.
@@ -71,11 +83,32 @@ A.~Anjomshoae, A.~Hassan, K.~Y. Wong, and R.~Banomyong, ``An integrated multi-st
 \bibitem{improta2020fuzzy}
 G.~Improta, V.~Mazzella, D.~Vecchione, S.~Santini, and M.~Triassi, ``Fuzzy logic--based clinical decision support system for the evaluation of renal function in post-transplant patients,'' \emph{Journal of evaluation in clinical practice}, vol.~26, no.~4, pp. 1224--1234, 2020.
 
+\bibitem{garcia2025greedy}
+A.~Garc{\'\i}a, ``Greedy algorithms: a review and open problems,'' \emph{Journal of Inequalities and Applications}, vol. 2025, no.~1, p.~11, 2025.
+
+\bibitem{zhao2021iterated}
+Z.~Zhao, M.~Zhou, and S.~Liu, ``Iterated greedy algorithms for flow-shop scheduling problems: A tutorial,'' \emph{IEEE Transactions on Automation Science and Engineering}, vol.~19, no.~3, pp. 1941--1959, 2021.
+
+\bibitem{steinhauser2025understanding}
+S.~Steinhauser, ``Understanding decision support adoption by european physicians: shifts in micro-and macro-level influences over time,'' \emph{Information Technology and Management}, pp. 1--35, 2025.
+
+\bibitem{ampaw2025developing}
+O.~Ampaw and E.~Ansah, ``Developing a sustainable last-mile transport system for ghana and burkina faso: A modeling approach,'' \emph{Available at SSRN 5161300}, 2025.
+
 \bibitem{jain2020membership}
 A.~Jain and A.~Sharma, ``Membership function formulation methods for fuzzy logic systems: A comprehensive review,'' \emph{Journal of Critical Reviews}, vol.~7, no.~19, pp. 8717--8733, 2020.
 
 \bibitem{yoon2023novel}
 J.~H. Yoon, D.~J. Kim, and Y.~Y. Koo, ``Novel fuzzy correlation coefficient and variable selection method for fuzzy regression analysis based on distance approach,'' \emph{International Journal of Fuzzy Systems}, vol.~25, no.~8, pp. 2969--2985, 2023.
+
+\bibitem{shirmarz2020adaptive}
+A.~Shirmarz and A.~Ghaffari, ``An adaptive greedy flow routing algorithm for performance improvement in software-defined network,'' \emph{International Journal of Numerical Modelling: Electronic Networks, Devices and Fields}, vol.~33, no.~1, p. e2676, 2020.
+
+\bibitem{hamidouglu2023game}
+A.~Hamido{\u{g}}lu, ``A game theoretical approach for finding near-optimal solutions of an optimization problem,'' \emph{Optimization}, vol.~72, no.~10, pp. 2561--2583, 2023.
+
+\bibitem{mahmoodi2024data}
+E.~Mahmoodi, M.~Fathi, M.~Tavana, M.~Ghobakhloo, and A.~H. Ng, ``Data-driven simulation-based decision support system for resource allocation in industry 4.0 and smart manufacturing,'' \emph{Journal of Manufacturing Systems}, vol.~72, pp. 287--307, 2024.
 
 \bibitem{he2020dynamic}
 Z.~He and W.~Weng, ``A dynamic and simulation-based method for quantitative risk assessment of the domino accident in chemical industry,'' \emph{Process Safety and Environmental Protection}, vol. 144, pp. 79--92, 2020.
@@ -114,14 +147,5 @@ Y.~Wang and Y.~A. Nanehkaran, ``Gis-based fuzzy logic technique for mapping land
 
 \bibitem{herpratiwi2022implementation}
 H.~Herpratiwi, M.~Maftuh, W.~Firdaus, A.~Tohir, M.~I. Daulay, and R.~Rahim, ``Implementation and analysis of fuzzy mamdani logic algorithm from digital platform and electronic resource,'' \emph{TEM Journal}, vol.~11, no.~3, pp. 1028--1033, 2022.
-
-\bibitem{shirmarz2020adaptive}
-A.~Shirmarz and A.~Ghaffari, ``An adaptive greedy flow routing algorithm for performance improvement in software-defined network,'' \emph{International Journal of Numerical Modelling: Electronic Networks, Devices and Fields}, vol.~33, no.~1, p. e2676, 2020.
-
-\bibitem{hamidouglu2023game}
-A.~Hamido{\u{g}}lu, ``A game theoretical approach for finding near-optimal solutions of an optimization problem,'' \emph{Optimization}, vol.~72, no.~10, pp. 2561--2583, 2023.
-
-\bibitem{mahmoodi2024data}
-E.~Mahmoodi, M.~Fathi, M.~Tavana, M.~Ghobakhloo, and A.~H. Ng, ``Data-driven simulation-based decision support system for resource allocation in industry 4.0 and smart manufacturing,'' \emph{Journal of Manufacturing Systems}, vol.~72, pp. 287--307, 2024.
 
 \end{thebibliography}
