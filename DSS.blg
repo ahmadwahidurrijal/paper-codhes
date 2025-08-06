@@ -14,45 +14,45 @@ Database file #1: references.bib
 Warning--missing institution in Docling
 
 Done.
-You've used 43 entries,
+You've used 42 entries,
             4087 wiz_defined-function locations,
-            1080 strings with 17346 characters,
-and the built_in function-call counts, 35263 in all, are:
-= -- 3046
-> -- 818
-< -- 315
-+ -- 455
-- -- 154
-* -- 1702
-:= -- 5306
-add.period$ -- 90
-call.type$ -- 43
-change.case$ -- 45
-chr.to.int$ -- 651
-cite$ -- 44
-duplicate$ -- 2563
-empty$ -- 2557
-format.name$ -- 178
-if$ -- 8220
+            1075 strings with 17082 characters,
+and the built_in function-call counts, 34302 in all, are:
+= -- 2968
+> -- 789
+< -- 305
++ -- 439
+- -- 149
+* -- 1655
+:= -- 5171
+add.period$ -- 88
+call.type$ -- 42
+change.case$ -- 44
+chr.to.int$ -- 627
+cite$ -- 43
+duplicate$ -- 2498
+empty$ -- 2490
+format.name$ -- 172
+if$ -- 7995
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 427
-newline$ -- 156
-num.names$ -- 43
-pop$ -- 877
+int.to.str$ -- 42
+missing$ -- 416
+newline$ -- 153
+num.names$ -- 42
+pop$ -- 852
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2783
+skip$ -- 2710
 stack$ -- 0
-substring$ -- 1709
-swap$ -- 2208
-text.length$ -- 98
+substring$ -- 1652
+swap$ -- 2149
+text.length$ -- 96
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 43
+type$ -- 42
 warning$ -- 1
-while$ -- 163
-width$ -- 45
-write$ -- 472
+while$ -- 158
+width$ -- 44
+write$ -- 462
 (There was 1 warning)

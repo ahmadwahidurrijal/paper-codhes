@@ -127,7 +127,7 @@ Despite their recurring nature, flood mitigation capacity in Indonesia remains l
 In disaster response operations, the efficiency of logistics and supply chain systems is a critical determinant of how quickly and effectively aid reaches affected populations \cite{ma2022critical}. However, Indonesia's current disaster logistics systems are hindered by systemic issues, such as the lack of integrated control mechanisms and insufficient coordination among stakeholders \cite{rustian2021implementation}. These weaknesses often result in delayed response times, misallocation of resources, and reduced service coverage in disaster-stricken areas. Figure~\ref{fig:floodimpact} illustrates the distribution of impacts caused by flood disaster events in Indonesia from 2010 to 2025, highlighting flood-related damage as the most frequent and significant consequence. This underscores the urgent need for effective decision support systems to enhance the responsiveness and efficiency of humanitarian logistics in disaster response scenarios.
 
 \begin{figure}[htbp]
-    \centerline{\includegraphics[width=0.8\linewidth]{fig3.png}}
+    \centerline{\includegraphics[width=0.8\linewidth]{fig2.png}}
     \caption{Impact caused by floods in Indonesia (mio IDR)}
     \label{fig:floodimpact}
     \vspace{0.2cm}
@@ -219,7 +219,9 @@ By addressing these gaps, this study proposes an integrated fuzzy-greedy simulat
 
 \section{Methodology} 
 
-This study adopts a simulation-based quantitative approach to evaluate the performance of an intelligent decision support system (DSS) in the context of humanitarian logistics for disaster response. The framework consists of three major components: data driven acquisition, DSS algorithms, and simulation-based evaluation \cite{mahmoodi2024data}. Figure \ref{fig:research_framework} illustrates the research framework, which integrates data acquisition, fuzzy inference, greedy algorithm, and simulation to assess the effectiveness of the proposed DSS in disaster response scenarios.
+This study adopts a simulation-based quantitative approach to evaluate the performance of an intelligent Decision Support System (DSS) for humanitarian logistics in disaster response. The proposed framework is designed to integrate fuzzy inference and greedy optimization, enabling adaptive prioritization and routing of aid under uncertain and time-sensitive conditions.
+
+The research framework comprises four key components: data acquisition, fuzzy inference system (FIS), greedy algorithm, and simulation-based evaluation. Figure~\ref{fig:research_framework} illustrates the sequential flow from data preprocessing to logistics simulation.
 
 \begin{figure}[htbp]
 \centering
@@ -232,9 +234,9 @@ This study adopts a simulation-based quantitative approach to evaluate the perfo
 % Nodes
 \node[box] (data) {BNPB + BPS Data};
 \node[box, below=of data] (fuzzy) {Fuzzy Inference System};
-\node[box, below=of fuzzy] (priority) {Priority Index};
-\node[box, below=of priority] (greedy) {Greedy Algorithm};
-\node[box, below=of greedy] (sim) {Resource Allocation Simulation};
+\node[box, below=of fuzzy] (priority) {Priority Index Generation};
+\node[box, below=of priority] (greedy) {Greedy Algorithm Optimization};
+\node[box, below=of greedy] (sim) {Logistics Simulation Output};
 
 % Arrows
 \draw[->] (data) -- (fuzzy);
@@ -243,15 +245,18 @@ This study adopts a simulation-based quantitative approach to evaluate the perfo
 \draw[->] (greedy) -- (sim);
 
 \end{tikzpicture}
-\caption{Research Framework Flow: From Data to Simulation Output}
+\caption{Research Framework: From Data Acquisition to Logistics Simulation}
 \label{fig:research_framework}
 \end{figure}
 
-The system receives input data from two key sources: the Indonesian National Statistics Agency (BPS), which provides demographic and regional data, and the National Disaster Management Authority (BNPB), which offers historical records of disaster occurrences. This data is processed and transformed into relevant indicators such as disaster severity, urgency, accessibility, and population density.
+The system begins by collecting spatial, demographic, and disaster data from the Indonesian National Statistics Agency (BPS) and the National Disaster Management Authority (BNPB). This data includes sub-district population characteristics, health facility availability, disaster frequency, and geographic coordinates.
 
-These indicators serve as inputs to a Fuzzy Inference System (FIS), which generates a priority index for each affected region. The FIS captures the uncertainty and complexity inherent in disaster impact assessment through a rule-based system of fuzzy logic. The resulting priority scores are then passed to a greedy algorithm that rapidly determines the optimal routing or allocation of resources based on proximity and urgency.
+These data points are transformed into qualitative variables such as health vulnerability, age-based sensitivity, hazard exposure, and accessibility. A Fuzzy Inference System (FIS) is employed to convert these inputs into a continuous priority index using linguistic rules aligned with humanitarian standards (e.g., SPHERE Handbook).
 
-The entire process is simulated using various disaster scenarios to assess system performance in terms of response time, supply coverage, and the number of affected individuals reached. This research framework allows for comprehensive evaluation of the hybrid DSS under dynamic, high-stakes conditions, providing insights into its practical applicability for emergency logistics operations.
+Subsequently, the priority index is passed to a greedy algorithm, which integrates proximity to warehouses and urgency of need to compute a composite delivery score. This step facilitates optimized resource allocation by ranking the districts based on a trade-off between importance and logistical distance.
+
+Finally, the entire DSS pipeline is evaluated through simulation, where disaster scenarios are modeled over multiple days. The system performance is assessed based on delivery efficiency, prioritization accuracy, and coverage of affected populations. This simulation-based evaluation ensures that the DSS is both theoretically sound and practically applicable to real-world disaster logistics operations.
+
 
 \section{Results and Discussion}
 
@@ -475,7 +480,7 @@ This simulation utilizes three strategic warehouse locations in West Bogor to en
 These points represent accessible positions distributed across Bogor Regency, enabling effective coverage of both central and remote sub-districts. Figure~\ref{fig:warehouse_location} shows the locations of all three warehouses. 
 
 \begin{figure}[H]
-    \centerline{\includegraphics[width=0.9\linewidth]{fig7.png}}
+    \centerline{\includegraphics[width=0.9\linewidth]{fig8.png}}
     \caption{Logistics Warehouse Locations in West Bogor}
     \label{fig:warehouse_location}
     \footnotesize{\textit{Source:} Google Maps}
@@ -484,7 +489,45 @@ These points represent accessible positions distributed across Bogor Regency, en
 The simulation calculates the distance from each district to the nearest warehouse using the haversine formula, which accounts for the curvature of the Earth. The coordinates of each district are obtained from BPS data, while the warehouse locations are based on strategic logistics planning.
 Using these locations, the haversine distance formula was applied to calculate the shortest distance between each district and the closest warehouse. This proximity is then combined with fuzzy logic prioritization and Sphere-based needs assessment. A greedy algorithm is implemented to generate a ranked delivery sequence for each district.
 
-To determine routing priority, a greedy scoring function was used, defined as:
+Distances from each district to the nearest warehouse were shown in Table~\ref{tab:distance_matrix}.
+\begin{table}[H]
+\caption{Distance (in km) from Each District to All Warehouses}
+\begin{center}
+\begin{tabular}{|p{2cm}|c|c|c|}
+\hline
+\textbf{District} & \textbf{Warehouse 1} & \textbf{Warehouse 2} & \textbf{Warehouse 3} \\
+\hline
+Babakanmadang & 16.52 & 12.38 & 8.65 \\
+\hline
+Pamijahan & 27.33 & 19.64 & 14.04 \\
+\hline
+Megamendung & 26.92 & 23.77 & 18.51 \\
+\hline
+Tanjungsari & 25.18 & 32.45 & 37.92 \\
+\hline
+Nanggung & 36.87 & 30.34 & 34.10 \\
+\hline
+Cigudeg & 39.55 & 30.44 & 33.88 \\
+\hline
+Sukamakmur & 29.88 & 36.78 & 40.33 \\
+\hline
+Sukajaya & 49.12 & 39.21 & 42.75 \\
+\hline
+Jasinga & 53.06 & 42.96 & 46.52 \\
+\hline
+Rumpin & 27.66 & 19.45 & 22.93 \\
+\hline
+Tenjo Panjang & 54.77 & 45.30 & 48.67 \\
+\hline
+\end{tabular}
+\vspace{0.2cm}
+
+\footnotesize{\textit{Source:} Author’s calculation using haversine formula based on BPS sub-district coordinates and warehouse locations.}
+\label{tab:distance_matrix}
+\end{center}
+\end{table}
+
+The distances were calculated using the haversine formula, which is suitable for calculating distances between two points on the Earth's surface given their latitude and longitude coordinates. To determine routing priority, a greedy scoring function was used, defined as:
 
 \begin{equation}
 G_i = \alpha \cdot P_i - \beta \cdot D_i
@@ -542,45 +585,65 @@ Babakan madang & WH 3 & 8.65 & Extreme (3) & 291.35 \\
 \end{center}
 \end{table}
 
-This prioritization forms the basis for adaptive route planning. Table~\ref{tab:distribution_schedule} presents the optimized delivery schedule. Warehouses operate concurrently, each delivering to one district per day based on highest greedy score remaining.
+This prioritization forms the foundation for an adaptive logistics routing strategy. Table~\ref{tab:distribution_schedule} presents the optimized delivery schedule, in which each warehouse operates concurrently and delivers to the nearest high-priority district based on the remaining greedy scores. To maximize efficiency and reduce idle time, each warehouse is limited to serving one district per day. This approach ensures rapid aid deployment while balancing urgency and geographical proximity.
 
 \begin{table}[H]
-\caption{Simulated Logistics Distribution Schedule (Optimized for Fastest Delivery)}
+\caption{Simulated Multi-Warehouse Delivery Schedule (Greedy Priority + Nearest Proximity)}
 \begin{center}
-\begin{tabular}{|c|l|l|}
+\begin{tabular}{|c|p{4cm}|p{1,8cm}|}
 \hline
-\textbf{Day} & \textbf{Target District} & \textbf{Warehouse} \\
+\textbf{Day} & \textbf{Target District} & \textbf{Assigned Warehouse} \\
 \hline
-Day 1 & Babakanmadang & Warehouse 3 \\
-\hline  Day 1 & Tanjungsari & Warehouse 1 \\
-\hline  Day 1 & Nanggung & Warehouse 2 \\
+Day 1 & Babakanmadang (Greedy: 291.35) & Warehouse 3 \\
 \hline
-Day 2 & Megamendung & Warehouse 3 \\
-\hline  Day 2 & Sukamakmur & Warehouse 1 \\
-\hline  Day 2 & Cigudeg & Warehouse 2 \\
+Day 1 & Tanjungsari (Greedy: 274.82) & Warehouse 1 \\
 \hline
-Day 3 & Pamijahan & Warehouse 3 \\
-\hline  Day 3 & Sukajaya & Warehouse 2 \\
+Day 1 & Nanggung (Greedy: 269.66) & Warehouse 2 \\
 \hline
-Day 4 & Rumpin & Warehouse 2 \\
+Day 2 & Megamendung (Greedy: 281.49) & Warehouse 3 \\
 \hline
-Day 5 & Jasinga & Warehouse 2 \\
+Day 2 & Sukamakmur (Greedy: 270.12) & Warehouse 1 \\
 \hline
-Day 6 & Tenjo Panjang & Warehouse 2 \\
+Day 2 & Cigudeg (Greedy: 169.56) & Warehouse 2 \\
+\hline
+Day 3 & Pamijahan (Greedy: 185.96) & Warehouse 3 \\
+\hline
+Day 3 & Sukajaya (Greedy: 160.79) & Warehouse 2 \\
+\hline
+Day 4 & Rumpin (Greedy: 80.55) & Warehouse 2 \\
+\hline
+Day 5 & Jasinga (Greedy: 57.04) & Warehouse 2 \\
+\hline
+Day 6 & Tenjo Panjang (Greedy: 54.70) & Warehouse 2 \\
 \hline
 \end{tabular}
 \label{tab:distribution_schedule}
 \end{center}
+\footnotesize{\textit{Note:} Only one district is served per warehouse per day. Prioritization is based on greedy scores, using proximity to assigned warehouse.}
 \end{table}
 
-
-This schedule ensures that all high-priority districts receive aid within four days, with the most critical areas addressed first. The simulation results indicate that the proposed DSS can significantly enhance the efficiency and effectiveness of disaster response logistics in West Bogor. 
+This schedule ensures full utilization of warehouse resources while maintaining alignment with priority rankings. All critical districts (greedy score $>$ 260) are served within the first two days. The remaining moderate- and low-priority districts are systematically scheduled without overburdening any single warehouse. This structure highlights the ability of the DSS to support scalable, parallelized logistics planning under real-world constraints.
+The simulation results indicate that the proposed DSS can significantly enhance the efficiency and effectiveness of disaster response logistics in West Bogor. 
 
 \section{Conclusion}
-This study presents a simulation-based Decision Support System (DSS) that integrates fuzzy inference and a greedy algorithm to enhance disaster response logistics in Indonesia, particularly for flood scenarios. The system effectively prioritizes affected regions based on demographic data and historical disaster records, enabling rapid and adaptive resource allocation.
-The results demonstrate that the DSS can significantly improve response times and resource coverage, addressing the critical challenges faced by Indonesia in managing natural disasters. By leveraging fuzzy logic to handle uncertainty and a greedy algorithm for optimization, the system provides a robust framework for decision-making in complex humanitarian logistics environments.
-The proposed DSS is particularly relevant for Indonesia, given its vulnerability to floods and the need for efficient disaster response mechanisms. The integration of demographic and disaster data allows for a more nuanced understanding of affected populations, enabling targeted interventions that prioritize the most vulnerable groups. The simulation results indicate that the system can effectively manage logistics operations, ensuring that aid reaches those in need promptly and efficiently.
-Future work will focus on further refining the fuzzy rules and expanding the system's capabilities to include additional disaster types and scenarios. Additionally, the integration of real-time data feeds and machine learning algorithms could enhance the system's adaptability and predictive capabilities, allowing for even more effective disaster response planning. The study highlights the potential of simulation-based DSS in improving humanitarian logistics and disaster management, providing a valuable tool for policymakers and emergency responders in Indonesia and beyond.
+
+This study presents a simulation-based Decision Support System (DSS) that integrates fuzzy inference and a greedy algorithm to enhance the effectiveness of humanitarian logistics in disaster response, specifically focusing on flood-prone regions in West Java, Indonesia. By leveraging demographic data, health infrastructure indicators, and risk exposure metrics, the system produces a dynamic prioritization of affected sub-districts through fuzzy logic. These priority scores are then combined with spatial proximity data using a greedy optimization approach to generate an efficient logistics delivery schedule from multiple warehouses.
+
+The simulation results demonstrate the system's ability to:
+\begin{itemize}
+    \item Prioritize regions with the greatest humanitarian need based on multidimensional vulnerability factors.
+    \item Optimize resource allocation across three strategically located warehouses using proximity and urgency-based scoring.
+    \item Ensure equitable and efficient logistics routing, with all high-priority districts served within the first two operational days.
+\end{itemize}
+
+The DSS shows strong potential in addressing common challenges in disaster logistics, including delayed response, resource misallocation, and limited accessibility to remote areas. The model provides a structured framework for rapid decision-making under uncertainty, aligning with the humanitarian standards outlined in the SPHERE handbook.
+
+From a methodological perspective, the integration of fuzzy inference and greedy heuristics proves to be a robust hybrid approach that balances qualitative expert rules with quantitative spatial optimization. The modular architecture of the system also enables adaptability to other disaster types and regional contexts.
+
+\textbf{Future work} may focus on several enhancements: (i) incorporation of real-time data streams (e.g., weather APIs, crowd-sourced reports) to improve responsiveness; (ii) integration with GIS-based route planning tools for more granular path optimization; and (iii) extension to multi-modal logistics scenarios (air, land, and sea transport) to increase system applicability in larger-scale disasters. Moreover, machine learning models could be introduced to predict demand patterns or dynamically adjust priority scores based on unfolding field conditions.
+
+In conclusion, this research provides a novel contribution to the field of humanitarian logistics by demonstrating how intelligent decision support tools can systematically enhance disaster preparedness and response. The proposed fuzzy-greedy DSS framework offers a scalable, adaptive, and context-sensitive solution to improve aid delivery outcomes in disaster-prone regions.
+
 
 \section*{Acknowledgment}
 
