@@ -1,4 +1,4 @@
-\documentclass[journal,final,a4paper,twoside,11pt]{IEEEtran}
+\documentclass[conference,final,a4paper,twoside,10pt]{IEEEtran}
 \IEEEoverridecommandlockouts
 % The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
 \PassOptionsToPackage{hyphens}{url}
@@ -48,34 +48,52 @@
 }
 
 \author{
-    \IEEEauthorblockN{
-        Maria Loura Christhia$^{1*}$, Ahmad Ardi Wahidurrijal$^1$, 
-        Abimanyu Bagarela Anjaya Putra$^2$, Mariana Syamsoeyadi$^3$
-    }
-    \\
+    \IEEEauthorblockN{1\textsuperscript{st} Maria Loura Christhia}
     \IEEEauthorblockA{
-        $^1$Industrial Engineering Department, BINUS Online Learning, Bina Nusantara University, Jakarta, Indonesia 11480\\
-        $^2$Computer Science Department, BINUS Online Learning, Bina Nusantara University, Jakarta, Indonesia 11480\\
-        $^3$Graduate Program in Industrial Engineering, Bina Nusantara University, Jakarta, Indonesia 11480\\
-        Email: 
-        \href{mailto:maria.loura@binus.ac.id}{$^{1*}$maria.loura@binus.ac.id}, 
-        \href{mailto:ahmad.wahidurrijal@binus.ac.id}{$^1$ahmad.wahidurrijal@binus.ac.id}, 
-        \href{mailto:abimanyu.putra@binus.ac.id}{$^2$abimanyu.putra@binus.ac.id}, 
-        \href{mailto:mariana.syamsoeyadi@binus.ac.id}{$^3$mariana.syamsoeyadi@binus.ac.id}
+        \textit{Industrial Engineering Dept.} \\
+        \textit{BINUS Online Learning, Bina Nusantara University} \\
+        Jakarta, Indonesia \\
+        maria.loura@binus.ac.id
+    }
+    \and
+    \IEEEauthorblockN{2\textsuperscript{nd} Ahmad Ardi Wahidurrijal}
+    \IEEEauthorblockA{
+        \textit{Industrial Engineering Dept.} \\
+        \textit{BINUS Online Learning, Bina Nusantara University} \\
+        Jakarta, Indonesia \\
+        ahmad.wahidurrijal@binus.ac.id
+    }
+    \and
+    \IEEEauthorblockN{3\textsuperscript{rd} Abimanyu Bagarela Anjaya Putra}
+    \IEEEauthorblockA{
+        \textit{Computer Science Dept.} \\
+        \textit{BINUS Online Learning, Bina Nusantara University} \\
+        Jakarta, Indonesia \\
+        abimanyu.putra@binus.ac.id
+    }
+    \and
+    \IEEEauthorblockN{4\textsuperscript{th} Mariana Syamsoeyadi}
+    \IEEEauthorblockA{
+        \textit{Graduate Program in Industrial Engineering} \\
+        \textit{Bina Nusantara University} \\
+        Jakarta, Indonesia \\
+        mariana.syamsoeyadi@binus.ac.id
     }
 }
+
 
 
 \maketitle
 
 \begin{abstract}
-Floods are among the most frequent and destructive natural disasters in Indonesia, posing significant challenges to humanitarian logistics and emergency response. This study presents a simulation-driven Decision Support System (DSS) that integrates fuzzy inference and a greedy algorithm to improve disaster response effectiveness. The proposed DSS prioritizes affected districts based on demographic conditions, risk exposure, and health infrastructure, aligning with Sphere Handbook principles.
+Floods are among the most common and damaging natural disasters in Indonesia, creating major challenges for emergency response and humanitarian logistics. This study develops a simulation-based Decision Support System (DSS) that combines fuzzy logic and a greedy algorithm to support more effective logistics planning in flood situations.
 
-The methodology involves generating fuzzy-based priority scores for each sub-district using health, age, risk, and accessibility variables. A greedy scoring function is then applied to optimize logistics routes from a centralized warehouse based on urgency and travel distance. The simulation covers ten flood-prone districts in Bogor Regency, incorporating data from the Indonesian National Statistics Agency (BPS) and the National Disaster Management Authority (BNPB).
+The DSS assigns priority to sub-districts based on key indicators, such as population characteristics, risk exposure, and access to health services, using a fuzzy inference system. The output from this system is then processed using a greedy algorithm that considers both the urgency of each location and its distance from nearby warehouses. This helps determine the order and routing of aid delivery.
 
-Results demonstrate the DSS's ability to generate a five-day distribution schedule that balances proximity and urgency, ensuring that high-risk, high-need districts receive timely aid. The framework enables scalable and adaptive decision-making under uncertainty, offering a practical solution to improve logistics responsiveness in Indonesian flood disasters.
+The simulation was applied to eleven flood-prone sub-districts in Bogor Regency, using data from the National Disaster Management Authority (BNPB) and the Indonesian Central Statistics Agency (BPS). The results show that the system is able to schedule aid distribution across six days using three warehouses. All high-priority areas received assistance within the first two days.
+
+The DSS shows potential to improve disaster response by supporting faster and fairer decisions under uncertainty. Its design allows for adaptation to other disaster types and different regions. The use of simple algorithms and structured data also makes it suitable for real-world application by government agencies or humanitarian organizations. This study highlights how data-driven approaches can be used to strengthen logistics planning in Indonesia’s disaster management system.
 \end{abstract}
-
 
 
 \begin{IEEEkeywords}
@@ -85,13 +103,10 @@ Disaster response,  decision support system, fuzzy logic, greedy algorithm, huma
 \section{Introduction}
 
 Natural disasters are among the most persistent threats to human life and infrastructure worldwide. Globally, climate-related disasters accounted for 91\% of the 7,255 major recorded events between 1998 and 2017, with floods (43.4\%) and storms (28.2\%) being the most frequent types \cite{teh2021types}. 
-
-Indonesia is particularly vulnerable due to its unique geological location at the convergence of three major tectonic plates, making it prone to both geophysical and climate-induced disasters, including earthquakes, volcanic eruptions, floods, and tsunamis \cite{hakim2020review}. Historically, the Indonesian archipelago has played a central role in the narrative of global natural disasters. Traditional records from Java and Bali, dating back to the eighth century, provide rich documentation of disaster occurrences across centuries \cite{sastrawan2022portents}.
-
+Indonesia is particularly vulnerable due to its unique geological location at the convergence of three major tectonic plates, making it prone to both geophysical and climate-induced disasters, including earthquakes, volcanic eruptions, floods, and tsunamis \cite{hakim2020review}. 
+Historically, the Indonesian archipelago has played a central role in the narrative of global natural disasters. Traditional records from Java and Bali, dating back to the eighth century, provide rich documentation of disaster occurrences across centuries \cite{sastrawan2022portents}.
 Among these disaster types, floods stand out as the most frequent, damaging, and recurrent events in Indonesia \cite{merten2021rising}. They pose a significant threat to both urban and rural communities and are consistently the leading cause of natural disaster events and losses \cite{jamshed2020conceptual}. Floods remain the central focus of this study due to their overwhelming frequency and wide-reaching impact. In urban centers like Jakarta, floods regularly disrupt transportation, damage infrastructure, and threaten livelihoods \cite{sholihah2020analysis}. 
-
 Based on Table~\ref{tab:disaster2025}, the occurrence of natural disasters in Indonesia is still predominantly caused by floods. Therefore, the ability to respond rapidly to such disasters is critical, as it can significantly impact the well-being of affected populations.
-
 \begin{table}[H]
 \caption{Number of Disaster Events by Type in Indonesia (2025)}
 \begin{center}
@@ -122,8 +137,7 @@ Drought & 10 \\
 \label{tab:disaster2025}
 \end{table}
 
-Despite their recurring nature, flood mitigation capacity in Indonesia remains limited, highlighting the urgent need for comprehensive and strategic improvements in disaster preparedness and response \cite{riza2020advancing}.
-
+Eventhought flood frequency happened, flood mitigation capacity in Indonesia remains limited, highlighting the urgent need for comprehensive and strategic improvements in disaster preparedness and response \cite{riza2020advancing}.
 In disaster response operations, the efficiency of logistics and supply chain systems is a critical determinant of how quickly and effectively aid reaches affected populations \cite{ma2022critical}. However, Indonesia's current disaster logistics systems are hindered by systemic issues, such as the lack of integrated control mechanisms and insufficient coordination among stakeholders \cite{rustian2021implementation}. These weaknesses often result in delayed response times, misallocation of resources, and reduced service coverage in disaster-stricken areas. Figure~\ref{fig:floodimpact} illustrates the distribution of impacts caused by flood disaster events in Indonesia from 2010 to 2025, highlighting flood-related damage as the most frequent and significant consequence. This underscores the urgent need for effective decision support systems to enhance the responsiveness and efficiency of humanitarian logistics in disaster response scenarios.
 
 \begin{figure}[htbp]
@@ -135,22 +149,17 @@ In disaster response operations, the efficiency of logistics and supply chain sy
 \end{figure}
 
 Moreover, research on risk management within emergency supply chains remains scarce. Many existing studies lack the practical and integrated methodologies needed to support real-time decision-making under conditions of uncertainty \cite{chukwuka2023comprehensive}. This gap underscores the necessity for intelligent decision support tools capable of managing disruptions in complex humanitarian logistics environments.
-
 One such emerging approach is the development of resilient supply chains, defined as systems that can recover and return to normal operations within an acceptable timeframe following a disruption \cite{orengo2022food}. Building this resilience requires not only robust planning but also adaptive, intelligent frameworks that can prioritize needs dynamically and optimize resource allocation in real time \cite{ramirez2020sustainability}.
 
 This study addresses these challenges by proposing a simulation-based Decision Support System (DSS) that integrates fuzzy inference and a greedy algorithm to provide a rapid, adaptive response mechanism during natural disasters. The system is designed specifically with flood response scenarios in mind, aiming to improve the responsiveness and efficiency of humanitarian supply chains through real-time prioritization and resource allocation. To support this, the simulation utilizes data from the Indonesian National Statistics Agency (BPS) and historical disaster records from the National Disaster Management Authority (BNPB) to identify high-risk regions and evaluate logistical response scenarios.
 
 \section{Literature Review}
 
-\subsection{Decision Support Systems (DSS) in Disaster Management}
 Decision Support Systems (DSS) play a crucial role in disaster management by supporting data-driven decisions under uncertainty \cite{khan2023systematic}. These systems integrate real-time information, simulation models, and analytical tools to guide emergency response actions \cite{alghodhaifi2021autonomous}. DSS have been shown to improve situational awareness, stakeholder coordination, and response time \cite{adetiloye2021collaboration}. For example, Peron et al. (2022) demonstrated how a DSS improved workforce management, highlighting its utility in coordinating limited human resources during crises \cite{peron2022decision}. Furthermore, Suarez et al. (2024) emphasized the importance of incorporating demographic data and historical records to enhance system responsiveness \cite{suarez2024integrated}.
 
-\subsection{Simulation in Humanitarian Logistics}
 Simulation-based methods have been widely adopted in logistics and disaster management research due to their ability to model complex, dynamic systems without the risk and cost of real-world deployment \cite{chang2022simulation}. These models can forecast affected regions, estimate victim counts, and test operational strategies before implementation. Lobkov et al. (2023) used simulation to predict population-level impact zones, emphasizing the need for precise data preprocessing \cite{lobkov2023determination}.
 
-\subsection{Fuzzy Inference Systems for Disaster Prioritization}
 Fuzzy Inference Systems (FIS) provide a robust framework for reasoning in situations involving uncertainty and ambiguity. In disaster contexts, fuzzy systems help prioritize victims and areas based on partially known data such as health status, risk levels, and location \cite{anjomshoae2021integrated}. FIS supports flexible and adaptive logic that mirrors human reasoning, allowing for better interpretation of uncertain field conditions \cite{improta2020fuzzy}.
-
 Fuzzy logic allows the translation of expert judgment into computational rules. Crisp inputs are fuzzified using membership functions such as the trapezoidal function:
 
 \[
@@ -182,7 +191,6 @@ z^* = \frac{\int z \cdot \mu(z) \, dz}{\int \mu(z) \, dz}
 
 \subsection{Greedy Algorithms for Disaster Logistics Optimization}
 Greedy algorithms offer computational efficiency by selecting the locally optimal choice at each step with the aim of finding a global optimum. In logistics, they are used for route optimization, resource allocation, and task scheduling, especially under real-time constraints \cite{garcia2025greedy}.
-
 According Zhao et al. basic greedy algorithm for routing logistics aid can be formulated as follows \cite{zhao2021iterated}:
 
 \begin{algorithmic}
@@ -220,7 +228,6 @@ By addressing these gaps, this study proposes an integrated fuzzy-greedy simulat
 \section{Methodology} 
 
 This study adopts a simulation-based quantitative approach to evaluate the performance of an intelligent Decision Support System (DSS) for humanitarian logistics in disaster response. The proposed framework is designed to integrate fuzzy inference and greedy optimization, enabling adaptive prioritization and routing of aid under uncertain and time-sensitive conditions.
-
 The research framework comprises four key components: data acquisition, fuzzy inference system (FIS), greedy algorithm, and simulation-based evaluation. Figure~\ref{fig:research_framework} illustrates the sequential flow from data preprocessing to logistics simulation.
 
 \begin{figure}[htbp]
@@ -250,11 +257,9 @@ The research framework comprises four key components: data acquisition, fuzzy in
 \end{figure}
 
 The system begins by collecting spatial, demographic, and disaster data from the Indonesian National Statistics Agency (BPS) and the National Disaster Management Authority (BNPB). This data includes sub-district population characteristics, health facility availability, disaster frequency, and geographic coordinates.
-
 These data points are transformed into qualitative variables such as health vulnerability, age-based sensitivity, hazard exposure, and accessibility. A Fuzzy Inference System (FIS) is employed to convert these inputs into a continuous priority index using linguistic rules aligned with humanitarian standards (e.g., SPHERE Handbook).
 
 Subsequently, the priority index is passed to a greedy algorithm, which integrates proximity to warehouses and urgency of need to compute a composite delivery score. This step facilitates optimized resource allocation by ranking the districts based on a trade-off between importance and logistical distance.
-
 Finally, the entire DSS pipeline is evaluated through simulation, where disaster scenarios are modeled over multiple days. The system performance is assessed based on delivery efficiency, prioritization accuracy, and coverage of affected populations. This simulation-based evaluation ensures that the DSS is both theoretically sound and practically applicable to real-world disaster logistics operations.
 
 
@@ -270,7 +275,6 @@ Many studies involves a simulation-based approach to evaluate the performance of
     \label{fig:simulationframework}
     \footnotesize{\textit{Source:} \url{https://dibi.bnpb.go.id}}
 \end{figure}
-
 Based on heatmap the west Java region is the most occurrences based on floods natural disaster, then districs of Bogor, Bandung, and Bekasi are the most affected areas, can be shwon in Figure~\ref{fig:heatmap2}. 
 \begin{figure}[htbp]
     \centerline{\includegraphics[width=0.8\linewidth]{fig5.png}}
@@ -278,9 +282,9 @@ Based on heatmap the west Java region is the most occurrences based on floods na
     \label{fig:heatmap2}
     \footnotesize{\textit{Source:} \url{https://dibi.bnpb.go.id}}
 \end{figure} 
-
+After identifying the most affected regions, the next step is to analyze the flood potential in each sub-district. This analysis is based on spatial data and hydrological information, which are crucial for understanding the flood risk and planning effective disaster response strategies.
 Making sure that the simulation accurately reflects the real-world conditions faced during disaster response operations. Spatial analysis hydrological data is also integrated to assess the impact of floods \cite{alkaesi2021spatial}. Result of analysis is shown in table \ref{tab:analysis}.
-\begin{table}[htbp]
+\begin{table}[H]
 \caption{Runoff Flooding Potential by Sub-district in Bogor Region}
 \begin{center}
 \begin{tabular}{|m{2.5cm}|m{2cm}|}
@@ -357,7 +361,6 @@ Protection or Satisfaction Index & Victim-reported perception of safety, dignity
 
 After rules are defined, the FIS is implemented using the Mamdani method, which is suitable for handling complex and non-linear relationships in disaster scenarios \cite{herpratiwi2022implementation}. Greedy algorithm is used to optimize resource allocation and routing based on the priority indices generated by the FIS \cite{shirmarz2020adaptive}. The greedy algorithm is chosen for its efficiency in finding near-optimal solutions in complex logistics problems, particularly in dynamic environments where rapid decision-making is crucial \cite{hamidouglu2023game}. The combination of FIS and greedy algorithm allows for a robust decision support system that can adapt to changing conditions and prioritize resources effectively during disaster response operations. 
 
-
 \subsection*{Babakanmadang}
 \begin{itemize}
     \item Total Population: 104,302
@@ -368,7 +371,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} High shelter and health services demand (based on population size)
     \item \textbf{Fuzzy Output: Prioritized}
 \end{itemize}
-
 \subsection*{Cigudeg}
 \begin{itemize}
     \item Total Population: 122,112
@@ -378,7 +380,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} High logistics support for remote access and health
     \item \textbf{Fuzzy Output: Prioritized}
 \end{itemize}
-
 \subsection*{Jasinga}
 \begin{itemize}
     \item Total Population: 112,356
@@ -388,7 +389,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} Moderate; capacity available but still needs for nutrition and water
     \item \textbf{Fuzzy Output: Not Prioritized}
 \end{itemize}
-
 \subsection*{Megamendung}
 \begin{itemize}
     \item Total Population: 113,756
@@ -398,7 +398,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} High shelter demand in dense villages, moderate logistics need
     \item \textbf{Fuzzy Output: Prioritized}
 \end{itemize}
-
 \subsection*{Nanggung}
 \begin{itemize}
     \item Total Population: 86,773
@@ -408,7 +407,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} High for shelter, transport, medical aid due to terrain
     \item \textbf{Fuzzy Output: Prioritized}
 \end{itemize}
-
 \subsection*{Pamijahan}
 \begin{itemize}
     \item Total Population: 135,738
@@ -418,7 +416,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} Moderate to high, especially in early response logistics
     \item \textbf{Fuzzy Output: Prioritized}
 \end{itemize}
-
 \subsection*{Rumpin}
 \begin{itemize}
     \item Total Population: 154,462
@@ -428,7 +425,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} Low to moderate; needs focused on health and early warning
     \item \textbf{Fuzzy Output: Not Prioritized}
 \end{itemize}
-
 \subsection*{Tanjungsari}
 \begin{itemize}
     \item Total Population: 88,076
@@ -438,7 +434,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} High for shelter and emergency transport
     \item \textbf{Fuzzy Output: Prioritized}
 \end{itemize}
-
 \subsection*{Sukajaya}
 \begin{itemize}
     \item Total Population: 113,762
@@ -448,7 +443,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} High need for emergency transport and health kits
     \item \textbf{Fuzzy Output: Prioritized}
 \end{itemize}
-
 \subsection*{Sukamakmur}
 \begin{itemize}
     \item Total Population: 76,328
@@ -458,7 +452,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} Moderate to high; focus on mobility, shelter, and water
     \item \textbf{Fuzzy Output: Prioritized}
 \end{itemize}
-
 \subsection*{Tenjo}
 \begin{itemize}
     \item Total Population: 93,630
@@ -468,7 +461,6 @@ After rules are defined, the FIS is implemented using the Mamdani method, which 
     \item \textbf{Estimated Needs:} Moderate; essential needs support, low mobility access
     \item \textbf{Fuzzy Output: Not Prioritized}
 \end{itemize}
-
 This simulation utilizes three strategic warehouse locations in West Bogor to ensure optimal disaster logistics deployment:
 
 \begin{itemize}
@@ -637,10 +629,8 @@ The simulation results demonstrate the system's ability to:
 \end{itemize}
 
 The DSS shows strong potential in addressing common challenges in disaster logistics, including delayed response, resource misallocation, and limited accessibility to remote areas. The model provides a structured framework for rapid decision-making under uncertainty, aligning with the humanitarian standards outlined in the SPHERE handbook.
-
 From a methodological perspective, the integration of fuzzy inference and greedy heuristics proves to be a robust hybrid approach that balances qualitative expert rules with quantitative spatial optimization. The modular architecture of the system also enables adaptability to other disaster types and regional contexts.
-
-\textbf{Future work} may focus on several enhancements: (i) incorporation of real-time data streams (e.g., weather APIs, crowd-sourced reports) to improve responsiveness; (ii) integration with GIS-based route planning tools for more granular path optimization; and (iii) extension to multi-modal logistics scenarios (air, land, and sea transport) to increase system applicability in larger-scale disasters. Moreover, machine learning models could be introduced to predict demand patterns or dynamically adjust priority scores based on unfolding field conditions.
+Future works may focus on several enhancements: (i) incorporation of real-time data streams (e.g., weather APIs, crowd-sourced reports) to improve responsiveness; (ii) integration with GIS-based route planning tools for more granular path optimization; and (iii) extension to multi-modal logistics scenarios (air, land, and sea transport) to increase system applicability in larger-scale disasters. Moreover, machine learning models could be introduced to predict demand patterns or dynamically adjust priority scores based on unfolding field conditions.
 
 In conclusion, this research provides a novel contribution to the field of humanitarian logistics by demonstrating how intelligent decision support tools can systematically enhance disaster preparedness and response. The proposed fuzzy-greedy DSS framework offers a scalable, adaptive, and context-sensitive solution to improve aid delivery outcomes in disaster-prone regions.
 
